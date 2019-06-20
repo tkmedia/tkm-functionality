@@ -17,7 +17,7 @@
  * @param  string $url Request URL
  * @return array Amended request arguments
  */
-function ea_dont_update_core_func_plugin( $r, $url ) {
+function tkm_dont_update_core_func_plugin( $r, $url ) {
   if ( 0 !== strpos( $url, 'https://api.wordpress.org/plugins/update-check/1.1/' ) )
     return $r; // Not a plugin update request. Bail immediately.
     $plugins = json_decode( $r['body']['plugins'], true );
@@ -25,42 +25,42 @@ function ea_dont_update_core_func_plugin( $r, $url ) {
     $r['body']['plugins'] = json_encode( $plugins );
     return $r;
  }
-add_filter( 'http_request_args', 'ea_dont_update_core_func_plugin', 5, 2 );
+add_filter( 'http_request_args', 'tkm_dont_update_core_func_plugin', 5, 2 );
 /**
  * Author Links on CF Plugin
  *
  */
-function ea_author_links_on_cf_plugin( $links, $file ) {
+function tkm_author_links_on_cf_plugin( $links, $file ) {
 	if ( strpos( $file, 'core-functionality.php' ) !== false ) {
 		$links[1] = 'By <a href="http://www.billerickson.net">Bill Erickson</a> & <a href="http://www.jaredatchison.com">Jared Atchison</a>';
     }
     return $links;
 }
-add_filter( 'plugin_row_meta', 'ea_author_links_on_cf_plugin', 10, 2 );
+add_filter( 'plugin_row_meta', 'tkm_author_links_on_cf_plugin', 10, 2 );
 // Don't let WPSEO metabox be high priority
 add_filter( 'wpseo_metabox_prio', function(){ return 'low'; } );
 /**
  * Remove WPSEO Notifications
  *
  */
-function ea_remove_wpseo_notifications() {
+function tkm_remove_wpseo_notifications() {
 	if( ! class_exists( 'Yoast_Notification_Center' ) )
 		return;
 	remove_action( 'admin_notices', array( Yoast_Notification_Center::get(), 'display_notifications' ) );
 	remove_action( 'all_admin_notices', array( Yoast_Notification_Center::get(), 'display_notifications' ) );
 }
-add_action( 'init', 'ea_remove_wpseo_notifications' );
+add_action( 'init', 'tkm_remove_wpseo_notifications' );
 /**
  * WPForms, default large field size
  *
  */
-function ea_wpforms_default_large_field_size( $field ) {
+function tkm_wpforms_default_large_field_size( $field ) {
         if ( empty( $field['size'] ) ) {
             $field['size'] = 'large';
         }
         return $field;
     }
-add_filter( 'wpforms_field_new_default', 'ea_wpforms_default_large_field_size' );
+add_filter( 'wpforms_field_new_default', 'tkm_wpforms_default_large_field_size' );
 /**
  * Gravity Forms Domain
  *
@@ -72,18 +72,18 @@ add_filter( 'wpforms_field_new_default', 'ea_wpforms_default_large_field_size' )
  * @param object $entry
  * @return array $notification
  */
-function ea_gravityforms_domain( $notification, $form, $entry ) {
+function tkm_gravityforms_domain( $notification, $form, $entry ) {
 	if( $notification['name'] == 'Admin Notification' ) {
 		$notification['message'] .= 'Sent from ' . home_url();
 	}
 	return $notification;
 }
-add_filter( 'gform_notification', 'ea_gravityforms_domain', 10, 3 );
+add_filter( 'gform_notification', 'tkm_gravityforms_domain', 10, 3 );
 /**
   * Exclude No-index content from search
   *
   */
-function ea_exclude_noindex_from_search( $query ) {
+function tkm_exclude_noindex_from_search( $query ) {
 	if( $query->is_main_query() && $query->is_search() && ! is_admin() ) {
 		$meta_query = empty( $query->query_vars['meta_query'] ) ? array() : $query->query_vars['meta_query'];
 		$meta_query[] = array(
@@ -93,7 +93,7 @@ function ea_exclude_noindex_from_search( $query ) {
 		$query->set( 'meta_query', $meta_query );
 	}
 }
-add_action( 'pre_get_posts', 'ea_exclude_noindex_from_search' );
+add_action( 'pre_get_posts', 'tkm_exclude_noindex_from_search' );
 /**
  * Pretty Printing
  *
@@ -103,7 +103,7 @@ add_action( 'pre_get_posts', 'ea_exclude_noindex_from_search' );
  * @param string $label
  * @return null
  */
-function ea_pp( $obj, $label = '' ) {
+function tkm_pp( $obj, $label = '' ) {
 	$data = json_encode( print_r( $obj,true ) );
 	?>
 	<style type="text/css">
