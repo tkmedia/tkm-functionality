@@ -24,6 +24,7 @@ define( 'TKM_DIR' , plugin_dir_path( __FILE__ ) );
 require_once( TKM_DIR . '/inc/general.php' );
 require_once( TKM_DIR . '/inc/wordpress-cleanup.php' );
 require_once( TKM_DIR . '/inc/kill-trackbacks.php' );
+require_once( TKM_DIR . '/inc/acf-options.php' );
 require_once( TKM_DIR . '/inc/acf-blocks.php' );
 
 // Hide the ACF admin menu item.
