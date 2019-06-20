@@ -32,7 +32,7 @@ add_filter( 'http_request_args', 'tkm_dont_update_core_func_plugin', 5, 2 );
  */
 function tkm_author_links_on_cf_plugin( $links, $file ) {
 	if ( strpos( $file, 'core-functionality.php' ) !== false ) {
-		$links[1] = 'By <a href="http://www.billerickson.net">Bill Erickson</a> & <a href="http://www.jaredatchison.com">Jared Atchison</a>';
+		$links[1] = 'By <a href="https://www.tkmedia.co.il">TKMedia Tal Katz</a>';
     }
     return $links;
 }
