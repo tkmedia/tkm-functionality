@@ -5,11 +5,11 @@ if( function_exists('acf_add_local_field_group') ):
 
 acf_add_local_field_group(array(
 	'key' => 'group_5tk5cdbd676b99c4',
-	'title' => __('Flexible page content', 'tkmulti'),
+	'title' => __('Flexible page content', 'tkm-functionality'),
 	'fields' => array(
 		array(
 			'key' => 'field_5tk5c34a2a838910',
-			'label' => __('Flexible Content', 'tkmulti'),
+			'label' => __('Flexible Content', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -25,7 +25,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c34a2d138911',
-			'label' => __('Content Row', 'tkmulti'),
+			'label' => __('Content Row', 'tkm-functionality'),
 			'name' => 'flex_content_rows',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -44,7 +44,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5d0378b70beb0',
-					'label' => __('Show section divider', 'tkmulti'),
+					'label' => __('Show section divider', 'tkm-functionality'),
 					'name' => 'flex_content_row_dividers',
 					'type' => 'true_false',
 					'instructions' => '',
@@ -63,7 +63,7 @@ acf_add_local_field_group(array(
 				),				
 				array(
 					'key' => 'field_5tk5c34b6215d3f8',
-					'label' => __('Row Background image', 'tkmulti'),
+					'label' => __('Row Background image', 'tkm-functionality'),
 					'name' => 'flex_content_cols_bg',
 					'type' => 'image',
 					'instructions' => '',
@@ -87,7 +87,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c9ca658505e1',
-					'label' => __('Cancel auto wrap - Full Page Wrap', 'tkmulti'),
+					'label' => __('Cancel auto wrap - Full Page Wrap', 'tkm-functionality'),
 					'name' => 'flex_content_row_wrap',
 					'type' => 'true_false',
 					'instructions' => '',
@@ -106,7 +106,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c9ca690505e2',
-					'label' => __('Delete padding between Columns', 'tkmulti'),
+					'label' => __('Delete padding between Columns', 'tkm-functionality'),
 					'name' => 'flex_content_row_col_padding',
 					'type' => 'true_false',
 					'instructions' => '',
@@ -125,7 +125,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c998e705e2',
-					'label' => __('Vertically align columns in row', 'tkmulti'),
+					'label' => __('Vertically align columns in row', 'tkm-functionality'),
 					'name' => 'flex_content_row_ver_align',
 					'type' => 'true_false',
 					'instructions' => '',
@@ -144,7 +144,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c3502f2d5597',
-					'label' => __('Top Padding', 'tkmulti'),
+					'label' => __('Top Padding', 'tkm-functionality'),
 					'name' => 'flex_content_cols_padding_top',
 					'type' => 'number',
 					'instructions' => '',
@@ -165,7 +165,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c35034ad5598',
-					'label' => __('Bottom Padding', 'tkmulti'),
+					'label' => __('Bottom Padding', 'tkm-functionality'),
 					'name' => 'flex_content_cols_padding_bottom',
 					'type' => 'number',
 					'instructions' => '',
@@ -186,7 +186,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c350391d559a',
-					'label' => __('Right Padding', 'tkmulti'),
+					'label' => __('Right Padding', 'tkm-functionality'),
 					'name' => 'flex_content_cols_padding_right',
 					'type' => 'number',
 					'instructions' => '',
@@ -207,7 +207,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c35036fd5599',
-					'label' => __('Left Padding', 'tkmulti'),
+					'label' => __('Left Padding', 'tkm-functionality'),
 					'name' => 'flex_content_cols_padding_left',
 					'type' => 'number',
 					'instructions' => '',
@@ -228,7 +228,7 @@ acf_add_local_field_group(array(
 				),																
 				array(
 					'key' => 'field_5d0378fwl1',
-					'label' => __('Top Wrap line', 'tkmulti'),
+					'label' => __('Top Wrap line', 'tkm-functionality'),
 					'name' => 'row_top_wrap_line',
 					'type' => 'select',
 					'instructions' => '',
@@ -240,14 +240,14 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'top-short-right' => __('short right', 'tkmulti'),
-						'top-short-left' => __('short left', 'tkmulti'),
-						'top-middle-right' => __('middle right', 'tkmulti'),
-						'top-middle-left' => __('middle left', 'tkmulti'),
-						'top-full' => __('Top full', 'tkmulti'),
-						'top-short-right-short-left' => __('short right short left', 'tkmulti'),
-						'top-middle-right-short-left' => __('middle right short left', 'tkmulti'),
-						'top-short-right-middle-left' => __('short right middle left', 'tkmulti'),
+						'top-short-right' => __('short right', 'tkm-functionality'),
+						'top-short-left' => __('short left', 'tkm-functionality'),
+						'top-middle-right' => __('middle right', 'tkm-functionality'),
+						'top-middle-left' => __('middle left', 'tkm-functionality'),
+						'top-full' => __('Top full', 'tkm-functionality'),
+						'top-short-right-short-left' => __('short right short left', 'tkm-functionality'),
+						'top-middle-right-short-left' => __('middle right short left', 'tkm-functionality'),
+						'top-short-right-middle-left' => __('short right middle left', 'tkm-functionality'),
 					),
 					'default_value' => array(
 					),
@@ -260,7 +260,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d0378fwl2',
-					'label' => __('Bottom Wrap line', 'tkmulti'),
+					'label' => __('Bottom Wrap line', 'tkm-functionality'),
 					'name' => 'row_bottom_wrap_line',
 					'type' => 'select',
 					'instructions' => '',
@@ -272,14 +272,14 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'bottom-short-right' => __('short right', 'tkmulti'),
-						'bottom-short-left' => __('short left', 'tkmulti'),
-						'bottom-middle-right' => __('middle right', 'tkmulti'),
-						'bottom-middle-left' => __('middle left', 'tkmulti'),
-						'bottom-full' => __('Bootom full', 'tkmulti'),
-						'bottom-short-right-short-left' => __('short right short left', 'tkmulti'),
-						'bottom-middle-right-short-left' => __('middle right short left', 'tkmulti'),
-						'bottom-short-right-middle-left' => __('short right middle left', 'tkmulti'),
+						'bottom-short-right' => __('short right', 'tkm-functionality'),
+						'bottom-short-left' => __('short left', 'tkm-functionality'),
+						'bottom-middle-right' => __('middle right', 'tkm-functionality'),
+						'bottom-middle-left' => __('middle left', 'tkm-functionality'),
+						'bottom-full' => __('Bootom full', 'tkm-functionality'),
+						'bottom-short-right-short-left' => __('short right short left', 'tkm-functionality'),
+						'bottom-middle-right-short-left' => __('middle right short left', 'tkm-functionality'),
+						'bottom-short-right-middle-left' => __('short right middle left', 'tkm-functionality'),
 					),
 					'default_value' => array(
 					),
@@ -292,7 +292,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d0378fwl3',
-					'label' => __('Right Wrap line', 'tkmulti'),
+					'label' => __('Right Wrap line', 'tkm-functionality'),
 					'name' => 'row_right_wrap_line',
 					'type' => 'select',
 					'instructions' => '',
@@ -304,7 +304,7 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'full-right' => __('Full right', 'tkmulti'),
+						'full-right' => __('Full right', 'tkm-functionality'),
 					),
 					'default_value' => array(
 					),
@@ -317,7 +317,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d0378fwl4',
-					'label' => __('Left Wrap line', 'tkmulti'),
+					'label' => __('Left Wrap line', 'tkm-functionality'),
 					'name' => 'row_Left_wrap_line',
 					'type' => 'select',
 					'instructions' => '',
@@ -329,7 +329,7 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'full-left' => __('Full left', 'tkmulti'),
+						'full-left' => __('Full left', 'tkm-functionality'),
 					),
 					'default_value' => array(
 					),
@@ -342,7 +342,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c3eddfe',
-					'label' => __('Top line padd', 'tkmulti'),
+					'label' => __('Top line padd', 'tkm-functionality'),
 					'name' => 'row_top_wrap_line_padd',
 					'type' => 'number',
 					'instructions' => '',
@@ -363,7 +363,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5cdd3fe',
-					'label' => __('Bottom line padd', 'tkmulti'),
+					'label' => __('Bottom line padd', 'tkm-functionality'),
 					'name' => 'row_bottom_wrap_line_padd',
 					'type' => 'number',
 					'instructions' => '',
@@ -384,7 +384,7 @@ acf_add_local_field_group(array(
 				),												
 				array(
 					'key' => 'field_5tk5c34b6695d3f9',
-					'label' => __('Right Overlay Color', 'tkmulti'),
+					'label' => __('Right Overlay Color', 'tkm-functionality'),
 					'name' => 'flex_content_cols_overlay_r',
 					'type' => 'color_picker',
 					'instructions' => '',
@@ -399,7 +399,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c350e56fb3fd',
-					'label' => __('Left Overlay Color', 'tkmulti'),
+					'label' => __('Left Overlay Color', 'tkm-functionality'),
 					'name' => 'flex_content_cols_overlay_l',
 					'type' => 'color_picker',
 					'instructions' => '',
@@ -414,7 +414,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c34b6975d3fa',
-					'label' => __('Right Overlay Opacity', 'tkmulti'),
+					'label' => __('Right Overlay Opacity', 'tkm-functionality'),
 					'name' => 'flex_content_cols_overlay_opacity_r',
 					'type' => 'number',
 					'instructions' => '',
@@ -435,7 +435,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c350ea1fb3fe',
-					'label' => __('Left Overlay Opacity', 'tkmulti'),
+					'label' => __('Left Overlay Opacity', 'tkm-functionality'),
 					'name' => 'flex_content_cols_overlay_opacity_l',
 					'type' => 'number',
 					'instructions' => '',
@@ -456,7 +456,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c350ea1fbs33e',
-					'label' => __('Rotate Gradient bg', 'tkmulti'),
+					'label' => __('Rotate Gradient bg', 'tkm-functionality'),
 					'name' => 'flex_content_cols_overlay_rotate',
 					'type' => 'number',
 					'instructions' => '',
@@ -477,7 +477,7 @@ acf_add_local_field_group(array(
 				),				
 				array(
 					'key' => 'field_5d0378f70beb1',
-					'label' => __('Top divider section', 'tkmulti'),
+					'label' => __('Top divider section', 'tkm-functionality'),
 					'name' => 'flex_top_divider_section_type',
 					'type' => 'select',
 					'instructions' => '',
@@ -497,30 +497,30 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'waves' => __('Waves', 'tkmulti'),
-						'opacity-waves' => __('Opacity waves', 'tkmulti'),
-						'mountains' => __('Mountains', 'tkmulti'),
-						'drops' => __('Drops', 'tkmulti'),
-						'opacity-clouds' => __('Opacity clouds', 'tkmulti'),
-						'big-clouds' => __('Big clouds', 'tkmulti'),
-						'pyramids' => __('Pyramids', 'tkmulti'),
-						'triangle' => __('Triangle', 'tkmulti'),
-						'circle' => __('Circle', 'tkmulti'),
-						'right-tilt' => __('Right tilt', 'tkmulti'),
-						'left-tilt' => __('Left tilt', 'tkmulti'),
-						'right-opacity-tilt' => __('Right opacity tilt', 'tkmulti'),
-						'left-opacity-tilt' => __('Left opacity tilt', 'tkmulti'),
-						'opacity-triangle' => __('Triangle opacity', 'tkmulti'),
-						'right-arc' => __('Right Arc', 'tkmulti'),
-						'left-arc' => __('Left Arc', 'tkmulti'),
-						'opacity-circle' => __('Opacity Circle', 'tkmulti'),
-						'right-opacity-arc' => __('Right Arc opacity', 'tkmulti'),
-						'left-opacity-arc' => __('Left Arc opacity', 'tkmulti'),
-						'arrow' => __('Arrow', 'tkmulti'),
-						'cross' => __('Cross', 'tkmulti'),
-						'watercolor' => __('Water-color',  'tkmulti'),
-						'watercolor-spread' => __('Water-color spread', 'tkmulti'),
-						'brush-spread' => __('Brush spread', 'tkmulti'),
+						'waves' => __('Waves', 'tkm-functionality'),
+						'opacity-waves' => __('Opacity waves', 'tkm-functionality'),
+						'mountains' => __('Mountains', 'tkm-functionality'),
+						'drops' => __('Drops', 'tkm-functionality'),
+						'opacity-clouds' => __('Opacity clouds', 'tkm-functionality'),
+						'big-clouds' => __('Big clouds', 'tkm-functionality'),
+						'pyramids' => __('Pyramids', 'tkm-functionality'),
+						'triangle' => __('Triangle', 'tkm-functionality'),
+						'circle' => __('Circle', 'tkm-functionality'),
+						'right-tilt' => __('Right tilt', 'tkm-functionality'),
+						'left-tilt' => __('Left tilt', 'tkm-functionality'),
+						'right-opacity-tilt' => __('Right opacity tilt', 'tkm-functionality'),
+						'left-opacity-tilt' => __('Left opacity tilt', 'tkm-functionality'),
+						'opacity-triangle' => __('Triangle opacity', 'tkm-functionality'),
+						'right-arc' => __('Right Arc', 'tkm-functionality'),
+						'left-arc' => __('Left Arc', 'tkm-functionality'),
+						'opacity-circle' => __('Opacity Circle', 'tkm-functionality'),
+						'right-opacity-arc' => __('Right Arc opacity', 'tkm-functionality'),
+						'left-opacity-arc' => __('Left Arc opacity', 'tkm-functionality'),
+						'arrow' => __('Arrow', 'tkm-functionality'),
+						'cross' => __('Cross', 'tkm-functionality'),
+						'watercolor' => __('Water-color',  'tkm-functionality'),
+						'watercolor-spread' => __('Water-color spread', 'tkm-functionality'),
+						'brush-spread' => __('Brush spread', 'tkm-functionality'),
 					),
 					'default_value' => array(
 					),
@@ -533,7 +533,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d037ae40beb2',
-					'label' => __('Top divider section - fill color', 'tkmulti'),
+					'label' => __('Top divider section - fill color', 'tkm-functionality'),
 					'name' => 'flex_top_divider_section_color',
 					'type' => 'color_picker',
 					'instructions' => '',
@@ -566,7 +566,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d037ae40beb21',
-					'label' => __('Top divider section - BG color', 'tkmulti'),
+					'label' => __('Top divider section - BG color', 'tkm-functionality'),
 					'name' => 'flex_top_divider_section_bg_color',
 					'type' => 'color_picker',
 					'instructions' => '',
@@ -599,7 +599,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d037b150beb3',
-					'label' => __('Top divider section - height', 'tkmulti'),
+					'label' => __('Top divider section - height', 'tkm-functionality'),
 					'name' => 'flex_top_divider_section_height',
 					'type' => 'number',
 					'instructions' => '',
@@ -638,7 +638,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d037b7e0beb4',
-					'label' => __('Top divider section - position', 'tkmulti'),
+					'label' => __('Top divider section - position', 'tkm-functionality'),
 					'name' => 'flex_top_divider_section_position',
 					'type' => 'radio',
 					'instructions' => '',
@@ -658,8 +658,8 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'behind' => __('Behind content', 'tkmulti'),
-						'on-top' => __('On top content', 'tkmulti'),
+						'behind' => __('Behind content', 'tkm-functionality'),
+						'on-top' => __('On top content', 'tkm-functionality'),
 					),
 					'allow_null' => 0,
 					'default_value' => '',
@@ -668,7 +668,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d0378f70berr1',
-					'label' => __('Bottom divider section', 'tkmulti'),
+					'label' => __('Bottom divider section', 'tkm-functionality'),
 					'name' => 'flex_bottom_divider_section_type',
 					'type' => 'select',
 					'instructions' => '',
@@ -688,30 +688,30 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'waves' => __('Waves', 'tkmulti'),
-						'opacity-waves' => __('Opacity waves', 'tkmulti'),
-						'mountains' => __('Mountains', 'tkmulti'),
-						'drops' => __('Drops', 'tkmulti'),
-						'opacity-clouds' => __('Opacity clouds', 'tkmulti'),
-						'big-clouds' => __('Big clouds', 'tkmulti'),
-						'pyramids' => __('Pyramids', 'tkmulti'),
-						'triangle' => __('Triangle', 'tkmulti'),
-						'circle' => __('Circle', 'tkmulti'),
-						'right-tilt' => __('Right tilt', 'tkmulti'),
-						'left-tilt' => __('Left tilt', 'tkmulti'),
-						'right-opacity-tilt' => __('Right opacity tilt', 'tkmulti'),
-						'left-opacity-tilt' => __('Left opacity tilt', 'tkmulti'),
-						'opacity-triangle' => __('Triangle opacity', 'tkmulti'),
-						'right-arc' => __('Right Arc', 'tkmulti'),
-						'left-arc' => __('Left Arc', 'tkmulti'),
-						'opacity-circle' => __('Opacity Circle', 'tkmulti'),
-						'right-opacity-arc' => __('Right Arc opacity', 'tkmulti'),
-						'left-opacity-arc' => __('Left Arc opacity', 'tkmulti'),
-						'arrow' => __('Arrow', 'tkmulti'),
-						'cross' => __('Cross', 'tkmulti'),
-						'watercolor' => __('Water-color',  'tkmulti'),
-						'watercolor-spread' => __('Water-color spread', 'tkmulti'),
-						'brush-spread' => __('Brush spread', 'tkmulti'),
+						'waves' => __('Waves', 'tkm-functionality'),
+						'opacity-waves' => __('Opacity waves', 'tkm-functionality'),
+						'mountains' => __('Mountains', 'tkm-functionality'),
+						'drops' => __('Drops', 'tkm-functionality'),
+						'opacity-clouds' => __('Opacity clouds', 'tkm-functionality'),
+						'big-clouds' => __('Big clouds', 'tkm-functionality'),
+						'pyramids' => __('Pyramids', 'tkm-functionality'),
+						'triangle' => __('Triangle', 'tkm-functionality'),
+						'circle' => __('Circle', 'tkm-functionality'),
+						'right-tilt' => __('Right tilt', 'tkm-functionality'),
+						'left-tilt' => __('Left tilt', 'tkm-functionality'),
+						'right-opacity-tilt' => __('Right opacity tilt', 'tkm-functionality'),
+						'left-opacity-tilt' => __('Left opacity tilt', 'tkm-functionality'),
+						'opacity-triangle' => __('Triangle opacity', 'tkm-functionality'),
+						'right-arc' => __('Right Arc', 'tkm-functionality'),
+						'left-arc' => __('Left Arc', 'tkm-functionality'),
+						'opacity-circle' => __('Opacity Circle', 'tkm-functionality'),
+						'right-opacity-arc' => __('Right Arc opacity', 'tkm-functionality'),
+						'left-opacity-arc' => __('Left Arc opacity', 'tkm-functionality'),
+						'arrow' => __('Arrow', 'tkm-functionality'),
+						'cross' => __('Cross', 'tkm-functionality'),
+						'watercolor' => __('Water-color',  'tkm-functionality'),
+						'watercolor-spread' => __('Water-color spread', 'tkm-functionality'),
+						'brush-spread' => __('Brush spread', 'tkm-functionality'),
 					),
 					'default_value' => array(
 					),
@@ -724,7 +724,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d037ae40berr2',
-					'label' => __('Bottom divider section - fill color', 'tkmulti'),
+					'label' => __('Bottom divider section - fill color', 'tkm-functionality'),
 					'name' => 'flex_bottom_divider_section_color',
 					'type' => 'color_picker',
 					'instructions' => '',
@@ -757,7 +757,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d037ae40berr22',
-					'label' => __('Bottom divider section - BG color', 'tkmulti'),
+					'label' => __('Bottom divider section - BG color', 'tkm-functionality'),
 					'name' => 'flex_bottom_divider_section_bg_color',
 					'type' => 'color_picker',
 					'instructions' => '',
@@ -790,7 +790,7 @@ acf_add_local_field_group(array(
 				),				
 				array(
 					'key' => 'field_5d037b150berr3',
-					'label' => __('Bottom divider section - height', 'tkmulti'),
+					'label' => __('Bottom divider section - height', 'tkm-functionality'),
 					'name' => 'flex_bottom_divider_section_height',
 					'type' => 'number',
 					'instructions' => '',
@@ -829,7 +829,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d037b7e0berr4',
-					'label' => __('Bottom divider section - position', 'tkmulti'),
+					'label' => __('Bottom divider section - position', 'tkm-functionality'),
 					'name' => 'flex_bottom_divider_section_position',
 					'type' => 'radio',
 					'instructions' => '',
@@ -849,8 +849,8 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'behind' => __('Behind content', 'tkmulti'),
-						'on-top' => __('On top content', 'tkmulti'),
+						'behind' => __('Behind content', 'tkm-functionality'),
+						'on-top' => __('On top content', 'tkm-functionality'),
 					),
 					'allow_null' => 0,
 					'default_value' => '',
@@ -859,7 +859,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c34b9441e077',
-					'label' => __('Content Elements', 'tkmulti'),
+					'label' => __('Content Elements', 'tkm-functionality'),
 					'name' => 'flex_content',
 					'type' => 'flexible_content',
 					'instructions' => '',
@@ -874,12 +874,12 @@ acf_add_local_field_group(array(
 						'layout_5c5ad1c371acd' => array(
 							'key' => 'layout_5c5ad1c371acd',
 							'name' => 'flexible-style-title',
-							'label' => __('Styled Title', 'tkmulti'),
+							'label' => __('Styled Title', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdbc4ac01c7f',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_style_title_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -891,7 +891,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -913,7 +913,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc54e538wwe238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_style_title_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -934,7 +934,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cdbc4ac01c7f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_style_title_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -946,8 +946,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -958,7 +958,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde63f7a30e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_style_title_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -977,7 +977,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cfff65648293',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_style_title_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1007,7 +1007,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5ad2c371ace',
-									'label' => __('Title style', 'tkmulti'),
+									'label' => __('Title style', 'tkm-functionality'),
 									'name' => 'flex_style_title_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1019,11 +1019,11 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'clean' => __('clean', 'tkmulti'),
-										'clean-underline' => __('clean-underline', 'tkmulti'),
-										'clean-sideline' => __('clean-sideline', 'tkmulti'),
-										'box' => __('box', 'tkmulti'),
-										'split' => __('split', 'tkmulti'),
+										'clean' => __('clean', 'tkm-functionality'),
+										'clean-underline' => __('clean-underline', 'tkm-functionality'),
+										'clean-sideline' => __('clean-sideline', 'tkm-functionality'),
+										'box' => __('box', 'tkm-functionality'),
+										'split' => __('split', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -1034,7 +1034,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5ad3cc71acf',
-									'label' => __('Title type heading', 'tkmulti'),
+									'label' => __('Title type heading', 'tkm-functionality'),
 									'name' => 'flex_style_title_header',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1059,7 +1059,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5ad3ea71ad0',
-									'label' => __('Font size', 'tkmulti'),
+									'label' => __('Font size', 'tkm-functionality'),
 									'name' => 'flex_style_title_size',
 									'type' => 'range',
 									'instructions' => '',
@@ -1079,7 +1079,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5adc2ce4996',
-									'label' => __('Title Alignment', 'tkmulti'),
+									'label' => __('Title Alignment', 'tkm-functionality'),
 									'name' => 'flex_style_title_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1120,9 +1120,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('center', 'tkmulti'),
-										'right' => __('right', 'tkmulti'),
-										'left' => __('left', 'tkmulti'),
+										'center' => __('center', 'tkm-functionality'),
+										'right' => __('right', 'tkm-functionality'),
+										'left' => __('left', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -1133,7 +1133,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5adc8ee4998',
-									'label' => __('Title color', 'tkmulti'),
+									'label' => __('Title color', 'tkm-functionality'),
 									'name' => 'flex_style_title_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1148,7 +1148,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c99e5af4c766',
-									'label' => __('Title Background color', 'tkmulti'),
+									'label' => __('Title Background color', 'tkm-functionality'),
 									'name' => 'flex_style_title_bg_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1178,7 +1178,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c99edds67',
-									'label' => __('Title color - second part', 'tkmulti'),
+									'label' => __('Title color - second part', 'tkm-functionality'),
 									'name' => 'flex_style_subtitle_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1201,7 +1201,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c99e6074c767',
-									'label' => __('Title Background color - second part', 'tkmulti'),
+									'label' => __('Title Background color - second part', 'tkm-functionality'),
 									'name' => 'flex_style_subtitle_bg_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1224,7 +1224,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5adcb4e4999',
-									'label' => __('The title (first part)', 'tkmulti'),
+									'label' => __('The title (first part)', 'tkm-functionality'),
 									'name' => 'flex_style_title_first',
 									'type' => 'text',
 									'instructions' => '',
@@ -1243,7 +1243,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5adcdce499a',
-									'label' => __('The title (second part)', 'tkmulti'),
+									'label' => __('The title (second part)', 'tkm-functionality'),
 									'name' => 'flex_style_title_last',
 									'type' => 'text',
 									'instructions' => '',
@@ -1262,7 +1262,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5ad757549a',
-									'label' => __('Intro', 'tkmulti'),
+									'label' => __('Intro', 'tkm-functionality'),
 									'name' => 'flex_style_intro',
 									'type' => 'wysiwyg',
 									'instructions' => '',
@@ -1286,12 +1286,12 @@ acf_add_local_field_group(array(
 						'layout_5c8eb1794266f' => array(
 							'key' => 'layout_5c8eb1794266f',
 							'name' => 'flexible-divider',
-							'label' => __('Content Divider', 'tkmulti'),
+							'label' => __('Content Divider', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdbc95301c80',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'divider_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1303,7 +1303,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -1325,7 +1325,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk5cc54e5sd38wwe238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'divider_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -1346,7 +1346,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cdbc4ac01c7f2',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'divider_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1358,8 +1358,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -1370,7 +1370,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde63f7a30e8',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'divider_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -1389,7 +1389,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cf1qw8293',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'divider_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1419,7 +1419,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8eb1ee42672',
-									'label' => __('Divider line thick', 'tkmulti'),
+									'label' => __('Divider line thick', 'tkm-functionality'),
 									'name' => 'divider_line_thick',
 									'type' => 'number',
 									'instructions' => '',
@@ -1448,7 +1448,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8eb30442675',
-									'label' => __('Divider line width', 'tkmulti'),
+									'label' => __('Divider line width', 'tkm-functionality'),
 									'name' => 'divider_line_width',
 									'type' => 'number',
 									'instructions' => '',
@@ -1477,7 +1477,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8eb33342676',
-									'label' => __('Divider line color', 'tkmulti'),
+									'label' => __('Divider line color', 'tkm-functionality'),
 									'name' => 'divider_line_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1500,7 +1500,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8eb23442673',
-									'label' => __('Vertical align', 'tkmulti'),
+									'label' => __('Vertical align', 'tkm-functionality'),
 									'name' => 'divider_line_ver',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1520,9 +1520,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'top' => __('top', 'tkmulti'),
-										'middle' => __('middle', 'tkmulti'),
-										'bottom' => __('bottom', 'tkmulti'),
+										'top' => __('top', 'tkm-functionality'),
+										'middle' => __('middle', 'tkm-functionality'),
+										'bottom' => __('bottom', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -1533,7 +1533,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8eb2af42674',
-									'label' => __('Horizontal align', 'tkmulti'),
+									'label' => __('Horizontal align', 'tkm-functionality'),
 									'name' => 'divider_line_hor',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1553,9 +1553,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'start' => __('start', 'tkmulti'),
-										'center' => __('center', 'tkmulti'),
-										'end' => __('end', 'tkmulti'),
+										'start' => __('start', 'tkm-functionality'),
+										'center' => __('center', 'tkm-functionality'),
+										'end' => __('end', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -1566,7 +1566,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8eb18b42670',
-									'label' => __('Divider Height', 'tkmulti'),
+									'label' => __('Divider Height', 'tkm-functionality'),
 									'name' => 'divider_height',
 									'type' => 'range',
 									'instructions' => '',
@@ -1586,7 +1586,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8eb1b842671',
-									'label' => __('Show Divider', 'tkmulti'),
+									'label' => __('Show Divider', 'tkm-functionality'),
 									'name' => 'divider_line',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -1610,12 +1610,12 @@ acf_add_local_field_group(array(
 						'layout_5c34ff519f25c' => array(
 							'key' => 'layout_5c34ff519f25c',
 							'name' => 'flexible-full-content',
-							'label' => __('Full content editor', 'tkmulti'),
+							'label' => __('Full content editor', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdbcef83b9d2',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_one_col_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1627,7 +1627,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -1649,7 +1649,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5d354e5sd38wwe238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_one_col_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -1670,7 +1670,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cdbc4ac01c7f3',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_one_col_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1682,8 +1682,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -1694,7 +1694,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde63f7a30e9',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_one_col_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -1713,7 +1713,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cf3wsdd3',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_one_col_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1743,7 +1743,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tksd4rf43f9',
-									'label' => __('Right Overlay Color', 'tkmulti'),
+									'label' => __('Right Overlay Color', 'tkm-functionality'),
 									'name' => 'flex_one_col_bg_r',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1758,7 +1758,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c3sadsd3fd',
-									'label' => __('Left Overlay Color', 'tkmulti'),
+									'label' => __('Left Overlay Color', 'tkm-functionality'),
 									'name' => 'flex_one_col_bg_l',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1773,7 +1773,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c3sd343s33e',
-									'label' => __('Rotate Gradient bg', 'tkmulti'),
+									'label' => __('Rotate Gradient bg', 'tkm-functionality'),
 									'name' => 'flex_one_col_bg_rotate',
 									'type' => 'number',
 									'instructions' => '',
@@ -1794,7 +1794,7 @@ acf_add_local_field_group(array(
 								),				
 								array(
 									'key' => 'field_5ts990ii2ed',
-									'label' => __('Background round corners', 'tkmulti'),
+									'label' => __('Background round corners', 'tkm-functionality'),
 									'name' => 'flex_one_col_bg_radius',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -1813,7 +1813,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5ts99awd33d',
-									'label' => __('Content align middle', 'tkmulti'),
+									'label' => __('Content align middle', 'tkm-functionality'),
 									'name' => 'flex_one_col_ver_align',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -1832,7 +1832,7 @@ acf_add_local_field_group(array(
 								),										
 								array(
 									'key' => 'field_5tk5c88f60416acd',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_one_col_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -1851,7 +1851,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc54e538e238',
-									'label' => __('Title - font size', 'tkmulti'),
+									'label' => __('Title - font size', 'tkm-functionality'),
 									'name' => 'flex_one_col_title_size',
 									'type' => 'number',
 									'instructions' => '',
@@ -1872,7 +1872,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c34ff7f9f25e',
-									'label' => __('Subtitle', 'tkmulti'),
+									'label' => __('Subtitle', 'tkm-functionality'),
 									'name' => 'flex_one_col_subtitle',
 									'type' => 'text',
 									'instructions' => '',
@@ -1891,7 +1891,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc54e7b8e239',
-									'label' => __('Subtitle - font size', 'tkmulti'),
+									'label' => __('Subtitle - font size', 'tkm-functionality'),
 									'name' => 'flex_one_col_subtitle_size',
 									'type' => 'number',
 									'instructions' => '',
@@ -1912,7 +1912,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c99e2de1f2ec',
-									'label' => __('Title color', 'tkmulti'),
+									'label' => __('Title color', 'tkm-functionality'),
 									'name' => 'flex_one_col_title_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1927,7 +1927,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c99e32f1f2ed',
-									'label' => __('Subtitle color', 'tkmulti'),
+									'label' => __('Subtitle color', 'tkm-functionality'),
 									'name' => 'flex_one_col_subtitle_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1942,7 +1942,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9ce8c9a7c14',
-									'label' => __('Content text color', 'tkmulti'),
+									'label' => __('Content text color', 'tkm-functionality'),
 									'name' => 'flex_one_col_text_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -1957,7 +1957,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c34ff8d9f25f',
-									'label' => __('Content block width', 'tkmulti'),
+									'label' => __('Content block width', 'tkm-functionality'),
 									'name' => 'flex_one_col_width',
 									'type' => 'range',
 									'instructions' => '',
@@ -1977,7 +1977,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c34ffb79f260',
-									'label' => __('Title align', 'tkmulti'),
+									'label' => __('Title align', 'tkm-functionality'),
 									'name' => 'flex_one_col_title_a',
 									'type' => 'radio',
 									'instructions' => '',
@@ -1989,9 +1989,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('center', 'tkmulti'),
-										'right' => __('right', 'tkmulti'),
-										'left' => __('left', 'tkmulti'),
+										'center' => __('center', 'tkm-functionality'),
+										'right' => __('right', 'tkm-functionality'),
+										'left' => __('left', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2002,7 +2002,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c3500789f261',
-									'label' => __('Content', 'tkmulti'),
+									'label' => __('Content', 'tkm-functionality'),
 									'name' => 'flex_one_col_text',
 									'type' => 'wysiwyg',
 									'instructions' => '',
@@ -2021,7 +2021,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c3500929f262',
-									'label' => __('Bottom Button', 'tkmulti'),
+									'label' => __('Bottom Button', 'tkm-functionality'),
 									'name' => 'flex_one_col_btn',
 									'type' => 'text',
 									'instructions' => '',
@@ -2040,8 +2040,8 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c3500b09f263',
-									'label' => __('Bottom Button link', 'tkmulti'),
-									'label' => __('Link', 'tkmulti'),
+									'label' => __('Bottom Button link', 'tkm-functionality'),
+									'label' => __('Link', 'tkm-functionality'),
 									'name' => 'flex_one_col_link',
 									'type' => 'text',
 									'instructions' => '',
@@ -2060,7 +2060,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c345rrfg60',
-									'label' => __('Bottom Button Color', 'tkmulti'),
+									'label' => __('Bottom Button Color', 'tkm-functionality'),
 									'name' => 'flex_one_col_btn_color',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2072,9 +2072,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'dark_btn' => __('Dark', 'tkmulti'),
-										'light_btn' => __('Light', 'tkmulti'),
-										'full_bottom' => __('Full bottom', 'tkmulti'),
+										'dark_btn' => __('Dark', 'tkm-functionality'),
+										'light_btn' => __('Light', 'tkm-functionality'),
+										'full_bottom' => __('Full bottom', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2090,12 +2090,12 @@ acf_add_local_field_group(array(
 						'layout_54c8a1795fb671' => array(
 							'key' => 'layout_54c8a1795fb671',
 							'name' => 'flexible-full-image',
-							'label' => __('Image Block', 'tkmulti'),
+							'label' => __('Image Block', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk54cdbd327ea25c',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_image_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2107,7 +2107,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -2129,7 +2129,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5d3544hgd38wwe238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_image_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -2150,7 +2150,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk54cdbcsd456301c7f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_image_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2162,8 +2162,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2174,7 +2174,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54cdeg5432asda30e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_image_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -2193,7 +2193,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cf9h5dd3',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_image_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2223,7 +2223,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5c88a2234acd',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_image_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -2242,7 +2242,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc4errse238',
-									'label' => __('Title - font size', 'tkmulti'),
+									'label' => __('Title - font size', 'tkm-functionality'),
 									'name' => 'flex_image_title_size',
 									'type' => 'number',
 									'instructions' => '',
@@ -2263,7 +2263,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8rru72ec',
-									'label' => __('Title color', 'tkmulti'),
+									'label' => __('Title color', 'tkm-functionality'),
 									'name' => 'flex_image_title_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -2278,7 +2278,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c4reewf260',
-									'label' => __('Title align', 'tkmulti'),
+									'label' => __('Title align', 'tkm-functionality'),
 									'name' => 'flex_image_title_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2290,9 +2290,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('center', 'tkmulti'),
-										'right' => __('right', 'tkmulti'),
-										'left' => __('left', 'tkmulti'),
+										'center' => __('center', 'tkm-functionality'),
+										'right' => __('right', 'tkm-functionality'),
+										'left' => __('left', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2303,7 +2303,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c4reewf260',
-									'label' => __('Title align', 'tkmulti'),
+									'label' => __('Title align', 'tkm-functionality'),
 									'name' => 'flex_image_title_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2315,9 +2315,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('center', 'tkmulti'),
-										'right' => __('right', 'tkmulti'),
-										'left' => __('left', 'tkmulti'),
+										'center' => __('center', 'tkm-functionality'),
+										'right' => __('right', 'tkm-functionality'),
+										'left' => __('left', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2328,7 +2328,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9a1d6684',
-									'label' => __('Title location', 'tkmulti'),
+									'label' => __('Title location', 'tkm-functionality'),
 									'name' => 'flex_image_title_location',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2340,8 +2340,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'title-top' => __('Title top', 'tkmulti'),
-										'title-bottom' => __('Title bottom', 'tkmulti'),
+										'title-top' => __('Title top', 'tkm-functionality'),
+										'title-bottom' => __('Title bottom', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2352,7 +2352,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c8a17c5fb673',
-									'label' => __('Image size', 'tkmulti'),
+									'label' => __('Image size', 'tkm-functionality'),
 									'name' => 'flex_image_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2364,11 +2364,11 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'inside-post' => __('Cut 620x425', 'tkmulti'),
-										'500c' => __('Cut 500px', 'tkmulti'),
-										'block-300' => __('Cut 300px', 'tkmulti'),
-										'portrait' => __('Cut Portrait', 'tkmulti'),
-										'full' => __('No cut = full size', 'tkmulti'),
+										'inside-post' => __('Cut 620x425', 'tkm-functionality'),
+										'500c' => __('Cut 500px', 'tkm-functionality'),
+										'block-300' => __('Cut 300px', 'tkm-functionality'),
+										'portrait' => __('Cut Portrait', 'tkm-functionality'),
+										'full' => __('No cut = full size', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2379,7 +2379,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c4re99940',
-									'label' => __('Image align', 'tkmulti'),
+									'label' => __('Image align', 'tkm-functionality'),
 									'name' => 'flex_image_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2391,9 +2391,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('center', 'tkmulti'),
-										'right' => __('right', 'tkmulti'),
-										'left' => __('left', 'tkmulti'),
+										'center' => __('center', 'tkm-functionality'),
+										'right' => __('right', 'tkm-functionality'),
+										'left' => __('left', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2404,7 +2404,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk54c8a181dfb674',
-									'label' => __('Image Style', 'tkmulti'),
+									'label' => __('Image Style', 'tkm-functionality'),
 									'name' => 'flex_image_style',
 									'type' => 'checkbox',
 									'instructions' => '',
@@ -2416,14 +2416,14 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'img_shadow' => __('Add Drop shadow', 'tkmulti'),
-										'img_content' => __('Add Content on image', 'tkmulti'),
-										'img_content_hover' => __('Show Content on hover only', 'tkmulti'),
-										'img_overlay' => __('Overlay on image', 'tkmulti'),
-										'img_border' => __('Inside border', 'tkmulti'),
-										'img_radius' => __('Round corners', 'tkmulti'),
-										'inside_logo' => __('Add logo on image', 'tkmulti'),
-										'original' => __('No stretch - Original proportions', 'tkmulti'),
+										'img_shadow' => __('Add Drop shadow', 'tkm-functionality'),
+										'img_content' => __('Add Content on image', 'tkm-functionality'),
+										'img_content_hover' => __('Show Content on hover only', 'tkm-functionality'),
+										'img_overlay' => __('Overlay on image', 'tkm-functionality'),
+										'img_border' => __('Inside border', 'tkm-functionality'),
+										'img_radius' => __('Round corners', 'tkm-functionality'),
+										'inside_logo' => __('Add logo on image', 'tkm-functionality'),
+										'original' => __('No stretch - Original proportions', 'tkm-functionality'),
 									),
 									'allow_custom' => 0,
 									'default_value' => array(
@@ -2435,7 +2435,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9caadba571a',
-									'label' => __('Image fit in block', 'tkmulti'),
+									'label' => __('Image fit in block', 'tkm-functionality'),
 									'name' => 'flex_image_bg',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2459,7 +2459,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9cab95a571c',
-									'label' => __('Logo on image', 'tkmulti'),
+									'label' => __('Logo on image', 'tkm-functionality'),
 									'name' => 'flex_image_logo',
 									'type' => 'image',
 									'instructions' => '',
@@ -2491,7 +2491,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9cac2ea571d',
-									'label' => __('Logo position on image', 'tkmulti'),
+									'label' => __('Logo position on image', 'tkm-functionality'),
 									'name' => 'flex_image_logo_position',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2530,7 +2530,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9cab19a571b',
-									'label' => __('Container height', 'tkmulti'),
+									'label' => __('Container height', 'tkm-functionality'),
 									'name' => 'flex_image_height',
 									'type' => 'range',
 									'instructions' => '',
@@ -2558,7 +2558,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9cd4160ee26',
-									'label' => __('Text content', 'tkmulti'),
+									'label' => __('Text content', 'tkm-functionality'),
 									'name' => 'flex_image_text',
 									'type' => 'textarea',
 									'instructions' => '',
@@ -2585,7 +2585,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54ccd68h689c5c',
-									'label' => __('Text Ver align', 'tkmulti'),
+									'label' => __('Text Ver align', 'tkm-functionality'),
 									'name' => 'flex_image_text_ver',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2605,9 +2605,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'top_xs' => __('top', 'tkmulti'),
-										'middle-xs' => __('middle', 'tkmulti'),
-										'bottom-xs' => __('bottom', 'tkmulti'),
+										'top_xs' => __('top', 'tkm-functionality'),
+										'middle-xs' => __('middle', 'tkm-functionality'),
+										'bottom-xs' => __('bottom', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2618,7 +2618,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk54ccd62e589c5c',
-									'label' => __('Text Hor align', 'tkmulti'),
+									'label' => __('Text Hor align', 'tkm-functionality'),
 									'name' => 'flex_image_text_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2638,9 +2638,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center_xs' => __('center', 'tkmulti'),
-										'start-xs' => __('strat', 'tkmulti'),
-										'end-xs' => __('end', 'tkmulti'),
+										'center_xs' => __('center', 'tkm-functionality'),
+										'start-xs' => __('strat', 'tkm-functionality'),
+										'end-xs' => __('end', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -2651,7 +2651,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54ccd66d939452',
-									'label' => __('Font size', 'tkmulti'),
+									'label' => __('Font size', 'tkm-functionality'),
 									'name' => 'flex_image_text_size',
 									'type' => 'number',
 									'instructions' => '',
@@ -2680,7 +2680,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54ccd6736b784c',
-									'label' => __('Font color', 'tkmulti'),
+									'label' => __('Font color', 'tkm-functionality'),
 									'name' => 'flex_image_text_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -2703,7 +2703,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54cb6235dfff29',
-									'label' => __('Links', 'tkmulti'),
+									'label' => __('Links', 'tkm-functionality'),
 									'name' => 'flex_image_links',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2727,7 +2727,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9cd4550ee27',
-									'label' => __('First button', 'tkmulti'),
+									'label' => __('First button', 'tkm-functionality'),
 									'name' => 'flex_image_btn1',
 									'type' => 'text',
 									'instructions' => '',
@@ -2759,7 +2759,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9cd4690ee28',
-									'label' => __('First button link', 'tkmulti'),
+									'label' => __('First button link', 'tkm-functionality'),
 									'name' => 'flex_image_btn1_link',
 									'type' => 'text',
 									'instructions' => '',
@@ -2791,7 +2791,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9cd4790ee29',
-									'label' => __('Second button', 'tkmulti'),
+									'label' => __('Second button', 'tkm-functionality'),
 									'name' => 'flex_image_btn2',
 									'type' => 'text',
 									'instructions' => '',
@@ -2823,7 +2823,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9cd48c0ee2a',
-									'label' => __('Second button link', 'tkmulti'),
+									'label' => __('Second button link', 'tkm-functionality'),
 									'name' => 'flex_image_btn2_link',
 									'type' => 'text',
 									'instructions' => '',
@@ -2855,7 +2855,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54cb623cafff2a',
-									'label' => __('Link for all the image', 'tkmulti'),
+									'label' => __('Link for all the image', 'tkm-functionality'),
 									'name' => 'flex_image_full_link',
 									'type' => 'text',
 									'instructions' => '',
@@ -2882,7 +2882,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54cdc080fc6822',
-									'label' => __('Open link in fancy box', 'tkmulti'),
+									'label' => __('Open link in fancy box', 'tkm-functionality'),
 									'name' => 'flex_image_full_link_fancybox',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -2909,7 +2909,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c8a17a5fb672',
-									'label' => __('Choose the image', 'tkmulti'),
+									'label' => __('Choose the image', 'tkm-functionality'),
 									'name' => 'flex_image',
 									'type' => 'image',
 									'instructions' => '',
@@ -2933,7 +2933,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5445670ee26',
-									'label' => __('Top margin', 'tkmulti'),
+									'label' => __('Top margin', 'tkm-functionality'),
 									'name' => 'flex_image_full_top_margin',
 									'type' => 'text',
 									'instructions' => '',
@@ -2952,7 +2952,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c9cd456726',
-									'label' => __('Bottom margin', 'tkmulti'),
+									'label' => __('Bottom margin', 'tkm-functionality'),
 									'name' => 'flex_full_bottom_margin',
 									'type' => 'text',
 									'instructions' => '',
@@ -2977,12 +2977,12 @@ acf_add_local_field_group(array(
 						'layout_5c5c19009ce1d' => array(
 							'key' => 'layout_5c5c19009ce1d',
 							'name' => 'flexible-img-content',
-							'label' => __('Image with content', 'tkmulti'),
+							'label' => __('Image with content', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk54cdb0dd7h25c',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_img_content_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -2994,7 +2994,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -3016,7 +3016,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5d35jddd5r38',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_img_content_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -3037,7 +3037,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk54coff876g7f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_img_content_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3049,8 +3049,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3061,7 +3061,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54c0099jda30e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_img_content_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -3080,7 +3080,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cf924dsdfd3',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_img_content_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3110,7 +3110,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5c5c19139ce1e',
-									'label' => __('Type', 'tkmulti'),
+									'label' => __('Type', 'tkm-functionality'),
 									'name' => 'flex_img_content_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3122,9 +3122,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'img_top' => __('Image ontop', 'tkmulti'),
-										'title_top' => __('Title ontop', 'tkmulti'),
-										'img_side' => __('Side by side', 'tkmulti'),
+										'img_top' => __('Image ontop', 'tkm-functionality'),
+										'title_top' => __('Title ontop', 'tkm-functionality'),
+										'img_side' => __('Side by side', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3135,7 +3135,7 @@ acf_add_local_field_group(array(
 								),																	
 								array(
 									'key' => 'field_5tk5c5c09ssd1e',
-									'label' => __('Style', 'tkmulti'),
+									'label' => __('Style', 'tkm-functionality'),
 									'name' => 'flex_img_content_style',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3147,8 +3147,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'style1' => __('Style1', 'tkmulti'),
-										'style2' => __('Style2', 'tkmulti'),
+										'style1' => __('Style1', 'tkm-functionality'),
+										'style2' => __('Style2', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3159,7 +3159,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c22e6c9d2a',
-									'label' => __('Image layout', 'tkmulti'),
+									'label' => __('Image layout', 'tkm-functionality'),
 									'name' => 'flex_img_content_img_layout',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3179,8 +3179,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'cover' => __('Cover Layout', 'tkmulti'),
-										'cut' => __('Cut by size', 'tkmulti'),
+										'cover' => __('Cover Layout', 'tkm-functionality'),
+										'cut' => __('Cut by size', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3191,7 +3191,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c0ddg453',
-									'label' => __('Middle logo image', 'tkmulti'),
+									'label' => __('Middle logo image', 'tkm-functionality'),
 									'name' => 'flex_img_content_logo',
 									'type' => 'image',
 									'instructions' => '',
@@ -3230,7 +3230,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5c5c1c4abc6c8',
-									'label' => __('Content align', 'tkmulti'),
+									'label' => __('Content align', 'tkm-functionality'),
 									'name' => 'flex_img_content_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3242,9 +3242,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('center', 'tkmulti'),
-										'right' => __('right', 'tkmulti'),
-										'left' => __('left', 'tkmulti'),
+										'center' => __('center', 'tkm-functionality'),
+										'right' => __('right', 'tkm-functionality'),
+										'left' => __('left', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3255,7 +3255,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8f82c6e19e3',
-									'label' => __('Column layout', 'tkmulti'),
+									'label' => __('Column layout', 'tkm-functionality'),
 									'name' => 'flex_img_content_col_layout',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3289,7 +3289,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c2896203b5',
-									'label' => __('Image side', 'tkmulti'),
+									'label' => __('Image side', 'tkm-functionality'),
 									'name' => 'flex_img_content_img_side',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3309,8 +3309,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'first-xs' => __('right', 'tkmulti'),
-										'last-xs' => __('left', 'tkmulti'),
+										'first-xs' => __('right', 'tkm-functionality'),
+										'last-xs' => __('left', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3321,7 +3321,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c2523ed9c4',
-									'label' => __('Inner color bg', 'tkmulti'),
+									'label' => __('Inner color bg', 'tkm-functionality'),
 									'name' => 'flex_img_content_img_bg',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -3344,7 +3344,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb31a3fc128e',
-									'label' => __('Content color', 'tkmulti'),
+									'label' => __('Content color', 'tkm-functionality'),
 									'name' => 'flex_img_content_text_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -3367,7 +3367,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c196a9ce1f',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_img_content_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -3386,7 +3386,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c53eddce1f',
-									'label' => __('Subtitle', 'tkmulti'),
+									'label' => __('Subtitle', 'tkm-functionality'),
 									'name' => 'flex_img_content_subtitle',
 									'type' => 'text',
 									'instructions' => '',
@@ -3405,7 +3405,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c19809ce20',
-									'label' => __('Title type', 'tkmulti'),
+									'label' => __('Title type', 'tkm-functionality'),
 									'name' => 'flex_img_content_title_h',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3430,7 +3430,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c19a19ce21',
-									'label' => __('Title size', 'tkmulti'),
+									'label' => __('Title size', 'tkm-functionality'),
 									'name' => 'flex_img_content_title_s',
 									'type' => 'range',
 									'instructions' => '',
@@ -3450,7 +3450,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c2a204bab7',
-									'label' => __('Full content', 'tkmulti'),
+									'label' => __('Full content', 'tkm-functionality'),
 									'name' => 'flex_img_content_text_f',
 									'type' => 'wysiwyg',
 									'instructions' => '',
@@ -3469,7 +3469,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c19ff9ce23',
-									'label' => __('Image', 'tkmulti'),
+									'label' => __('Image', 'tkm-functionality'),
 									'name' => 'flex_img_content_img',
 									'type' => 'image',
 									'instructions' => '',
@@ -3493,7 +3493,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c1a239ce24',
-									'label' => __('Image size', 'tkmulti'),
+									'label' => __('Image size', 'tkm-functionality'),
 									'name' => 'flex_img_content_img_size',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3505,10 +3505,10 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'inside-post' => __('Cut 620x425', 'tkmulti'),
-										'product-500c' => __('Cut 500px', 'tkmulti'),
-										'block-300' => __('Cut 300px', 'tkmulti'),
-										'full' => __('Full size', 'tkmulti'),
+										'inside-post' => __('Cut 620x425', 'tkm-functionality'),
+										'product-500c' => __('Cut 500px', 'tkm-functionality'),
+										'block-300' => __('Cut 300px', 'tkm-functionality'),
+										'full' => __('Full size', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3519,7 +3519,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c1aa09ce25',
-									'label' => __('Read more text', 'tkmulti'),
+									'label' => __('Read more text', 'tkm-functionality'),
 									'name' => 'flex_img_content_btn',
 									'type' => 'text',
 									'instructions' => '',
@@ -3538,7 +3538,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5c1ab19ce26',
-									'label' => __('Button link', 'tkmulti'),
+									'label' => __('Button link', 'tkm-functionality'),
 									'name' => 'flex_img_content_link',
 									'type' => 'text',
 									'instructions' => '',
@@ -3557,7 +3557,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb317e7e630c',
-									'label' => __('Button color', 'tkmulti'),
+									'label' => __('Button color', 'tkm-functionality'),
 									'name' => 'flex_img_content_btn_color',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3569,8 +3569,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'dark' => __('Dark', 'tkmulti'),
-										'light' => __('Light', 'tkmulti'),
+										'dark' => __('Dark', 'tkm-functionality'),
+										'light' => __('Light', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3586,12 +3586,12 @@ acf_add_local_field_group(array(
 						'layout_5cb3rre38ss' => array(
 							'key' => 'layout_5cb34f4f52a5',
 							'name' => 'flexible-manual-link-grid',
-							'label' => __('Manual image link grid', 'tkmulti'),
+							'label' => __('Manual image link grid', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdrre38222',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3603,7 +3603,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -3625,7 +3625,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk54rrrre38',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -3646,7 +3646,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cddsrre383',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3658,8 +3658,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3670,7 +3670,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdrre38335',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -3689,7 +3689,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk5cf9sd35fd3',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3719,7 +3719,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5rre3897ba2cd0b',
-									'label' => __('Layout type', 'tkmulti'),
+									'label' => __('Layout type', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3731,10 +3731,10 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'flex-layout' => __('Flex layout', 'tkmulti'),
-										'grid-layout' => __('Grid layout', 'tkmulti'),
-										'box-layout' => __('Box layout', 'tkmulti'),
-										'vid-layout' => __('Video layout', 'tkmulti'),
+										'flex-layout' => __('Flex layout', 'tkm-functionality'),
+										'grid-layout' => __('Grid layout', 'tkm-functionality'),
+										'box-layout' => __('Box layout', 'tkm-functionality'),
+										'vid-layout' => __('Video layout', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3745,7 +3745,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb578rre38145e',
-									'label' => __('Boxes in row', 'tkmulti'),
+									'label' => __('Boxes in row', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_count',
 									'type' => 'number',
 									'instructions' => '',
@@ -3781,7 +3781,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb5rre385f',
-									'label' => __('B&W effect', 'tkmulti'),
+									'label' => __('B&W effect', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_bw',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -3800,7 +3800,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cbrre38551460',
-									'label' => __('Text position on image', 'tkmulti'),
+									'label' => __('Text position on image', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_text_position',
 									'type' => 'radio',
 									'instructions' => '',
@@ -3834,12 +3834,12 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'img_cen_bot' => __('Center bottom', 'tkmulti'),
-										'img_cen_top' => __('Center top', 'tkmulti'),
-										'img_cen_cen' => __('Center middle', 'tkmulti'),
-										'img_rig_bot' => __('Start bottom', 'tkmulti'),
-										'img_rig_top' => __('Start top', 'tkmulti'),
-										'img_rig_cen' => __('Start middle', 'tkmulti'),
+										'img_cen_bot' => __('Center bottom', 'tkm-functionality'),
+										'img_cen_top' => __('Center top', 'tkm-functionality'),
+										'img_cen_cen' => __('Center middle', 'tkm-functionality'),
+										'img_rig_bot' => __('Start bottom', 'tkm-functionality'),
+										'img_rig_top' => __('Start top', 'tkm-functionality'),
+										'img_rig_cen' => __('Start middle', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -3850,7 +3850,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb3rre3852a6',
-									'label' => __('Choose images', 'tkmulti'),
+									'label' => __('Choose images', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_grid',
 									'type' => 'repeater',
 									'instructions' => '',
@@ -3869,7 +3869,7 @@ acf_add_local_field_group(array(
 									'sub_fields' => array(
 										array(
 											'key' => 'field_5tk5cb37944rre38',
-											'label' => __('Image', 'tkmulti'),
+											'label' => __('Image', 'tkm-functionality'),
 											'name' => 'flex_masonary_img',
 											'type' => 'image',
 											'instructions' => '',
@@ -3893,7 +3893,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cb37rre382a8',
-											'label' => __('Title', 'tkmulti'),
+											'label' => __('Title', 'tkm-functionality'),
 											'name' => 'flex_masonary_title',
 											'type' => 'text',
 											'instructions' => '',
@@ -3934,7 +3934,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cb4rre38990f4',
-											'label' => __('Title color', 'tkmulti'),
+											'label' => __('Title color', 'tkm-functionality'),
 											'name' => 'flex_masonary_title_color',
 											'type' => 'color_picker',
 											'instructions' => '',
@@ -3971,7 +3971,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5crre3851461',
-											'label' => __('Excerpt', 'tkmulti'),
+											'label' => __('Excerpt', 'tkm-functionality'),
 											'name' => 'flex_masonary_subtitle',
 											'type' => 'textarea',
 											'instructions' => '',
@@ -4012,7 +4012,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cb37rre38',
-											'label' => __('Page link', 'tkmulti'),
+											'label' => __('Page link', 'tkm-functionality'),
 											'name' => 'flex_masonary_link',
 											'type' => 'page_link',
 											'instructions' => '',
@@ -4056,7 +4056,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cbdsrre38',
-											'label' => __('Video Youtube link', 'tkmulti'),
+											'label' => __('Video Youtube link', 'tkm-functionality'),
 											'name' => 'flex_masonary_vid_link',
 											'type' => 'text',
 											'instructions' => '',
@@ -4083,7 +4083,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cbd3sdff8',
-											'label' => __('Video Youtube title', 'tkmulti'),
+											'label' => __('Video Youtube title', 'tkm-functionality'),
 											'name' => 'flex_masonary_vid_title',
 											'type' => 'text',
 											'instructions' => '',
@@ -4118,12 +4118,12 @@ acf_add_local_field_group(array(
 						'layout_5cefa0a4a73cf' => array(
 							'key' => 'layout_5cefa0a4a73cf',
 							'name' => 'flexible-project',
-							'label' => __('Project Box', 'tkmulti'),
+							'label' => __('Project Box', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cassx25b',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_project_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4135,7 +4135,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -4157,7 +4157,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5dhsdc2238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_project_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -4178,7 +4178,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cd3e4er7f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_project_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4190,8 +4190,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -4202,7 +4202,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdscvvf30e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_project_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -4221,7 +4221,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk5cds334fd3',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_project_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4251,7 +4251,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5cefa0c0a73d0',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_project_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -4270,7 +4270,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa173a73d3',
-									'label' => __('Title color', 'tkmulti'),
+									'label' => __('Title color', 'tkm-functionality'),
 									'name' => 'flex_project_title_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -4285,7 +4285,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa1a7a73d4',
-									'label' => __('Title size', 'tkmulti'),
+									'label' => __('Title size', 'tkm-functionality'),
 									'name' => 'flex_project_title_size',
 									'type' => 'number',
 									'instructions' => '',
@@ -4306,7 +4306,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa144a73d2',
-									'label' => __('Title type', 'tkmulti'),
+									'label' => __('Title type', 'tkm-functionality'),
 									'name' => 'flex_project_title_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4331,7 +4331,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa2gabf6',
-									'label' => __('Title position', 'tkmulti'),
+									'label' => __('Title position', 'tkm-functionality'),
 									'name' => 'flex_project_title_position',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4343,8 +4343,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'first-sm' => __('Above the Image', 'tkmulti'),
-										'last-sm' => __('Below the Image', 'tkmulti'),
+										'first-sm' => __('Above the Image', 'tkm-functionality'),
+										'last-sm' => __('Below the Image', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -4355,7 +4355,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa2970abf6',
-									'label' => __('Title side', 'tkmulti'),
+									'label' => __('Title side', 'tkm-functionality'),
 									'name' => 'flex_project_title_side',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4379,7 +4379,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cds333gabf6',
-									'label' => __('Image size', 'tkmulti'),
+									'label' => __('Image size', 'tkm-functionality'),
 									'name' => 'flex_project_image_size',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4392,8 +4392,8 @@ acf_add_local_field_group(array(
 									),
 									'choices' => array(
 										'full' => 'Full size',
-										'inside-post' => __('Cut 620x425', 'tkmulti'),
-										'gallery-800' => __('Cut 800x420', 'tkmulti'),
+										'inside-post' => __('Cut 620x425', 'tkm-functionality'),
+										'gallery-800' => __('Cut 800x420', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -4404,7 +4404,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cefa10ea73d1',
-									'label' => __('Pre title', 'tkmulti'),
+									'label' => __('Pre title', 'tkm-functionality'),
 									'name' => 'flex_project_pretitle',
 									'type' => 'text',
 									'instructions' => '',
@@ -4423,7 +4423,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa1fba73d5',
-									'label' => __('Pre title color', 'tkmulti'),
+									'label' => __('Pre title color', 'tkm-functionality'),
 									'name' => 'flex_project_pretitle_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -4438,7 +4438,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa237a73d6',
-									'label' => __('Pre title size', 'tkmulti'),
+									'label' => __('Pre title size', 'tkm-functionality'),
 									'name' => 'flex_project_pretitle_size',
 									'type' => 'number',
 									'instructions' => '',
@@ -4459,7 +4459,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa3360abf7',
-									'label' => __('First button - text', 'tkmulti'),
+									'label' => __('First button - text', 'tkm-functionality'),
 									'name' => 'flex_project_button_first',
 									'type' => 'text',
 									'instructions' => 'Change default',
@@ -4478,7 +4478,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa3ae0abf9',
-									'label' => __('Second button - text', 'tkmulti'),
+									'label' => __('Second button - text', 'tkm-functionality'),
 									'name' => 'flex_project_button_second',
 									'type' => 'text',
 									'instructions' => 'Change default',
@@ -4497,7 +4497,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa37b0abf8',
-									'label' => __('First button - link', 'tkmulti'),
+									'label' => __('First button - link', 'tkm-functionality'),
 									'name' => 'flex_project_button_first_link',
 									'type' => 'text',
 									'instructions' => '',
@@ -4516,7 +4516,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa3cd0abfa',
-									'label' => __('Second button - link', 'tkmulti'),
+									'label' => __('Second button - link', 'tkm-functionality'),
 									'name' => 'flex_project_button_second_link',
 									'type' => 'text',
 									'instructions' => '',
@@ -4535,7 +4535,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cefa4160abfb',
-									'label' => __('Image', 'tkmulti'),
+									'label' => __('Image', 'tkm-functionality'),
 									'name' => 'flex_project_image',
 									'type' => 'image',
 									'instructions' => '',
@@ -4564,12 +4564,12 @@ acf_add_local_field_group(array(
 						'layout_5c88f9c4131bf' => array(
 							'key' => 'layout_5c88f9c4131bf',
 							'name' => 'flexible-button',
-							'label' => __('Button', 'tkmulti'),
+							'label' => __('Button', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdbd0f3ea25b',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_main_button_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4581,7 +4581,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -4603,7 +4603,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5dhh5r4hgd38wwe238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_main_button_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -4624,7 +4624,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cdbcsd43ac01c7f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_main_button_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4636,8 +4636,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -4648,7 +4648,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde63f7asda30e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_main_button_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -4667,7 +4667,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c2ekkl9d3',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_main_buttont_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4697,7 +4697,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5c88f9ec131c0',
-									'label' => __('Text on button', 'tkmulti'),
+									'label' => __('Text on button', 'tkm-functionality'),
 									'name' => 'flex_main_button_text',
 									'type' => 'text',
 									'instructions' => '',
@@ -4716,7 +4716,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c88fa00131c1',
-									'label' => __('Link type', 'tkmulti'),
+									'label' => __('Link type', 'tkm-functionality'),
 									'name' => 'flex_main_button_link_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4728,9 +4728,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'page_link' => __('Page link', 'tkmulti'),
-										'free_link' => __('Free link', 'tkmulti'),
-										'form_link' => __('Form in popup', 'tkmulti'),
+										'page_link' => __('Page link', 'tkm-functionality'),
+										'free_link' => __('Free link', 'tkm-functionality'),
+										'form_link' => __('Form in popup', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -4741,7 +4741,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c88fa45131c2',
-									'label' => __('Page link', 'tkmulti'),
+									'label' => __('Page link', 'tkm-functionality'),
 									'name' => 'flex_main_button_page_link',
 									'type' => 'page_link',
 									'instructions' => '',
@@ -4768,7 +4768,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c88fa6b131c3',
-									'label' => __('Free link', 'tkmulti'),
+									'label' => __('Free link', 'tkm-functionality'),
 									'name' => 'flex_main_button_free_link',
 									'type' => 'text',
 									'instructions' => '',
@@ -4795,7 +4795,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cf92c6a51bb5',
-									'label' => __('Form link', 'tkmulti'),
+									'label' => __('Form link', 'tkm-functionality'),
 									'name' => 'flex_main_button_form_link',
 									'type' => 'post_object',
 									'instructions' => '',
@@ -4825,7 +4825,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9a0115991d3',
-									'label' => __('Button style', 'tkmulti'),
+									'label' => __('Button style', 'tkm-functionality'),
 									'name' => 'flex_main_button_style',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4837,9 +4837,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'style1' => __('Normal Button', 'tkmulti'),
-										'style2' => __('Round Button', 'tkmulti'),
-										'style3' => __('Big Button', 'tkmulti'),
+										'style1' => __('Normal Button', 'tkm-functionality'),
+										'style2' => __('Round Button', 'tkm-functionality'),
+										'style3' => __('Big Button', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -4850,7 +4850,7 @@ acf_add_local_field_group(array(
 								),															
 								array(
 									'key' => 'field_5tk5c9a017a991d4',
-									'label' => __('Text Color', 'tkmulti'),
+									'label' => __('Text Color', 'tkm-functionality'),
 									'name' => 'flex_main_button_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -4865,7 +4865,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9a01c2991d5',
-									'label' => __('BackGround color', 'tkmulti'),
+									'label' => __('BackGround color', 'tkm-functionality'),
 									'name' => 'flex_main_button_bg',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -4880,7 +4880,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c88fa8b131c4',
-									'label' => __('Button hor align', 'tkmulti'),
+									'label' => __('Button hor align', 'tkm-functionality'),
 									'name' => 'flex_main_button_hor_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4905,7 +4905,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c88fab6131c5',
-									'label' => __('Button ver align', 'tkmulti'),
+									'label' => __('Button ver align', 'tkm-functionality'),
 									'name' => 'flex_main_button_ver_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4930,7 +4930,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cd3ddac60',
-									'label' => __('Button icon type', 'tkmulti'),
+									'label' => __('Button icon type', 'tkm-functionality'),
 									'name' => 'flex_main_button_icon_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4942,9 +4942,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'button_icon_img' => __('Image', 'tkmulti'),
-										'button_icon_font' => __('Icon font', 'tkmulti'),
-										'button_icon_free' => __('Icon free html', 'tkmulti'),
+										'button_icon_img' => __('Image', 'tkm-functionality'),
+										'button_icon_font' => __('Icon font', 'tkm-functionality'),
+										'button_icon_free' => __('Icon free html', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -4955,7 +4955,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cd3dda2ww',
-									'label' => __('Button icon side', 'tkmulti'),
+									'label' => __('Button icon side', 'tkm-functionality'),
 									'name' => 'flex_main_button_icon_side',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4967,8 +4967,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'button_icon_left' => __('Icon left', 'tkmulti'),
-										'button_icon_right' => __('Icon right', 'tkmulti'),
+										'button_icon_left' => __('Icon left', 'tkm-functionality'),
+										'button_icon_right' => __('Icon right', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -4979,7 +4979,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cdddeec61',
-									'label' => __('Image', 'tkmulti'),
+									'label' => __('Image', 'tkm-functionality'),
 									'name' => 'flex_main_button_icon_img',
 									'type' => 'image',
 									'instructions' => '',
@@ -5011,7 +5011,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc22sd62',
-									'label' => __('Icon', 'tkmulti'),
+									'label' => __('Icon', 'tkm-functionality'),
 									'name' => 'flex_main_button_icon_font',
 									'type' => 'font-awesome',
 									'instructions' => '',
@@ -5049,7 +5049,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdcdcdd22',
-									'label' => __('Icon color', 'tkmulti'),
+									'label' => __('Icon color', 'tkm-functionality'),
 									'name' => 'flex_main_button_icon_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -5079,7 +5079,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c88ssdff',
-									'label' => __('Free HTML', 'tkmulti'),
+									'label' => __('Free HTML', 'tkm-functionality'),
 									'name' => 'flex_main_button_icon_html',
 									'type' => 'text',
 									'instructions' => '',
@@ -5111,12 +5111,12 @@ acf_add_local_field_group(array(
 						'layout_5cada8e4d985a' => array(
 							'key' => 'layout_5cada8e4d985a',
 							'name' => 'flexible-page-grid',
-							'label' => __('Page/Article Grid', 'tkmulti'),
+							'label' => __('Page/Article Grid', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cd44eeeea25b',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_article_grid_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5128,7 +5128,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -5150,7 +5150,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5dhh5eew38wwe238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_article_grid_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -5171,7 +5171,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5ddssd43ac01c7f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_article_grid_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5183,8 +5183,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5195,7 +5195,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cded33450e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_article_grid_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -5214,7 +5214,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c2ezse4d3',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_article_grid_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5244,7 +5244,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5cc933dsc',
-									'label' => __('Title position', 'tkmulti'),
+									'label' => __('Title position', 'tkm-functionality'),
 									'name' => 'flex_article_grid_title_position',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5256,9 +5256,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'top' => __('Top', 'tkmulti'),
-										'bottom' => __('Bottom', 'tkmulti'),
-										'inside' => __('Inside', 'tkmulti'),
+										'top' => __('Top', 'tkm-functionality'),
+										'bottom' => __('Bottom', 'tkm-functionality'),
+										'inside' => __('Inside', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5269,7 +5269,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc54f968e23a',
-									'label' => __('Title - font size', 'tkmulti'),
+									'label' => __('Title - font size', 'tkm-functionality'),
 									'name' => 'flex_article_grid_title_size',
 									'type' => 'number',
 									'instructions' => '',
@@ -5290,7 +5290,7 @@ acf_add_local_field_group(array(
 								),																
 								array(
 									'key' => 'field_5tk5cc942eb27c1c',
-									'label' => __('Title align', 'tkmulti'),
+									'label' => __('Title align', 'tkm-functionality'),
 									'name' => 'flex_article_grid_title_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5302,9 +5302,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('center', 'tkmulti'),
-										'start' => __('start', 'tkmulti'),
-										'end' => __('end', 'tkmulti'),
+										'center' => __('center', 'tkm-functionality'),
+										'start' => __('start', 'tkm-functionality'),
+										'end' => __('end', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5315,7 +5315,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc44gsc1c',
-									'label' => __('Title color', 'tkmulti'),
+									'label' => __('Title color', 'tkm-functionality'),
 									'name' => 'flex_article_grid_title_color',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5327,8 +5327,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'dark' => __('Dark', 'tkmulti'),
-										'light' => __('Light', 'tkmulti'),
+										'dark' => __('Dark', 'tkm-functionality'),
+										'light' => __('Light', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5339,7 +5339,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cc99488c1c',
-									'label' => __('Grid style', 'tkmulti'),
+									'label' => __('Grid style', 'tkm-functionality'),
 									'name' => 'flex_article_grid_style',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5351,9 +5351,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'style1' => __('style1', 'tkmulti'),
-										'style2' => __('style2', 'tkmulti'),
-										'style3' => __('style3', 'tkmulti'),
+										'style1' => __('style1', 'tkm-functionality'),
+										'style2' => __('style2', 'tkm-functionality'),
+										'style3' => __('style3', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5364,10 +5364,10 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cada8e4d985b',
-									'label' => __('Pages per row', 'tkmulti'),
+									'label' => __('Pages per row', 'tkm-functionality'),
 									'name' => 'flex_article_grid_count',
 									'type' => 'number',
-									'instructions' => __('between 2-5', 'tkmulti'),
+									'instructions' => __('between 2-5', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
@@ -5385,7 +5385,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cada8e4d985d',
-									'label' => __('Featured image', 'tkmulti'),
+									'label' => __('Featured image', 'tkm-functionality'),
 									'name' => 'flex_article_grid_img',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5397,8 +5397,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'main_img' => __('Page main feature image', 'tkmulti'),
-										'main_icon' => __('Second featured image on hover', 'tkmulti'),
+										'main_img' => __('Page main feature image', 'tkm-functionality'),
+										'main_icon' => __('Second featured image on hover', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5409,7 +5409,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb5be1a429c3',
-									'label' => __('Grid pagination', 'tkmulti'),
+									'label' => __('Grid pagination', 'tkm-functionality'),
 									'name' => 'flex_article_grid_paginate',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5421,9 +5421,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'no-paginate' => __('No pagination', 'tkmulti'),
-										'new_page' => __('Paginate by pages', 'tkmulti'),
-										'load_more' => __('Paginate by scroll more', 'tkmulti'),
+										'no-paginate' => __('No pagination', 'tkm-functionality'),
+										'new_page' => __('Paginate by pages', 'tkm-functionality'),
+										'load_more' => __('Paginate by scroll more', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5434,7 +5434,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb5be9d429c4',
-									'label' => __('Pages per display', 'tkmulti'),
+									'label' => __('Pages per display', 'tkm-functionality'),
 									'name' => 'flex_article_grid_perpage',
 									'type' => 'number',
 									'instructions' => '',
@@ -5470,7 +5470,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc551a3ff4ca',
-									'label' => __('Show excerpt', 'tkmulti'),
+									'label' => __('Show excerpt', 'tkm-functionality'),
 									'name' => 'flex_article_grid_show_info',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -5489,7 +5489,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cada8e4d985e',
-									'label' => __('Choose pages', 'tkmulti'),
+									'label' => __('Choose pages', 'tkm-functionality'),
 									'name' => 'flex_article_grid',
 									'type' => 'relationship',
 									'instructions' => '',
@@ -5524,12 +5524,12 @@ acf_add_local_field_group(array(
 						'layout_5c9b4a2dd6839' => array(
 							'key' => 'layout_5c9b4a2dd6839',
 							'name' => 'flexible-image-slider',
-							'label' => __('Image Slider', 'tkmulti'),
+							'label' => __('Image Slider', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdbeeb3f71ee',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5541,7 +5541,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -5563,7 +5563,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5d3s3345we238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -5584,7 +5584,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5c333dsswf1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5596,8 +5596,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5608,7 +5608,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde6ddc3d32e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -5627,7 +5627,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c234fvbn3',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5657,7 +5657,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5c9b4a3fd683a',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -5676,7 +5676,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b4a57d683b',
-									'label' => __('Sub Title', 'tkmulti'),
+									'label' => __('Sub Title', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_subtitle',
 									'type' => 'text',
 									'instructions' => '',
@@ -5695,7 +5695,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b4a72d683c',
-									'label' => __('Title Align', 'tkmulti'),
+									'label' => __('Title Align', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_title_a',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5707,9 +5707,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('center', 'tkmulti'),
-										'left' => __('left', 'tkmulti'),
-										'right' => __('right', 'tkmulti'),
+										'center' => __('center', 'tkm-functionality'),
+										'left' => __('left', 'tkm-functionality'),
+										'right' => __('right', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5720,7 +5720,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b5468657ff',
-									'label' => __('Image size', 'tkmulti'),
+									'label' => __('Image size', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_size',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5732,10 +5732,10 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'inside-post' => __('Cut 620x425', 'tkmulti'),
-										'product-500c' => __('Cut 500px', 'tkmulti'),
-										'block-300' => __('Cut 300px', 'tkmulti'),
-										'full' => __('full size', 'tkmulti'),
+										'inside-post' => __('Cut 620x425', 'tkm-functionality'),
+										'product-500c' => __('Cut 500px', 'tkm-functionality'),
+										'block-300' => __('Cut 300px', 'tkm-functionality'),
+										'full' => __('full size', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5746,10 +5746,10 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b4a90d683d',
-									'label' => __('Images on display - desktop', 'tkmulti'),
+									'label' => __('Images on display - desktop', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_count',
 									'type' => 'number',
-									'instructions' => __('Between 1-6', 'tkmulti'),
+									'instructions' => __('Between 1-6', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
@@ -5767,10 +5767,10 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b4a944ew83d',
-									'label' => __('Images on display - mobile', 'tkmulti'),
+									'label' => __('Images on display - mobile', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_count_mobile',
 									'type' => 'number',
-									'instructions' => __('Between 1-3', 'tkmulti'),
+									'instructions' => __('Between 1-3', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
@@ -5789,7 +5789,7 @@ acf_add_local_field_group(array(
 								
 								array(
 									'key' => 'field_5tk5cc55c1de54eb',
-									'label' => __('Show thumbnails', 'tkmulti'),
+									'label' => __('Show thumbnails', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_thumbs',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5809,8 +5809,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'no_thumbs' => __('No thumbs', 'tkmulti'),
-										'slider_thumbs' => __('Slider thumbs', 'tkmulti'),
+										'no_thumbs' => __('No thumbs', 'tkm-functionality'),
+										'slider_thumbs' => __('Slider thumbs', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5821,10 +5821,10 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b23edd3d',
-									'label' => __('Image thums to display', 'tkmulti'),
+									'label' => __('Image thums to display', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_thumb_count',
 									'type' => 'number',
-									'instructions' => __('Between 2-6', 'tkmulti'),
+									'instructions' => __('Between 2-6', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => array(
 										array(
@@ -5850,7 +5850,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdb1f394dc42',
-									'label' => __('Open link in fancy box', 'tkmulti'),
+									'label' => __('Open link in fancy box', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_fancybox',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -5869,7 +5869,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b54fe65800',
-									'label' => __('Images', 'tkmulti'),
+									'label' => __('Images', 'tkm-functionality'),
 									'name' => 'flex_gallery_slider_image',
 									'type' => 'gallery',
 									'instructions' => '',
@@ -5899,12 +5899,12 @@ acf_add_local_field_group(array(
 						'layout_5c9b3c10d38a2' => array(
 							'key' => 'layout_5c9b3c10d38a2',
 							'name' => 'flexible-gallery-grid',
-							'label' => __('Gallery grid', 'tkmulti'),
+							'label' => __('Gallery grid', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdcsd3b77',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5916,7 +5916,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -5938,7 +5938,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5ds36238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -5959,7 +5959,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5c3ds32wf1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -5971,8 +5971,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -5983,7 +5983,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdds332e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -6002,7 +6002,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c22mmkjn3',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6032,7 +6032,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5c9b3c1bd38a3',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -6051,7 +6051,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5c9b3c61d38a5',
-									'label' => __('Intro', 'tkmulti'),
+									'label' => __('Intro', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_intro',
 									'type' => 'textarea',
 									'instructions' => '',
@@ -6070,7 +6070,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b3c3ad38a4',
-									'label' => __('Title align', 'tkmulti'),
+									'label' => __('Title align', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_title_a',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6095,7 +6095,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b3c7dd38a6',
-									'label' => __('Gallery type', 'tkmulti'),
+									'label' => __('Gallery type', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6107,8 +6107,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'grid_box' => __('Box grid', 'tkmulti'),
-										'grid_masonry' => __('Masonary', 'tkmulti'),
+										'grid_box' => __('Box grid', 'tkm-functionality'),
+										'grid_masonry' => __('Masonary', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -6119,7 +6119,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b3cbed38a7',
-									'label' => __('Images per row', 'tkmulti'),
+									'label' => __('Images per row', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_col',
 									'type' => 'number',
 									'instructions' => '3 - 8',
@@ -6148,7 +6148,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b3d3ed38a8',
-									'label' => __('Open images on display', 'tkmulti'),
+									'label' => __('Open images on display', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_open',
 									'type' => 'number',
 									'instructions' => '3 - 100',
@@ -6169,7 +6169,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b3d9fd38a9',
-									'label' => __('Choose images', 'tkmulti'),
+									'label' => __('Choose images', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_img',
 									'type' => 'gallery',
 									'instructions' => '',
@@ -6194,7 +6194,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b3db7d38aa',
-									'label' => __('Show more button', 'tkmulti'),
+									'label' => __('Show more button', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_title_show_more',
 									'type' => 'text',
 									'instructions' => '',
@@ -6205,7 +6205,7 @@ acf_add_local_field_group(array(
 										'class' => '',
 										'id' => '',
 									),
-									'default_value' => __('Show more', 'tkmulti'),
+									'default_value' => __('Show more', 'tkm-functionality'),
 									'placeholder' => '',
 									'prepend' => '',
 									'append' => '',
@@ -6213,7 +6213,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c9b3dd1d38ab',
-									'label' => __('Show less button', 'tkmulti'),
+									'label' => __('Show less button', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_title_show_less',
 									'type' => 'text',
 									'instructions' => '',
@@ -6224,7 +6224,7 @@ acf_add_local_field_group(array(
 										'class' => '',
 										'id' => '',
 									),
-									'default_value' => __('Show less', 'tkmulti'),
+									'default_value' => __('Show less', 'tkm-functionality'),
 									'placeholder' => '',
 									'prepend' => '',
 									'append' => '',
@@ -6232,7 +6232,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb394g630c',
-									'label' => __('Button color', 'tkmulti'),
+									'label' => __('Button color', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_btn_color',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6261,12 +6261,12 @@ acf_add_local_field_group(array(
 						'layout_5cdc2540bac5b' => array(
 							'key' => 'layout_5cdc2540bac5b',
 							'name' => 'flexible-bulletin-list',
-							'label' => __('Bulletin List', 'tkmulti'),
+							'label' => __('Bulletin List', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdc2e0137b77',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'bulletin_list_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6278,7 +6278,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -6300,7 +6300,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5d33456238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -6321,7 +6321,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5c33345e2wf1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6333,8 +6333,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -6345,7 +6345,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde45re3d32e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -6364,7 +6364,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk5c22m3llo93',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6394,7 +6394,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5cdc2557bac5c',
-									'label' => __('Main Title', 'tkmulti'),
+									'label' => __('Main Title', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -6413,7 +6413,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc2573bac5d',
-									'label' => __('Main SubTitle', 'tkmulti'),
+									'label' => __('Main SubTitle', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_subtitle',
 									'type' => 'text',
 									'instructions' => '',
@@ -6432,7 +6432,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc259bbac5e',
-									'label' => __('Layout', 'tkmulti'),
+									'label' => __('Layout', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_layout',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6456,7 +6456,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc307dc24fe',
-									'label' => __('Image/Icon Position', 'tkmulti'),
+									'label' => __('Image/Icon Position', 'tkm-functionality'),
 									'name' => 'bulletin_list_img_position',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6495,7 +6495,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdcddf424fe',
-									'label' => __('Content Align', 'tkmulti'),
+									'label' => __('Content Align', 'tkm-functionality'),
 									'name' => 'bulletin_list_img_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6535,7 +6535,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc3508ab659',
-									'label' => __('Max items in row', 'tkmulti'),
+									'label' => __('Max items in row', 'tkm-functionality'),
 									'name' => 'bulletin_list_img_num',
 									'type' => 'number',
 									'instructions' => '1-6',
@@ -6564,7 +6564,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc2hhdt5e',
-									'label' => __('Icon Size', 'tkmulti'),
+									'label' => __('Icon Size', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_size',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6576,9 +6576,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'small' => __('Samll', 'tkmulti'),
-										'medium' => __('Medium', 'tkmulti'),
-										'big' => __('Big', 'tkmulti'),
+										'small' => __('Samll', 'tkm-functionality'),
+										'medium' => __('Medium', 'tkm-functionality'),
+										'big' => __('Big', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -6589,7 +6589,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cdc2621bac5f',
-									'label' => __('List', 'tkmulti'),
+									'label' => __('List', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list',
 									'type' => 'repeater',
 									'instructions' => '',
@@ -6608,7 +6608,7 @@ acf_add_local_field_group(array(
 									'sub_fields' => array(
 										array(
 											'key' => 'field_5tk5cdc2652bac60',
-											'label' => __('Type', 'tkmulti'),
+											'label' => __('Type', 'tkm-functionality'),
 											'name' => 'flex_bulletin_list_style',
 											'type' => 'radio',
 											'instructions' => '',
@@ -6620,8 +6620,8 @@ acf_add_local_field_group(array(
 												'id' => '',
 											),
 											'choices' => array(
-												'bulletin_img' => __('Image', 'tkmulti'),
-												'bulletin_font' => __('Icon font', 'tkmulti'),
+												'bulletin_img' => __('Image', 'tkm-functionality'),
+												'bulletin_font' => __('Icon font', 'tkm-functionality'),
 											),
 											'allow_null' => 0,
 											'other_choice' => 0,
@@ -6632,7 +6632,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc26b7bac61',
-											'label' => __('Image', 'tkmulti'),
+											'label' => __('Image', 'tkm-functionality'),
 											'name' => 'bulletin_list_icon_img',
 											'type' => 'image',
 											'instructions' => '',
@@ -6664,7 +6664,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc26d3bac62',
-											'label' => __('Icon', 'tkmulti'),
+											'label' => __('Icon', 'tkm-functionality'),
 											'name' => 'bulletin_list_icon_font',
 											'type' => 'font-awesome',
 											'instructions' => '',
@@ -6702,7 +6702,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc2739bac63',
-											'label' => __('Icon color', 'tkmulti'),
+											'label' => __('Icon color', 'tkm-functionality'),
 											'name' => 'bulletin_list_icon_font_color',
 											'type' => 'color_picker',
 											'instructions' => '',
@@ -6725,7 +6725,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc31c7c24ff',
-											'label' => __('Link', 'tkmulti'),
+											'label' => __('Link', 'tkm-functionality'),
 											'name' => 'bulletin_list_link',
 											'type' => 'text',
 											'instructions' => '',
@@ -6744,7 +6744,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc276fbac64',
-											'label' => __('Title', 'tkmulti'),
+											'label' => __('Title', 'tkm-functionality'),
 											'name' => 'bulletin_list_title',
 											'type' => 'text',
 											'instructions' => '',
@@ -6763,7 +6763,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc27b0bac65',
-											'label' => __('Title color', 'tkmulti'),
+											'label' => __('Title color', 'tkm-functionality'),
 											'name' => 'bulletin_list_title_color',
 											'type' => 'color_picker',
 											'instructions' => '',
@@ -6778,7 +6778,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc27e6bac66',
-											'label' => __('Title size', 'tkmulti'),
+											'label' => __('Title size', 'tkm-functionality'),
 											'name' => 'bulletin_list_title_size',
 											'type' => 'number',
 											'instructions' => '',
@@ -6799,7 +6799,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc2874bac67',
-											'label' => __('Sub Text', 'tkmulti'),
+											'label' => __('Sub Text', 'tkm-functionality'),
 											'name' => 'bulletin_list_text',
 											'type' => 'text',
 											'instructions' => '',
@@ -6818,7 +6818,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc2948bac68',
-											'label' => __('SubText color', 'tkmulti'),
+											'label' => __('SubText color', 'tkm-functionality'),
 											'name' => 'bulletin_list_text_color',
 											'type' => 'color_picker',
 											'instructions' => '',
@@ -6833,7 +6833,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cdc2995bac69',
-											'label' => __('SubText Size', 'tkmulti'),
+											'label' => __('SubText Size', 'tkm-functionality'),
 											'name' => 'bulletin_list_text_size',
 											'type' => 'number',
 											'instructions' => '',
@@ -6861,12 +6861,12 @@ acf_add_local_field_group(array(
 						'layout_5c8a7399499c5' => array(
 							'key' => 'layout_5c8a7399499c5',
 							'name' => 'flexible-page-slider',
-							'label' => __('Page/Article Slider', 'tkmulti'),
+							'label' => __('Page/Article Slider', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdd3ew23a25b',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6878,7 +6878,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -6900,7 +6900,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5dh778ywe238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -6921,7 +6921,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5c34r5622c7f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6933,8 +6933,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -6945,7 +6945,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde637ad45672e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -6964,7 +6964,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk5c223skkj',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_article_slider_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -6994,10 +6994,10 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5c8eba4f328aa',
-									'label' => __('Number of links to display', 'tkmulti'),
+									'label' => __('Number of links to display', 'tkm-functionality'),
 									'name' => 'flex_article_slider_count',
 									'type' => 'number',
-									'instructions' => __('between 2-5', 'tkmulti'),
+									'instructions' => __('between 2-5', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
@@ -7015,7 +7015,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8ebaae328ab',
-									'label' => __('Slider style', 'tkmulti'),
+									'label' => __('Slider style', 'tkm-functionality'),
 									'name' => 'flex_article_slider_style',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7041,7 +7041,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8f473df9597',
-									'label' => __('Featured image', 'tkmulti'),
+									'label' => __('Featured image', 'tkm-functionality'),
 									'name' => 'flex_article_slider_img',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7068,8 +7068,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'main_img' => __('Page main feature image', 'tkmulti'),
-										'main_icon' => __('Second featured image on hover', 'tkmulti'),
+										'main_img' => __('Page main feature image', 'tkm-functionality'),
+										'main_icon' => __('Second featured image on hover', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -7080,7 +7080,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8f3ewwf9597',
-									'label' => __('Choose source', 'tkmulti'),
+									'label' => __('Choose source', 'tkm-functionality'),
 									'name' => 'flex_article_slider_source',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7092,10 +7092,10 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'manual' => __('Manualy from list', 'tkmulti'),
-										'page' => __('Auto latest pages', 'tkmulti'),
-										'post' => __('Auto latest posts', 'tkmulti'),
-										'child' => __('Auto child pages', 'tkmulti'),
+										'manual' => __('Manualy from list', 'tkm-functionality'),
+										'page' => __('Auto latest pages', 'tkm-functionality'),
+										'post' => __('Auto latest posts', 'tkm-functionality'),
+										'child' => __('Auto child pages', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -7106,7 +7106,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c89ssg328aa',
-									'label' => __('Number of links to call on', 'tkmulti'),
+									'label' => __('Number of links to call on', 'tkm-functionality'),
 									'name' => 'flex_article_slider_latest',
 									'type' => 'number',
 									'instructions' => '',
@@ -7142,7 +7142,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk5cc9420d27c19',
-									'label' => __('Title align', 'tkmulti'),
+									'label' => __('Title align', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_title_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7162,9 +7162,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('Center', 'tkmulti'),
-										'flex-start' => __('Start', 'tkmulti'),
-										'flex-end' => __('End', 'tkmulti'),
+										'center' => __('Center', 'tkm-functionality'),
+										'flex-start' => __('Start', 'tkm-functionality'),
+										'flex-end' => __('End', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -7175,7 +7175,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc9424e27c1a',
-									'label' => __('Title color', 'tkmulti'),
+									'label' => __('Title color', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_title_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -7205,7 +7205,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc9sw331a',
-									'label' => __('Button color', 'tkmulti'),
+									'label' => __('Button color', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_button_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -7228,7 +7228,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc9426d27c1b',
-									'label' => __('Title size', 'tkmulti'),
+									'label' => __('Title size', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_title_size',
 									'type' => 'number',
 									'instructions' => '',
@@ -7249,7 +7249,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c8a73c8499c7',
-									'label' => __('Choose pages', 'tkmulti'),
+									'label' => __('Choose pages', 'tkm-functionality'),
 									'name' => 'flex_article_slider',
 									'type' => 'relationship',
 									'instructions' => '',
@@ -7293,12 +7293,12 @@ acf_add_local_field_group(array(
 						'layout_5cdc4d0ca8cf6' => array(
 							'key' => 'layout_5cdc4d0ca8cf6',
 							'name' => 'flexible-product-slider',
-							'label' => __('Product Slider', 'tkmulti'),
+							'label' => __('Product Slider', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdc4c6ca8cec',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_product_slider_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7310,7 +7310,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -7332,7 +7332,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5dher556238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_product_slider_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -7353,7 +7353,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk53e4rt2c7f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_product_slider_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7365,8 +7365,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -7377,7 +7377,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdedf472e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_product_slider_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -7396,7 +7396,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk5c223sjj7j',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_product_slider_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7426,7 +7426,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5cdc4d0ca8cfd',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_product_slider_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -7445,7 +7445,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc4d0ca8cf7',
-									'label' => __('Title color', 'tkmulti'),
+									'label' => __('Title color', 'tkm-functionality'),
 									'name' => 'flex_product_slider_title_color',
 									'type' => 'color_picker',
 									'instructions' => '',
@@ -7460,7 +7460,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc4d0ca8cfe',
-									'label' => __('Title Align', 'tkmulti'),
+									'label' => __('Title Align', 'tkm-functionality'),
 									'name' => 'flex_product_slider_title_align',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7472,9 +7472,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'center' => __('center', 'tkmulti'),
-										'right' => __('right', 'tkmulti'),
-										'left' => __('left', 'tkmulti'),
+										'center' => __('center', 'tkm-functionality'),
+										'right' => __('right', 'tkm-functionality'),
+										'left' => __('left', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -7485,7 +7485,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc4d0ca8cf8',
-									'label' => __('Title size', 'tkmulti'),
+									'label' => __('Title size', 'tkm-functionality'),
 									'name' => 'flex_product_slider_title_size',
 									'type' => 'number',
 									'instructions' => '',
@@ -7506,10 +7506,10 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc4d0ca8cf9',
-									'label' => __('Number of links to display', 'tkmulti'),
+									'label' => __('Number of links to display', 'tkm-functionality'),
 									'name' => 'flex_product_slider_count',
 									'type' => 'number',
-									'instructions' => __('Between 2-5', 'tkmulti'),
+									'instructions' => __('Between 2-5', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
@@ -7527,7 +7527,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc4d0ca8cfa',
-									'label' => __('Style', 'tkmulti'),
+									'label' => __('Style', 'tkm-functionality'),
 									'name' => 'flex_product_slider_style',
 									'type' => 'checkbox',
 									'instructions' => '',
@@ -7539,9 +7539,9 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'hide_price' => __('Hide Price', 'tkmulti'),
-										'hide_buttons' => __('Hide Buttons', 'tkmulti'),
-										'hide_intro' => __('Hide Intro', 'tkmulti'),
+										'hide_price' => __('Hide Price', 'tkm-functionality'),
+										'hide_buttons' => __('Hide Buttons', 'tkm-functionality'),
+										'hide_intro' => __('Hide Intro', 'tkm-functionality'),
 									),
 									'allow_custom' => 0,
 									'default_value' => array(
@@ -7553,7 +7553,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdc4d0ca8cfc',
-									'label' => __('Choose Products', 'tkmulti'),
+									'label' => __('Choose Products', 'tkm-functionality'),
 									'name' => 'flex_product_slider_row',
 									'type' => 'relationship',
 									'instructions' => '',
@@ -7587,12 +7587,12 @@ acf_add_local_field_group(array(
 						'layout_5cb378eb552a5' => array(
 							'key' => 'layout_5cb378eb552a5',
 							'name' => 'flexible-full-form',
-							'label' => __('Full contact form', 'tkmulti'),
+							'label' => __('Full contact form', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cb378w3a1',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_full_form_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7604,7 +7604,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -7626,7 +7626,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb37223a2',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_full_form_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -7647,7 +7647,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cb445552a3',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_full_form_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7659,8 +7659,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -7671,7 +7671,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb3783e2a4',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_full_form_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -7690,7 +7690,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk534ddfjj7j',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_full_form_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7720,7 +7720,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5cb378eb552a5',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_full_form_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -7739,7 +7739,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb378eb552a6',
-									'label' => __('Subtitle', 'tkmulti'),
+									'label' => __('Subtitle', 'tkm-functionality'),
 									'name' => 'flex_full_form_subtitle',
 									'type' => 'text',
 									'instructions' => '',
@@ -7758,7 +7758,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb378eb552a7',
-									'label' => __('Choose Form', 'tkmulti'),
+									'label' => __('Choose Form', 'tkm-functionality'),
 									'name' => 'flex_full_form_id',
 									'type' => 'relationship',
 									'instructions' => '',
@@ -7785,7 +7785,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cb378eb552a9',
-									'label' => __('Form color', 'tkmulti'),
+									'label' => __('Form color', 'tkm-functionality'),
 									'name' => 'flex_full_form_color',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7797,8 +7797,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'dark_form' => __('Dark', 'tkmulti'),
-										'light_form' => __('Light', 'tkmulti'),
+										'dark_form' => __('Dark', 'tkm-functionality'),
+										'light_form' => __('Light', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -7809,7 +7809,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c89996b4b',
-									'label' => __('Hide form title', 'tkmulti'),
+									'label' => __('Hide form title', 'tkm-functionality'),
 									'name' => 'flex_full_form_hide_title',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -7833,12 +7833,12 @@ acf_add_local_field_group(array(
 						'layout_5b4459aa09a3e' => array(
 							'key' => 'layout_5b4459aa09a3e',
 							'name' => 'flexible-qa-slider',
-							'label' => __('Q&A slider', 'tkmulti'),
+							'label' => __('Q&A slider', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdsssea25b',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_qa_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7850,7 +7850,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -7872,7 +7872,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5dhhs22238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_qa_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -7893,7 +7893,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5dds2237f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_qa_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7905,8 +7905,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -7917,7 +7917,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdes211e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_qa_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -7936,7 +7936,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk534snjhhb4j',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_qa_slider_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -7966,7 +7966,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5b4459aa09a3f',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_qa_slider_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -7985,7 +7985,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5b4459d209a43',
-									'label' => __('Subtitle', 'tkmulti'),
+									'label' => __('Subtitle', 'tkm-functionality'),
 									'name' => 'flex_qa_slider_subtitle',
 									'type' => 'text',
 									'instructions' => '',
@@ -8004,7 +8004,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5b4459aa09a40',
-									'label' => __('Q&A', 'tkmulti'),
+									'label' => __('Q&A', 'tkm-functionality'),
 									'name' => 'flex_qa_slider',
 									'type' => 'repeater',
 									'instructions' => '',
@@ -8023,7 +8023,7 @@ acf_add_local_field_group(array(
 									'sub_fields' => array(
 										array(
 											'key' => 'field_5tk5b4459aa09a41',
-											'label' => __('Question', 'tkmulti'),
+											'label' => __('Question', 'tkm-functionality'),
 											'name' => 'flex_qa_slider_question',
 											'type' => 'textarea',
 											'instructions' => '',
@@ -8042,7 +8042,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5b4459aa09a42',
-											'label' => __('Answer', 'tkmulti'),
+											'label' => __('Answer', 'tkm-functionality'),
 											'name' => 'flex_qa_slider_answer',
 											'type' => 'wysiwyg',
 											'instructions' => '',
@@ -8063,7 +8063,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5b4459ec09a44',
-									'label' => __('Button popup', 'tkmulti'),
+									'label' => __('Button popup', 'tkm-functionality'),
 									'name' => 'flex_qa_slider_form_btn',
 									'type' => 'text',
 									'instructions' => '',
@@ -8082,7 +8082,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cf9ddss11b5',
-									'label' => __('Form link', 'tkmulti'),
+									'label' => __('Form link', 'tkm-functionality'),
 									'name' => 'flex_qa_slider_form_btn_link',
 									'type' => 'post_object',
 									'instructions' => '',
@@ -8104,7 +8104,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5b445a1909a46',
-									'label' => __('Button read more', 'tkmulti'),
+									'label' => __('Button read more', 'tkm-functionality'),
 									'name' => 'flex_qa_slider_page_btn',
 									'type' => 'text',
 									'instructions' => '',
@@ -8123,7 +8123,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5b445a2b09a47',
-									'label' => __('Link button read more', 'tkmulti'),
+									'label' => __('Link button read more', 'tkm-functionality'),
 									'name' => 'flex_qa_slider_page_link',
 									'type' => 'page_link',
 									'instructions' => '',
@@ -8149,12 +8149,12 @@ acf_add_local_field_group(array(
 						'layout_5ca060f17980e' => array(
 							'key' => 'layout_5ca060f17980e',
 							'name' => 'flexible-qa-accordion',
-							'label' => __('Q&A accordion', 'tkmulti'),
+							'label' => __('Q&A accordion', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cddsw344b',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8166,7 +8166,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -8188,7 +8188,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5da233e138',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -8209,7 +8209,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5c33a234f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8221,8 +8221,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -8233,7 +8233,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde637a334e',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -8252,7 +8252,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk534szxcvfj',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8282,7 +8282,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5ca061077980f',
-									'label' => __('Title', 'tkmulti'),
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -8301,7 +8301,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5ca0612a79810',
-									'label' => __('Style', 'tkmulti'),
+									'label' => __('Style', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion_style',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8313,8 +8313,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'accordion' => __('Accordion', 'tkmulti'),
-										'tabs' => __('Tabs', 'tkmulti'),
+										'accordion' => __('Accordion', 'tkm-functionality'),
+										'tabs' => __('Tabs', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -8325,7 +8325,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cd82373556cf',
-									'label' => __('Icon type', 'tkmulti'),
+									'label' => __('Icon type', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion_icon',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8337,10 +8337,10 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'text_qa' => __('QA text', 'tkmulti'),
-										'checkmark' => __('Check mark', 'tkmulti'),
-										'plusminus' => __('Plus/Minus', 'tkmulti'),
-										'question' => __('Question mark', 'tkmulti'),
+										'text_qa' => __('QA text', 'tkm-functionality'),
+										'checkmark' => __('Check mark', 'tkm-functionality'),
+										'plusminus' => __('Plus/Minus', 'tkm-functionality'),
+										'question' => __('Question mark', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -8351,7 +8351,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc80192757bf',
-									'label' => __('Columns', 'tkmulti'),
+									'label' => __('Columns', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion_cols',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8371,8 +8371,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'page_qa_one_col' => __('One column', 'tkmulti'),
-										'page_qa_two_col' => __('Two columns', 'tkmulti'),
+										'page_qa_one_col' => __('One column', 'tkm-functionality'),
+										'page_qa_two_col' => __('Two columns', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -8383,7 +8383,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5ca061bd79811',
-									'label' => __('Q&A Rows', 'tkmulti'),
+									'label' => __('Q&A Rows', 'tkm-functionality'),
 									'name' => 'flex_qa_accordion',
 									'type' => 'repeater',
 									'instructions' => '',
@@ -8402,7 +8402,7 @@ acf_add_local_field_group(array(
 									'sub_fields' => array(
 										array(
 											'key' => 'field_5tk5ca0627579815',
-											'label' => __('Title', 'tkmulti'),
+											'label' => __('Title', 'tkm-functionality'),
 											'name' => 'flex_qa_accordion_question',
 											'type' => 'text',
 											'instructions' => '',
@@ -8421,7 +8421,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cc80280757c0',
-											'label' => __('Text', 'tkmulti'),
+											'label' => __('Text', 'tkm-functionality'),
 											'name' => 'flex_qa_accordion_answer',
 											'type' => 'wysiwyg',
 											'instructions' => '',
@@ -8447,12 +8447,12 @@ acf_add_local_field_group(array(
 						'layout_5c5fe5e1b39ff' => array(
 							'key' => 'layout_5c5fe5e1b39ff',
 							'name' => 'flexible-map',
-							'label' => __('Google map', 'tkmulti'),
+							'label' => __('Google map', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdsssd25b',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_map_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8464,7 +8464,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -8486,7 +8486,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5dhh5r4h2338',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_map_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -8507,7 +8507,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5cdbc2ssdf1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_map_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8519,8 +8519,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -8531,7 +8531,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde63sw1e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_map_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -8550,7 +8550,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk534sza3998fj',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_map_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8580,7 +8580,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5c5fe5efb3a00',
-									'label' => __('Title in map', 'tkmulti'),
+									'label' => __('Title in map', 'tkm-functionality'),
 									'name' => 'flex_map_name',
 									'type' => 'text',
 									'instructions' => '',
@@ -8599,7 +8599,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c5fe601b3a01',
-									'label' => __('Address', 'tkmulti'),
+									'label' => __('Address', 'tkm-functionality'),
 									'name' => 'flex_map',
 									'type' => 'google_map',
 									'instructions' => '',
@@ -8622,12 +8622,12 @@ acf_add_local_field_group(array(
 						'layout_5bsxaa9a3e' => array(
 							'key' => 'layout_5bsxaa9a3e',
 							'name' => 'flexible-testimonial-slider',
-							'label' => __('Testimonial slider', 'tkmulti'),
+							'label' => __('Testimonial slider', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5ca21222a25b',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_testimonial_slider_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8639,7 +8639,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -8661,7 +8661,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5d233dss38',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_testimonial_slider_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -8682,7 +8682,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5dds2sazzx1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_testimonial_slider_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8694,8 +8694,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -8706,7 +8706,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5casx221e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_testimonial_slider_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -8725,7 +8725,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk534szaa23d8fj',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_testimonial_slider_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8755,7 +8755,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5c8eas221ab',
-									'label' => __('Slider style', 'tkmulti'),
+									'label' => __('Slider style', 'tkm-functionality'),
 									'name' => 'flex_testimonial_slider_style',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8780,10 +8780,10 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cdsa234cf9',
-									'label' => __('Number of boxes to display', 'tkmulti'),
+									'label' => __('Number of boxes to display', 'tkm-functionality'),
 									'name' => 'flex_testimonial_slider_count',
 									'type' => 'number',
-									'instructions' => __('Between 1-3', 'tkmulti'),
+									'instructions' => __('Between 1-3', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
@@ -8801,7 +8801,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5b4a3ewdf40',
-									'label' => __('Testimonials', 'tkmulti'),
+									'label' => __('Testimonials', 'tkm-functionality'),
 									'name' => 'flex_testimonial_slider',
 									'type' => 'repeater',
 									'instructions' => '',
@@ -8820,7 +8820,7 @@ acf_add_local_field_group(array(
 									'sub_fields' => array(
 										array(
 											'key' => 'field_5tk5b44adddca41',
-											'label' => __('Title', 'tkmulti'),
+											'label' => __('Title', 'tkm-functionality'),
 											'name' => 'testimonial_slider_title',
 											'type' => 'text',
 											'instructions' => '',
@@ -8839,7 +8839,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5b4a109842',
-											'label' => __('Content', 'tkmulti'),
+											'label' => __('Content', 'tkm-functionality'),
 											'name' => 'testimonial_slider_content',
 											'type' => 'wysiwyg',
 											'instructions' => '',
@@ -8858,7 +8858,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5cc1987fgd2b',
-											'label' => __('Image', 'tkmulti'),
+											'label' => __('Image', 'tkm-functionality'),
 											'name' => 'testimonial_slider_img',
 											'type' => 'image',
 											'instructions' => '',
@@ -8882,7 +8882,7 @@ acf_add_local_field_group(array(
 										),
 										array(
 											'key' => 'field_5tk5b4sdds44',
-											'label' => __('Name', 'tkmulti'),
+											'label' => __('Name', 'tkm-functionality'),
 											'name' => 'testimonial_slider_name',
 											'type' => 'text',
 											'instructions' => '',
@@ -8908,12 +8908,12 @@ acf_add_local_field_group(array(
 						'layout_5tk5cada8dfdd' => array(
 							'key' => 'layout_5tk5cada8dfdd',
 							'name' => 'flexible-cat-box',
-							'label' => __('Cat Box Grid', 'tkmulti'),
+							'label' => __('Cat Box Grid', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cq22gf6',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_cat_box_grid_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8925,7 +8925,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -8947,7 +8947,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5dhsdfgf6',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_cat_box_grid_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -8968,7 +8968,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5ds2fgf6',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_cat_box_grid_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -8980,8 +8980,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -8992,7 +8992,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5ad2gf6',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_cat_box_grid_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -9011,7 +9011,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5sxgf6',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_cat_box_grid_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -9041,10 +9041,10 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk5ca2985b',
-									'label' => __('Boxes per row', 'tkmulti'),
+									'label' => __('Boxes per row', 'tkm-functionality'),
 									'name' => 'flex_cat_box_grid_count',
 									'type' => 'number',
-									'instructions' => __('between 1-3', 'tkmulti'),
+									'instructions' => __('between 1-3', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
@@ -9062,7 +9062,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5c3s985e',
-									'label' => __('Choose pages', 'tkmulti'),
+									'label' => __('Choose pages', 'tkm-functionality'),
 									'name' => 'flex_cat_box_grid',
 									'type' => 'relationship',
 									'instructions' => 'Pages must have a secondary featured image/icon "hover"',
@@ -9097,12 +9097,12 @@ acf_add_local_field_group(array(
 						'layout_5cc16ab52872a' => array(
 							'key' => 'layout_5cc16ab52872a',
 							'name' => 'flexible-parallax',
-							'label' => __('Parallax Image', 'tkmulti'),
+							'label' => __('Parallax Image', 'tkm-functionality'),
 							'display' => 'block',
 							'sub_fields' => array(
 								array(
 									'key' => 'field_5tk5cdde3f3ea25b',
-									'label' => __('Block Width', 'tkmulti'),
+									'label' => __('Block Width', 'tkm-functionality'),
 									'name' => 'flex_paralax_block_width',
 									'type' => 'radio',
 									'instructions' => '',
@@ -9114,7 +9114,7 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-md-12' => __('full width', 'tkmulti'),
+										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '1/12',
 										'col-sm-6 col-md-2' => '1/6',
 										'col-sm-6 col-md-3' => '1/4',
@@ -9136,7 +9136,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5dhh533e3wwe238',
-									'label' => __('Order On mobile', 'tkmulti'),
+									'label' => __('Order On mobile', 'tkm-functionality'),
 									'name' => 'flex_paralax_order',
 									'type' => 'number',
 									'instructions' => '',
@@ -9157,7 +9157,7 @@ acf_add_local_field_group(array(
 								),								
 								array(
 									'key' => 'field_5tk5c33ds22c7f1',
-									'label' => __('Mobile layout', 'tkmulti'),
+									'label' => __('Mobile layout', 'tkm-functionality'),
 									'name' => 'flex_paralax_mobile',
 									'type' => 'radio',
 									'instructions' => '',
@@ -9169,8 +9169,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'col-xs-12' => __('100%', 'tkmulti'),
-										'col-xs-6' => __('50%', 'tkmulti'),
+										'col-xs-12' => __('100%', 'tkm-functionality'),
+										'col-xs-6' => __('50%', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -9181,7 +9181,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cde637add32e5',
-									'label' => __('Hide On Mobile', 'tkmulti'),
+									'label' => __('Hide On Mobile', 'tkm-functionality'),
 									'name' => 'flex_paralax_hide_mobile',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -9200,7 +9200,7 @@ acf_add_local_field_group(array(
 								),	
 								array(
 									'key' => 'field_5tk534szabgfj',
-									'label' => __('Animation', 'tkmulti'),
+									'label' => __('Animation', 'tkm-functionality'),
 									'name' => 'flex_paralax_animation',
 									'type' => 'radio',
 									'instructions' => '',
@@ -9230,7 +9230,7 @@ acf_add_local_field_group(array(
 								),																																	
 								array(
 									'key' => 'field_5tk5cc16ade2872b',
-									'label' => __('Background image', 'tkmulti'),
+									'label' => __('Background image', 'tkm-functionality'),
 									'name' => 'flex_paralax_bg',
 									'type' => 'image',
 									'instructions' => '',
@@ -9254,7 +9254,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc202a4cd85f',
-									'label' => __('Background effect', 'tkmulti'),
+									'label' => __('Background effect', 'tkm-functionality'),
 									'name' => 'flex_paralax_style',
 									'type' => 'radio',
 									'instructions' => '',
@@ -9278,7 +9278,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc202cfcd860',
-									'label' => __('Block height', 'tkmulti'),
+									'label' => __('Block height', 'tkm-functionality'),
 									'name' => 'flex_paralax_h',
 									'type' => 'number',
 									'instructions' => '',
@@ -9299,7 +9299,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cc16af92872c',
-									'label' => __('Content on image', 'tkmulti'),
+									'label' => __('Content on image', 'tkm-functionality'),
 									'name' => 'flex_paralax_content',
 									'type' => 'wysiwyg',
 									'instructions' => '',
@@ -9323,7 +9323,7 @@ acf_add_local_field_group(array(
 
 						
 					),
-					'button_label' => __('Add Row', 'tkmulti'),
+					'button_label' => __('Add Row', 'tkm-functionality'),
 					'min' => '',
 					'max' => '',
 				),
@@ -9366,14 +9366,14 @@ acf_add_local_field_group(array(
 
 acf_add_local_field_group(array(
 	'key' => 'group_5tk5cdb269e18ef7',
-	'title' => __('MastHead', 'tkmulti'),
+	'title' => __('MastHead', 'tkm-functionality'),
 	'fields' => array(
 		array(
 			'key' => 'field_5tk5c8e505e45130',
-			'label' => __('Main Page Title', 'tkmulti'),
+			'label' => __('Main Page Title', 'tkm-functionality'),
 			'name' => 'page_masthead_title',
 			'type' => 'text',
-			'instructions' => __('H1 - Replace page name title', 'tkmulti'),
+			'instructions' => __('H1 - Replace page name title', 'tkm-functionality'),
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -9389,10 +9389,10 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5cdbb46c75871',
-			'label' => __('Hide Main Page Title', 'tkmulti'),
+			'label' => __('Hide Main Page Title', 'tkm-functionality'),
 			'name' => 'page_masthead_title_hide',
 			'type' => 'true_false',
-			'instructions' => __('If main page title is hidden you should add an H1 title in page', 'tkmulti'),
+			'instructions' => __('If main page title is hidden you should add an H1 title in page', 'tkm-functionality'),
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -9408,10 +9408,10 @@ acf_add_local_field_group(array(
 		),	
 		array(
 			'key' => 'field_5tk5c8f46bfffa62',
-			'label' => __('Second Featured Image', 'tkmulti'),
+			'label' => __('Second Featured Image', 'tkm-functionality'),
 			'name' => 'page_main_icon',
 			'type' => 'image',
-			'instructions' => __('Will be used as hover image effect', 'tkmulti'),
+			'instructions' => __('Will be used as hover image effect', 'tkm-functionality'),
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -9432,7 +9432,7 @@ acf_add_local_field_group(array(
 		),	
 		array(
 			'key' => 'field_5tk6t45a82e09623',
-			'label' => __('MastHead on Mobile', 'tkmulti'),
+			'label' => __('MastHead on Mobile', 'tkm-functionality'),
 			'name' => 'masthead_on_mobile',
 			'type' => 'radio',
 			'instructions' => '',
@@ -9444,8 +9444,8 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'same_desktop' => __('Same as Desktop', 'tkmulti'),
-				'mobile_masthead' => __('Different on Mobile', 'tkmulti'),
+				'same_desktop' => __('Same as Desktop', 'tkm-functionality'),
+				'mobile_masthead' => __('Different on Mobile', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -9456,10 +9456,10 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c8e515a45132',
-			'label' => __('Intro Text', 'tkmulti'),
+			'label' => __('Intro Text', 'tkm-functionality'),
 			'name' => 'page_masthead_text',
 			'type' => 'wysiwyg',
-			'instructions' => __('Position will be set by slider masthead style', 'tkmulti'),
+			'instructions' => __('Position will be set by slider masthead style', 'tkm-functionality'),
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -9475,10 +9475,10 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c8e510c45131',
-			'label' => __('Short Excerpt', 'tkmulti'),
+			'label' => __('Short Excerpt', 'tkm-functionality'),
 			'name' => 'page_masthead_excerpt',
 			'type' => 'textarea',
-			'instructions' => __('will be shown on related pages linked here', 'tkmulti'),
+			'instructions' => __('will be shown on related pages linked here', 'tkm-functionality'),
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -9494,7 +9494,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c8e4d434512f',
-			'label' => __('MastHead Top Slider', 'tkmulti'),
+			'label' => __('MastHead Top Slider', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -9510,7 +9510,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c8f5f82d86b9',
-			'label' => __('MastHead Style', 'tkmulti'),
+			'label' => __('MastHead Style', 'tkm-functionality'),
 			'name' => 'page_top_slider_style',
 			'type' => 'radio',
 			'instructions' => '',
@@ -9522,10 +9522,10 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'full_slider' => __('Image Slider or Youtube video', 'tkmulti'),
-				'clean_top' => __('Clean Image Short Head', 'tkmulti'),
-				'no_image_top' => __('No Image BG', 'tkmulti'),
-				'manual_slider' => __('Full Manual slider', 'tkmulti'),
+				'full_slider' => __('Image Slider or Youtube video', 'tkm-functionality'),
+				'clean_top' => __('Clean Image Short Head', 'tkm-functionality'),
+				'no_image_top' => __('No Image BG', 'tkm-functionality'),
+				'manual_slider' => __('Full Manual slider', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -9536,7 +9536,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma0378b7ddf',
-			'label' => __('Show section divider', 'tkmulti'),
+			'label' => __('Show section divider', 'tkm-functionality'),
 			'name' => 'page_top_slider_dividers',
 			'type' => 'true_false',
 			'instructions' => '',
@@ -9555,7 +9555,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma037ae401222',
-			'label' => __('MastHead background color', 'tkmulti'),
+			'label' => __('MastHead background color', 'tkm-functionality'),
 			'name' => 'masthead_background_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -9575,7 +9575,7 @@ acf_add_local_field_group(array(
 		
 		array(
 			'key' => 'field_5dma0378f70beb1',
-			'label' => __('Top divider section', 'tkmulti'),
+			'label' => __('Top divider section', 'tkm-functionality'),
 			'name' => 'masthead_top_divider_section_type',
 			'type' => 'select',
 			'instructions' => '',
@@ -9595,30 +9595,30 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'waves' => __('Waves', 'tkmulti'),
-				'opacity-waves' => __('Opacity waves', 'tkmulti'),
-				'mountains' => __('Mountains', 'tkmulti'),
-				'drops' => __('Drops', 'tkmulti'),
-				'opacity-clouds' => __('Opacity clouds', 'tkmulti'),
-				'big-clouds' => __('Big clouds', 'tkmulti'),
-				'pyramids' => __('Pyramids', 'tkmulti'),
-				'triangle' => __('Triangle', 'tkmulti'),
-				'circle' => __('Circle', 'tkmulti'),
-				'right-tilt' => __('Right tilt', 'tkmulti'),
-				'left-tilt' => __('Left tilt', 'tkmulti'),
-				'right-opacity-tilt' => __('Right opacity tilt', 'tkmulti'),
-				'left-opacity-tilt' => __('Left opacity tilt', 'tkmulti'),
-				'opacity-triangle' => __('Triangle opacity', 'tkmulti'),
-				'right-arc' => __('Right Arc', 'tkmulti'),
-				'left-arc' => __('Left Arc', 'tkmulti'),
-				'opacity-circle' => __('Opacity Circle', 'tkmulti'),
-				'right-opacity-arc' => __('Right Arc opacity', 'tkmulti'),
-				'left-opacity-arc' => __('Left Arc opacity', 'tkmulti'),
-				'arrow' => __('Arrow', 'tkmulti'),
-				'cross' => __('Cross', 'tkmulti'),
-				'watercolor' => __('Water-color',  'tkmulti'),
-				'watercolor-spread' => __('Water-color spread', 'tkmulti'),
-				'brush-spread' => __('Brush spread', 'tkmulti'),
+				'waves' => __('Waves', 'tkm-functionality'),
+				'opacity-waves' => __('Opacity waves', 'tkm-functionality'),
+				'mountains' => __('Mountains', 'tkm-functionality'),
+				'drops' => __('Drops', 'tkm-functionality'),
+				'opacity-clouds' => __('Opacity clouds', 'tkm-functionality'),
+				'big-clouds' => __('Big clouds', 'tkm-functionality'),
+				'pyramids' => __('Pyramids', 'tkm-functionality'),
+				'triangle' => __('Triangle', 'tkm-functionality'),
+				'circle' => __('Circle', 'tkm-functionality'),
+				'right-tilt' => __('Right tilt', 'tkm-functionality'),
+				'left-tilt' => __('Left tilt', 'tkm-functionality'),
+				'right-opacity-tilt' => __('Right opacity tilt', 'tkm-functionality'),
+				'left-opacity-tilt' => __('Left opacity tilt', 'tkm-functionality'),
+				'opacity-triangle' => __('Triangle opacity', 'tkm-functionality'),
+				'right-arc' => __('Right Arc', 'tkm-functionality'),
+				'left-arc' => __('Left Arc', 'tkm-functionality'),
+				'opacity-circle' => __('Opacity Circle', 'tkm-functionality'),
+				'right-opacity-arc' => __('Right Arc opacity', 'tkm-functionality'),
+				'left-opacity-arc' => __('Left Arc opacity', 'tkm-functionality'),
+				'arrow' => __('Arrow', 'tkm-functionality'),
+				'cross' => __('Cross', 'tkm-functionality'),
+				'watercolor' => __('Water-color',  'tkm-functionality'),
+				'watercolor-spread' => __('Water-color spread', 'tkm-functionality'),
+				'brush-spread' => __('Brush spread', 'tkm-functionality'),
 			),
 			'default_value' => array(
 			),
@@ -9631,7 +9631,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma037ae40beb2',
-			'label' => __('Top divider section - fill color', 'tkmulti'),
+			'label' => __('Top divider section - fill color', 'tkm-functionality'),
 			'name' => 'masthead_top_divider_section_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -9664,7 +9664,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma037ae40beb21',
-			'label' => __('Top divider section - BG color', 'tkmulti'),
+			'label' => __('Top divider section - BG color', 'tkm-functionality'),
 			'name' => 'masthead_top_divider_section_bg_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -9697,7 +9697,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma037b150beb3',
-			'label' => __('Top divider section - height', 'tkmulti'),
+			'label' => __('Top divider section - height', 'tkm-functionality'),
 			'name' => 'masthead_top_divider_section_height',
 			'type' => 'number',
 			'instructions' => '',
@@ -9736,7 +9736,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma037b7e0beb4',
-			'label' => __('Top divider section - position', 'tkmulti'),
+			'label' => __('Top divider section - position', 'tkm-functionality'),
 			'name' => 'masthead_top_divider_section_position',
 			'type' => 'radio',
 			'instructions' => '',
@@ -9756,8 +9756,8 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'behind' => __('Behind content', 'tkmulti'),
-				'on-top' => __('On top content', 'tkmulti'),
+				'behind' => __('Behind content', 'tkm-functionality'),
+				'on-top' => __('On top content', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'default_value' => '',
@@ -9766,7 +9766,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma0378f70berr1',
-			'label' => __('Bottom divider section', 'tkmulti'),
+			'label' => __('Bottom divider section', 'tkm-functionality'),
 			'name' => 'masthead_bottom_divider_section_type',
 			'type' => 'select',
 			'instructions' => '',
@@ -9786,30 +9786,30 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'waves' => __('Waves', 'tkmulti'),
-				'opacity-waves' => __('Opacity waves', 'tkmulti'),
-				'mountains' => __('Mountains', 'tkmulti'),
-				'drops' => __('Drops', 'tkmulti'),
-				'opacity-clouds' => __('Opacity clouds', 'tkmulti'),
-				'big-clouds' => __('Big clouds', 'tkmulti'),
-				'pyramids' => __('Pyramids', 'tkmulti'),
-				'triangle' => __('Triangle', 'tkmulti'),
-				'circle' => __('Circle', 'tkmulti'),
-				'right-tilt' => __('Right tilt', 'tkmulti'),
-				'left-tilt' => __('Left tilt', 'tkmulti'),
-				'right-opacity-tilt' => __('Right opacity tilt', 'tkmulti'),
-				'left-opacity-tilt' => __('Left opacity tilt', 'tkmulti'),
-				'opacity-triangle' => __('Triangle opacity', 'tkmulti'),
-				'right-arc' => __('Right Arc', 'tkmulti'),
-				'left-arc' => __('Left Arc', 'tkmulti'),
-				'opacity-circle' => __('Opacity Circle', 'tkmulti'),
-				'right-opacity-arc' => __('Right Arc opacity', 'tkmulti'),
-				'left-opacity-arc' => __('Left Arc opacity', 'tkmulti'),
-				'arrow' => __('Arrow', 'tkmulti'),
-				'cross' => __('Cross', 'tkmulti'),
-				'watercolor' => __('Water-color',  'tkmulti'),
-				'watercolor-spread' => __('Water-color spread', 'tkmulti'),
-				'brush-spread' => __('Brush spread', 'tkmulti'),
+				'waves' => __('Waves', 'tkm-functionality'),
+				'opacity-waves' => __('Opacity waves', 'tkm-functionality'),
+				'mountains' => __('Mountains', 'tkm-functionality'),
+				'drops' => __('Drops', 'tkm-functionality'),
+				'opacity-clouds' => __('Opacity clouds', 'tkm-functionality'),
+				'big-clouds' => __('Big clouds', 'tkm-functionality'),
+				'pyramids' => __('Pyramids', 'tkm-functionality'),
+				'triangle' => __('Triangle', 'tkm-functionality'),
+				'circle' => __('Circle', 'tkm-functionality'),
+				'right-tilt' => __('Right tilt', 'tkm-functionality'),
+				'left-tilt' => __('Left tilt', 'tkm-functionality'),
+				'right-opacity-tilt' => __('Right opacity tilt', 'tkm-functionality'),
+				'left-opacity-tilt' => __('Left opacity tilt', 'tkm-functionality'),
+				'opacity-triangle' => __('Triangle opacity', 'tkm-functionality'),
+				'right-arc' => __('Right Arc', 'tkm-functionality'),
+				'left-arc' => __('Left Arc', 'tkm-functionality'),
+				'opacity-circle' => __('Opacity Circle', 'tkm-functionality'),
+				'right-opacity-arc' => __('Right Arc opacity', 'tkm-functionality'),
+				'left-opacity-arc' => __('Left Arc opacity', 'tkm-functionality'),
+				'arrow' => __('Arrow', 'tkm-functionality'),
+				'cross' => __('Cross', 'tkm-functionality'),
+				'watercolor' => __('Water-color',  'tkm-functionality'),
+				'watercolor-spread' => __('Water-color spread', 'tkm-functionality'),
+				'brush-spread' => __('Brush spread', 'tkm-functionality'),
 			),
 			'default_value' => array(
 			),
@@ -9822,7 +9822,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma037ae40berr2',
-			'label' => __('Bottom divider section - fill color', 'tkmulti'),
+			'label' => __('Bottom divider section - fill color', 'tkm-functionality'),
 			'name' => 'masthead_bottom_divider_section_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -9855,7 +9855,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma037ae40berr22',
-			'label' => __('Bottom divider section - BG color', 'tkmulti'),
+			'label' => __('Bottom divider section - BG color', 'tkm-functionality'),
 			'name' => 'masthead_bottom_divider_section_bg_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -9888,7 +9888,7 @@ acf_add_local_field_group(array(
 		),				
 		array(
 			'key' => 'field_5dma037b150berr3',
-			'label' => __('Bottom divider section - height', 'tkmulti'),
+			'label' => __('Bottom divider section - height', 'tkm-functionality'),
 			'name' => 'masthead_bottom_divider_section_height',
 			'type' => 'number',
 			'instructions' => '',
@@ -9927,7 +9927,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dma037b7e0berr4',
-			'label' => __('Bottom divider section - position', 'tkmulti'),
+			'label' => __('Bottom divider section - position', 'tkm-functionality'),
 			'name' => 'masthead_bottom_divider_section_position',
 			'type' => 'radio',
 			'instructions' => '',
@@ -9947,8 +9947,8 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'behind' => __('Behind content', 'tkmulti'),
-				'on-top' => __('On top content', 'tkmulti'),
+				'behind' => __('Behind content', 'tkm-functionality'),
+				'on-top' => __('On top content', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'default_value' => '',
@@ -9962,7 +9962,7 @@ acf_add_local_field_group(array(
 						
 		array(
 			'key' => 'field_5tk5c96a82e09651',
-			'label' => __('Slider Effect', 'tkmulti'),
+			'label' => __('Slider Effect', 'tkm-functionality'),
 			'name' => 'page_top_slider_effect',
 			'type' => 'radio',
 			'instructions' => '',
@@ -9990,9 +9990,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'style1' => __('style1', 'tkmulti'),
-				'style2' => __('style2', 'tkmulti'),
-				'style3' => __('style3', 'tkmulti'),
+				'style1' => __('style1', 'tkm-functionality'),
+				'style2' => __('style2', 'tkm-functionality'),
+				'style3' => __('style3', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10003,7 +10003,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c978bcf63295',
-			'label' => __('Main title color', 'tkmulti'),
+			'label' => __('Main title color', 'tkm-functionality'),
 			'name' => 'page_masthead_title_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -10029,7 +10029,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c978b4663293',
-			'label' => __('Intro text color', 'tkmulti'),
+			'label' => __('Intro text color', 'tkm-functionality'),
 			'name' => 'page_masthead_text_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -10059,7 +10059,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c977a6af7f5e',
-			'label' => __('Title & Intro location', 'tkmulti'),
+			'label' => __('Title & Intro location', 'tkm-functionality'),
 			'name' => 'page_masthead_title_location',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10086,8 +10086,8 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'slider_content_inn' => __('On top of the Image', 'tkmulti'),
-				'slider_content_bottom' => __('Under the image', 'tkmulti'),
+				'slider_content_inn' => __('On top of the Image', 'tkm-functionality'),
+				'slider_content_bottom' => __('Under the image', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10098,7 +10098,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c9779d3f7f5c',
-			'label' => __('Title & Intro Horizontal position', 'tkmulti'),
+			'label' => __('Title & Intro Horizontal position', 'tkm-functionality'),
 			'name' => 'page_masthead_title_hor',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10132,9 +10132,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'start' => __('start', 'tkmulti'),
-				'center' => __('center', 'tkmulti'),
-				'end' => __('end', 'tkmulti'),
+				'start' => __('start', 'tkm-functionality'),
+				'center' => __('center', 'tkm-functionality'),
+				'end' => __('end', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10145,7 +10145,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c977a33f7f5d',
-			'label' => __('Titile & Intro Vertical position', 'tkmulti'),
+			'label' => __('Titile & Intro Vertical position', 'tkm-functionality'),
 			'name' => 'page_masthead_title_ver',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10170,9 +10170,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'top' => __('top', 'tkmulti'),
-				'middle' => __('middle', 'tkmulti'),
-				'bottom' => __('bottom', 'tkmulti'),
+				'top' => __('top', 'tkm-functionality'),
+				'middle' => __('middle', 'tkm-functionality'),
+				'bottom' => __('bottom', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10183,7 +10183,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c8e55e167281',
-			'label' => __('MastHead Visual Height', 'tkmulti'),
+			'label' => __('MastHead Visual Height', 'tkm-functionality'),
 			'name' => 'page_top_slider_height',
 			'type' => 'range',
 			'instructions' => '',
@@ -10218,7 +10218,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c8e518c6b897',
-			'label' => __('MastHead Type', 'tkmulti'),
+			'label' => __('MastHead Type', 'tkm-functionality'),
 			'name' => 'page_top_slider_content',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10241,8 +10241,8 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'image_slider' => __('Image / Image slider', 'tkmulti'),
-				'youtube_vid' => __('Youtube Video', 'tkmulti'),
+				'image_slider' => __('Image / Image slider', 'tkm-functionality'),
+				'youtube_vid' => __('Youtube Video', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10253,7 +10253,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c8e51916b898',
-			'label' => __('Choose Images', 'tkmulti'),
+			'label' => __('Choose Images', 'tkm-functionality'),
 			'name' => 'page_main_top_slider',
 			'type' => 'gallery',
 			'instructions' => '',
@@ -10286,7 +10286,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c8e51966b899',
-			'label' => __('Youtube full URL', 'tkmulti'),
+			'label' => __('Youtube full URL', 'tkm-functionality'),
 			'name' => 'page_top_slider_youtube_vid',
 			'type' => 'oembed',
 			'instructions' => '',
@@ -10310,7 +10310,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c99d7e997b16',
-			'label' => __('First Button - text', 'tkmulti'),
+			'label' => __('First Button - text', 'tkm-functionality'),
 			'name' => 'page_masthead_btn1_text',
 			'type' => 'text',
 			'instructions' => '',
@@ -10345,7 +10345,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c99d83597b17',
-			'label' => __('First Button - link', 'tkmulti'),
+			'label' => __('First Button - link', 'tkm-functionality'),
 			'name' => 'page_masthead_btn1_link',
 			'type' => 'text',
 			'instructions' => '',
@@ -10380,7 +10380,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c99d84d97b18',
-			'label' => __('Second Button - text', 'tkmulti'),
+			'label' => __('Second Button - text', 'tkm-functionality'),
 			'name' => 'page_masthead_btn2_text',
 			'type' => 'text',
 			'instructions' => '',
@@ -10415,7 +10415,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c99d86397b19',
-			'label' => __('Second Button - link', 'tkmulti'),
+			'label' => __('Second Button - link', 'tkm-functionality'),
 			'name' => 'page_masthead_btn2_link',
 			'type' => 'text',
 			'instructions' => '',
@@ -10450,7 +10450,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c99d8ae97b1a',
-			'label' => __('Button Style', 'tkmulti'),
+			'label' => __('Button Style', 'tkm-functionality'),
 			'name' => 'page_masthead_btn_style',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10478,9 +10478,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'btn_style1' => __('Style 1', 'tkmulti'),
-				'btn_style2' => __('Style 2', 'tkmulti'),
-				'btn_style3' => __('Style 3', 'tkmulti'),
+				'btn_style1' => __('Style 1', 'tkm-functionality'),
+				'btn_style2' => __('Style 2', 'tkm-functionality'),
+				'btn_style3' => __('Style 3', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10491,7 +10491,7 @@ acf_add_local_field_group(array(
 		),		
 		array(
 			'key' => 'field_5tk5c99dde13eea7',
-			'label' => __('Button text color', 'tkmulti'),
+			'label' => __('Button text color', 'tkm-functionality'),
 			'name' => 'page_masthead_btn_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -10527,7 +10527,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c99de133eea8',
-			'label' => __('Button background color', 'tkmulti'),
+			'label' => __('Button background color', 'tkm-functionality'),
 			'name' => 'page_masthead_btn_bg_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -10563,7 +10563,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5cdfde3421a97',
-			'label' => __('Manual Full Slider', 'tkmulti'),
+			'label' => __('Manual Full Slider', 'tkm-functionality'),
 			'name' => 'page_top_slider_manual',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -10588,7 +10588,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5tk5cdfde5621a98',
-					'label' => __('Background Type', 'tkmulti'),
+					'label' => __('Background Type', 'tkm-functionality'),
 					'name' => 'slider_manual_bg',
 					'type' => 'radio',
 					'instructions' => '',
@@ -10600,8 +10600,8 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'image_bg' => __('Image', 'tkmulti'),
-						'video_bg' => __('Video', 'tkmulti'),
+						'image_bg' => __('Image', 'tkm-functionality'),
+						'video_bg' => __('Video', 'tkm-functionality'),
 					),
 					'allow_null' => 0,
 					'other_choice' => 0,
@@ -10612,7 +10612,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5cdfde9921a99',
-					'label' => __('Image', 'tkmulti'),
+					'label' => __('Image', 'tkm-functionality'),
 					'name' => 'slider_manual_image',
 					'type' => 'image',
 					'instructions' => '',
@@ -10644,7 +10644,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5cdfdeb621a9a',
-					'label' => __('Video URL', 'tkmulti'),
+					'label' => __('Video URL', 'tkm-functionality'),
 					'name' => 'slider_manual_video',
 					'type' => 'oembed',
 					'instructions' => '',
@@ -10668,7 +10668,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5cdfded621a9b',
-					'label' => __('Content on slide', 'tkmulti'),
+					'label' => __('Content on slide', 'tkm-functionality'),
 					'name' => 'slider_manual_content',
 					'type' => 'wysiwyg',
 					'instructions' => '',
@@ -10687,7 +10687,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5cdfdef421a9c',
-					'label' => __('Contenet position on slide', 'tkmulti'),
+					'label' => __('Contenet position on slide', 'tkm-functionality'),
 					'name' => 'slider_manual_content_position',
 					'type' => 'radio',
 					'instructions' => '',
@@ -10699,15 +10699,15 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'center-xs middle-xs' => __('Center Middle', 'tkmulti'),
-						'center-xs top-xs' => __('Center Top', 'tkmulti'),
-						'center-xs bottom-xs' => __('Center Bottom', 'tkmulti'),
-						'top-xs start-xs' => __('Top Start', 'tkmulti'),
-						'middle-xs start-xs' => __('Middle Start', 'tkmulti'),
-						'bottom-xs start-xs' => __('Bottom Start', 'tkmulti'),
-						'top-xs end-xs' => __('Top End', 'tkmulti'),
-						'middle-xs end-xs' => __('Middle End', 'tkmulti'),
-						'bottom-xs end-xs' => __('Bottom End', 'tkmulti'),
+						'center-xs middle-xs' => __('Center Middle', 'tkm-functionality'),
+						'center-xs top-xs' => __('Center Top', 'tkm-functionality'),
+						'center-xs bottom-xs' => __('Center Bottom', 'tkm-functionality'),
+						'top-xs start-xs' => __('Top Start', 'tkm-functionality'),
+						'middle-xs start-xs' => __('Middle Start', 'tkm-functionality'),
+						'bottom-xs start-xs' => __('Bottom Start', 'tkm-functionality'),
+						'top-xs end-xs' => __('Top End', 'tkm-functionality'),
+						'middle-xs end-xs' => __('Middle End', 'tkm-functionality'),
+						'bottom-xs end-xs' => __('Bottom End', 'tkm-functionality'),
 					),
 					'allow_null' => 0,
 					'other_choice' => 0,
@@ -10720,7 +10720,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c8e4d434512f',
-			'label' => __('Mobile MastHead Top Slider', 'tkmulti'),
+			'label' => __('Mobile MastHead Top Slider', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'conditional_logic' => array(
@@ -10743,7 +10743,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c8f5f82d86b9',
-			'label' => __('MastHead Style', 'tkmulti'),
+			'label' => __('MastHead Style', 'tkm-functionality'),
 			'name' => 'mobile_page_top_slider_style',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10755,10 +10755,10 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'full_slider' => __('Image Slider or Youtube video', 'tkmulti'),
-				'clean_top' => __('Clean Image Short Head', 'tkmulti'),
-				'no_image_top' => __('No Image BG', 'tkmulti'),
-				'manual_slider' => __('Full Manual slider', 'tkmulti'),
+				'full_slider' => __('Image Slider or Youtube video', 'tkm-functionality'),
+				'clean_top' => __('Clean Image Short Head', 'tkm-functionality'),
+				'no_image_top' => __('No Image BG', 'tkm-functionality'),
+				'manual_slider' => __('Full Manual slider', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10769,7 +10769,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c96a82e09651',
-			'label' => __('Slider Effect', 'tkmulti'),
+			'label' => __('Slider Effect', 'tkm-functionality'),
 			'name' => 'mobile_page_top_slider_effect',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10797,9 +10797,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'style1' => __('style1', 'tkmulti'),
-				'style2' => __('style2', 'tkmulti'),
-				'style3' => __('style3', 'tkmulti'),
+				'style1' => __('style1', 'tkm-functionality'),
+				'style2' => __('style2', 'tkm-functionality'),
+				'style3' => __('style3', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10810,7 +10810,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c978bcf63295',
-			'label' => __('Main title color', 'tkmulti'),
+			'label' => __('Main title color', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_title_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -10836,7 +10836,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c978b4663293',
-			'label' => __('Intro text color', 'tkmulti'),
+			'label' => __('Intro text color', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_text_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -10866,7 +10866,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c977a6af7f5e',
-			'label' => __('Title & Intro location', 'tkmulti'),
+			'label' => __('Title & Intro location', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_title_location',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10893,8 +10893,8 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'slider_content_inn' => __('On top of the Image', 'tkmulti'),
-				'slider_content_bottom' => __('Under the image', 'tkmulti'),
+				'slider_content_inn' => __('On top of the Image', 'tkm-functionality'),
+				'slider_content_bottom' => __('Under the image', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10905,7 +10905,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c9779d3f7f5c',
-			'label' => __('Title & Intro Horizontal position', 'tkmulti'),
+			'label' => __('Title & Intro Horizontal position', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_title_hor',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10932,9 +10932,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'start' => __('start', 'tkmulti'),
-				'center' => __('center', 'tkmulti'),
-				'end' => __('end', 'tkmulti'),
+				'start' => __('start', 'tkm-functionality'),
+				'center' => __('center', 'tkm-functionality'),
+				'end' => __('end', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10945,7 +10945,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c977a33f7f5d',
-			'label' => __('Titile & Intro Vertical position', 'tkmulti'),
+			'label' => __('Titile & Intro Vertical position', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_title_ver',
 			'type' => 'radio',
 			'instructions' => '',
@@ -10970,9 +10970,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'top' => __('top', 'tkmulti'),
-				'middle' => __('middle', 'tkmulti'),
-				'bottom' => __('bottom', 'tkmulti'),
+				'top' => __('top', 'tkm-functionality'),
+				'middle' => __('middle', 'tkm-functionality'),
+				'bottom' => __('bottom', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -10983,7 +10983,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c8e55e167281',
-			'label' => __('MastHead Visual Height', 'tkmulti'),
+			'label' => __('MastHead Visual Height', 'tkm-functionality'),
 			'name' => 'mobile_page_top_slider_height',
 			'type' => 'range',
 			'instructions' => '',
@@ -11018,7 +11018,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c8e518c6b897',
-			'label' => __('MastHead Type', 'tkmulti'),
+			'label' => __('MastHead Type', 'tkm-functionality'),
 			'name' => 'mobile_page_top_slider_content',
 			'type' => 'radio',
 			'instructions' => '',
@@ -11041,8 +11041,8 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'image_slider' => __('Image / Image slider', 'tkmulti'),
-				'youtube_vid' => __('Youtube Video', 'tkmulti'),
+				'image_slider' => __('Image / Image slider', 'tkm-functionality'),
+				'youtube_vid' => __('Youtube Video', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -11053,7 +11053,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c8e51916b898',
-			'label' => __('Choose Images', 'tkmulti'),
+			'label' => __('Choose Images', 'tkm-functionality'),
 			'name' => 'mobile_page_main_top_slider',
 			'type' => 'gallery',
 			'instructions' => '',
@@ -11086,7 +11086,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c8e51966b899',
-			'label' => __('Youtube full URL', 'tkmulti'),
+			'label' => __('Youtube full URL', 'tkm-functionality'),
 			'name' => 'mobile_page_top_slider_youtube_vid',
 			'type' => 'oembed',
 			'instructions' => '',
@@ -11110,7 +11110,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c99d7e997b16',
-			'label' => __('First Button - text', 'tkmulti'),
+			'label' => __('First Button - text', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_btn1_text',
 			'type' => 'text',
 			'instructions' => '',
@@ -11145,7 +11145,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c99d83597b17',
-			'label' => __('First Button - link', 'tkmulti'),
+			'label' => __('First Button - link', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_btn1_link',
 			'type' => 'text',
 			'instructions' => '',
@@ -11180,7 +11180,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c99d84d97b18',
-			'label' => __('Second Button - text', 'tkmulti'),
+			'label' => __('Second Button - text', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_btn2_text',
 			'type' => 'text',
 			'instructions' => '',
@@ -11215,7 +11215,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c99d86397b19',
-			'label' => __('Second Button - link', 'tkmulti'),
+			'label' => __('Second Button - link', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_btn2_link',
 			'type' => 'text',
 			'instructions' => '',
@@ -11250,7 +11250,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c99d8ae97b1a',
-			'label' => __('Button Style', 'tkmulti'),
+			'label' => __('Button Style', 'tkm-functionality'),
 			'name' => 'page_masthead_btn_style',
 			'type' => 'radio',
 			'instructions' => '',
@@ -11278,9 +11278,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'btn_style1' => __('Style 1', 'tkmulti'),
-				'btn_style2' => __('Style 2', 'tkmulti'),
-				'btn_style3' => __('Style 3', 'tkmulti'),
+				'btn_style1' => __('Style 1', 'tkm-functionality'),
+				'btn_style2' => __('Style 2', 'tkm-functionality'),
+				'btn_style3' => __('Style 3', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -11291,7 +11291,7 @@ acf_add_local_field_group(array(
 		),		
 		array(
 			'key' => 'field_5tkmobile5c99dde13eea7',
-			'label' => __('Button text color', 'tkmulti'),
+			'label' => __('Button text color', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_btn_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -11327,7 +11327,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5c99de133eea8',
-			'label' => __('Button background color', 'tkmulti'),
+			'label' => __('Button background color', 'tkm-functionality'),
 			'name' => 'mobile_page_masthead_btn_bg_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -11363,7 +11363,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tkmobile5cdfde3421a97',
-			'label' => __('Manual Full Slider', 'tkmulti'),
+			'label' => __('Manual Full Slider', 'tkm-functionality'),
 			'name' => 'mobile_page_top_slider_manual',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -11388,7 +11388,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5tkmobile5cdfde5621a98',
-					'label' => __('Background Type', 'tkmulti'),
+					'label' => __('Background Type', 'tkm-functionality'),
 					'name' => 'mobile_slider_manual_bg',
 					'type' => 'radio',
 					'instructions' => '',
@@ -11400,8 +11400,8 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'image_bg' => __('Image', 'tkmulti'),
-						'video_bg' => __('Video', 'tkmulti'),
+						'image_bg' => __('Image', 'tkm-functionality'),
+						'video_bg' => __('Video', 'tkm-functionality'),
 					),
 					'allow_null' => 0,
 					'other_choice' => 0,
@@ -11412,7 +11412,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tkmobile5cdfde9921a99',
-					'label' => __('Image', 'tkmulti'),
+					'label' => __('Image', 'tkm-functionality'),
 					'name' => 'mobile_slider_manual_image',
 					'type' => 'image',
 					'instructions' => '',
@@ -11444,7 +11444,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tkmobile5cdfdeb621a9a',
-					'label' => __('Video URL', 'tkmulti'),
+					'label' => __('Video URL', 'tkm-functionality'),
 					'name' => 'mobile_slider_manual_video',
 					'type' => 'oembed',
 					'instructions' => '',
@@ -11468,7 +11468,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tkmobile5cdfded621a9b',
-					'label' => __('Content on slide', 'tkmulti'),
+					'label' => __('Content on slide', 'tkm-functionality'),
 					'name' => 'mobile_slider_manual_content',
 					'type' => 'wysiwyg',
 					'instructions' => '',
@@ -11487,7 +11487,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tkmobile5cdfdef421a9c',
-					'label' => __('Contenet position on slide', 'tkmulti'),
+					'label' => __('Contenet position on slide', 'tkm-functionality'),
 					'name' => 'mobile_slider_manual_content_position',
 					'type' => 'radio',
 					'instructions' => '',
@@ -11499,15 +11499,15 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'center-xs middle-xs' => __('Center Middle', 'tkmulti'),
-						'top-xs middle-xs' => __('Top Middle', 'tkmulti'),
-						'bottom-xs middle-xs' => __('Bottom Middle', 'tkmulti'),
-						'top-xs start-xs' => __('Top Start', 'tkmulti'),
-						'middle-xs start-xs' => __('Middle Start', 'tkmulti'),
-						'bottom-xs start-xs' => __('Bottom Start', 'tkmulti'),
-						'top-xs end-xs' => __('Top End', 'tkmulti'),
-						'middle-xs end-xs' => __('Middle End', 'tkmulti'),
-						'bottom-xs end-xs' => __('Bottom End', 'tkmulti'),
+						'center-xs middle-xs' => __('Center Middle', 'tkm-functionality'),
+						'top-xs middle-xs' => __('Top Middle', 'tkm-functionality'),
+						'bottom-xs middle-xs' => __('Bottom Middle', 'tkm-functionality'),
+						'top-xs start-xs' => __('Top Start', 'tkm-functionality'),
+						'middle-xs start-xs' => __('Middle Start', 'tkm-functionality'),
+						'bottom-xs start-xs' => __('Bottom Start', 'tkm-functionality'),
+						'top-xs end-xs' => __('Top End', 'tkm-functionality'),
+						'middle-xs end-xs' => __('Middle End', 'tkm-functionality'),
+						'bottom-xs end-xs' => __('Bottom End', 'tkm-functionality'),
 					),
 					'allow_null' => 0,
 					'other_choice' => 0,
