@@ -4,11 +4,11 @@ if( function_exists('acf_add_local_field_group') ):
 // Options Theme Setings - ACF Group
 acf_add_local_field_group(array(
 	'key' => 'group_5tk5c1be993d3445',
-	'title' => __('General settings', 'tkmulti'),
+	'title' => __('General settings', 'tkm-functionality'),
 	'fields' => array(
 		array(
 			'key' => 'field_5tk5c46csw2d',
-			'label' => __('Style & Layout', 'tkmulti'),
+			'label' => __('Style & Layout', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -24,7 +24,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c96a32d8b39e',
-			'label' => __('Site layout', 'tkmulti'),
+			'label' => __('Site layout', 'tkm-functionality'),
 			'name' => 'site_wrap_style',
 			'type' => 'radio',
 			'instructions' => '',
@@ -36,8 +36,8 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'full_width' => __('Full width', 'tkmulti'),
-				'boxed_site' => __('Box site', 'tkmulti'),
+				'full_width' => __('Full width', 'tkm-functionality'),
+				'boxed_site' => __('Box site', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -48,7 +48,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c96a3648b39f',
-			'label' => __('Background color', 'tkmulti'),
+			'label' => __('Background color', 'tkm-functionality'),
 			'name' => 'site_bg_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -63,7 +63,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c96a3918b3a0',
-			'label' => __('Inner background color', 'tkmulti'),
+			'label' => __('Inner background color', 'tkm-functionality'),
 			'name' => 'site_inner_bg_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -78,7 +78,7 @@ acf_add_local_field_group(array(
 		),		
 		array(
 			'key' => 'field_5tk5c46c6c60855d',
-			'label' => __('General info', 'tkmulti'),
+			'label' => __('General info', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -94,7 +94,7 @@ acf_add_local_field_group(array(
 		),		
 		array(
 			'key' => 'field_5tk5c46c6dc0855e',
-			'label' => __('Main phone', 'tkmulti'),
+			'label' => __('Main phone', 'tkm-functionality'),
 			'name' => 'header_phone',
 			'type' => 'text',
 			'instructions' => '',
@@ -113,7 +113,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c4cbde89dc5e',
-			'label' => __('Main contact - Phone text', 'tkmulti'),
+			'label' => __('Main contact - Phone text', 'tkm-functionality'),
 			'name' => 'site_phone_title',
 			'type' => 'text',
 			'instructions' => '',
@@ -132,7 +132,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c4cbeba9dc5f',
-			'label' => __('Phone for Whatsapp', 'tkmulti'),
+			'label' => __('Phone for Whatsapp', 'tkm-functionality'),
 			'name' => 'site_whatsapp_num',
 			'type' => 'text',
 			'instructions' => '',
@@ -151,7 +151,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c4cbed09dc60',
-			'label' => __('Main contact - Whatsapp text', 'tkmulti'),
+			'label' => __('Main contact - Whatsapp text', 'tkm-functionality'),
 			'name' => 'site_whatsapp_text',
 			'type' => 'text',
 			'instructions' => '',
@@ -170,7 +170,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c4cbee69dc61',
-			'label' => __('Main email', 'tkmulti'),
+			'label' => __('Main email', 'tkm-functionality'),
 			'name' => 'site_main_email',
 			'type' => 'text',
 			'instructions' => '',
@@ -189,7 +189,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c4cbf009dc62',
-			'label' => __('Main contact - Email text', 'tkmulti'),
+			'label' => __('Main contact - Email text', 'tkm-functionality'),
 			'name' => 'site_main_email_text',
 			'type' => 'text',
 			'instructions' => '',
@@ -208,7 +208,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c4cbf139dc63',
-			'label' => __('Mobile phone', 'tkmulti'),
+			'label' => __('Mobile phone', 'tkm-functionality'),
 			'name' => 'site_main_cellphone',
 			'type' => 'text',
 			'instructions' => '',
@@ -227,7 +227,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c4cbf279dc64',
-			'label' => __('Main contact - Mobile text', 'tkmulti'),
+			'label' => __('Main contact - Mobile text', 'tkm-functionality'),
 			'name' => 'site_main_cellphone_text',
 			'type' => 'text',
 			'instructions' => '',
@@ -246,7 +246,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c4cbf3a9dc65',
-			'label' => __('Messanger', 'tkmulti'),
+			'label' => __('Messanger', 'tkm-functionality'),
 			'name' => 'site_messanger',
 			'type' => 'text',
 			'instructions' => '',
@@ -265,7 +265,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c4cbf4c9dc66',
-			'label' => __('Main contact - Messanger text', 'tkmulti'),
+			'label' => __('Main contact - Messanger text', 'tkm-functionality'),
 			'name' => 'site_messanger_text',
 			'type' => 'text',
 			'instructions' => '',
@@ -284,7 +284,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5ca2510c0fa77',
-			'label' => __('Facebook', 'tkmulti'),
+			'label' => __('Facebook', 'tkm-functionality'),
 			'name' => 'site_facebook',
 			'type' => 'text',
 			'instructions' => '',
@@ -303,7 +303,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5ca251280fa78',
-			'label' => __('Main contact - Facebook text', 'tkmulti'),
+			'label' => __('Main contact - Facebook text', 'tkm-functionality'),
 			'name' => 'site_facebook_text',
 			'type' => 'text',
 			'instructions' => '',
@@ -322,7 +322,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5ca22aff8e4fb',
-			'label' => __('Main share - Twitter text', 'tkmulti'),
+			'label' => __('Main share - Twitter text', 'tkm-functionality'),
 			'name' => 'site_twitter_share',
 			'type' => 'text',
 			'instructions' => '',
@@ -341,7 +341,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5ca22b598e4fd',
-			'label' => __('Main share - Facebook text', 'tkmulti'),
+			'label' => __('Main share - Facebook text', 'tkm-functionality'),
 			'name' => 'site_facebook_share',
 			'type' => 'text',
 			'instructions' => '',
@@ -360,7 +360,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5ca22b778e501',
-			'label' => __('Main share - Whatsapp text', 'tkmulti'),
+			'label' => __('Main share - Whatsapp text', 'tkm-functionality'),
 			'name' => 'site_whatsapp_share',
 			'type' => 'text',
 			'instructions' => '',
@@ -379,7 +379,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5ca22b8a8e502',
-			'label' => __('Main share - email text', 'tkmulti'),
+			'label' => __('Main share - email text', 'tkm-functionality'),
 			'name' => 'site_email_share',
 			'type' => 'text',
 			'instructions' => '',
@@ -398,7 +398,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c46c6ef0855f',
-			'label' => __('Social links', 'tkmulti'),
+			'label' => __('Social links', 'tkm-functionality'),
 			'name' => 'social_links',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -417,7 +417,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5tk5c46c70408560',
-					'label' => __('Icon', 'tkmulti'),
+					'label' => __('Icon', 'tkm-functionality'),
 					'name' => 'social_links_icon',
 					'type' => 'font-awesome',
 					'instructions' => '',
@@ -442,7 +442,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c46c71708561',
-					'label' => __('Link', 'tkmulti'),
+					'label' => __('Link', 'tkm-functionality'),
 					'name' => 'social_links_link',
 					'type' => 'text',
 					'instructions' => '',
@@ -463,7 +463,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c1be9a7ed7ae',
-			'label' => __('Header', 'tkmulti'),
+			'label' => __('Header', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -479,7 +479,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c1be9b3ed7af',
-			'label' => __('Header style', 'tkmulti'),
+			'label' => __('Header style', 'tkm-functionality'),
 			'name' => 'header_style',
 			'type' => 'radio',
 			'instructions' => '',
@@ -491,12 +491,12 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'full_row_box normal_menu' => __('Logo on side of nav', 'tkmulti'),
-				'split_row_box normal_menu' => __('Logo above nav', 'tkmulti'),
-				'header_logo_center_nav normal_menu' => __('Logo center nav', 'tkmulti'),
-				'header_logo_center_no_nav' => __('Logo center NO nav', 'tkmulti'),
-				'header_logo_r_no_nav' => __('Logo side NO nav', 'tkmulti'),
-				'full_site_hamburger' => __('Logo with Hamburger nav', 'tkmulti'),
+				'full_row_box normal_menu' => __('Logo on side of nav', 'tkm-functionality'),
+				'split_row_box normal_menu' => __('Logo above nav', 'tkm-functionality'),
+				'header_logo_center_nav normal_menu' => __('Logo center nav', 'tkm-functionality'),
+				'header_logo_center_no_nav' => __('Logo center NO nav', 'tkm-functionality'),
+				'header_logo_r_no_nav' => __('Logo side NO nav', 'tkm-functionality'),
+				'full_site_hamburger' => __('Logo with Hamburger nav', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -507,7 +507,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c96a3e7d88f5',
-			'label' => __('Header background color', 'tkmulti'),
+			'label' => __('Header background color', 'tkm-functionality'),
 			'name' => 'header_bg_color',
 			'type' => 'radio',
 			'instructions' => '',
@@ -519,9 +519,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'header_dark' => __('Dark', 'tkmulti'),
-				'header_light' => __('Light', 'tkmulti'),
-				'header_trans' => __('Transparent', 'tkmulti'),
+				'header_dark' => __('Dark', 'tkm-functionality'),
+				'header_light' => __('Light', 'tkm-functionality'),
+				'header_trans' => __('Transparent', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -532,7 +532,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c629d581dd7b',
-			'label' => __('Logo position (desktop)', 'tkmulti'),
+			'label' => __('Logo position (desktop)', 'tkm-functionality'),
 			'name' => 'header_logo_side',
 			'type' => 'radio',
 			'instructions' => '',
@@ -566,9 +566,9 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'logo_side_right' => __('Logo right', 'tkmulti'),
-				'logo_side_center' => __('Logo center', 'tkmulti'),
-				'logo_side_left' => __('Logo left', 'tkmulti'),
+				'logo_side_right' => __('Logo right', 'tkm-functionality'),
+				'logo_side_center' => __('Logo center', 'tkm-functionality'),
+				'logo_side_left' => __('Logo left', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -579,7 +579,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c627wrgdbb',
-			'label' => __('Menu item layout', 'tkmulti'),
+			'label' => __('Menu item layout', 'tkm-functionality'),
 			'name' => 'menu_item_layout',
 			'type' => 'radio',
 			'instructions' => '',
@@ -606,10 +606,10 @@ acf_add_local_field_group(array(
 				'id' => '',
 			),
 			'choices' => array(
-				'spread_nav' => __('Spread items evenly', 'tkmulti'),
-				'align_start_nav' => __('Align item start', 'tkmulti'),
-				'align_end_nav' => __('Align item end', 'tkmulti'),
-				'align_center_nav' => __('Align item center', 'tkmulti'),
+				'spread_nav' => __('Spread items evenly', 'tkm-functionality'),
+				'align_start_nav' => __('Align item start', 'tkm-functionality'),
+				'align_end_nav' => __('Align item end', 'tkm-functionality'),
+				'align_center_nav' => __('Align item center', 'tkm-functionality'),
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -620,7 +620,7 @@ acf_add_local_field_group(array(
 		),		
 		array(
 			'key' => 'field_5tk5c1cafd6fd445',
-			'label' => __('Default slider title size', 'tkmulti'),
+			'label' => __('Default slider title size', 'tkm-functionality'),
 			'name' => 'home_masthead_content_title',
 			'type' => 'number',
 			'instructions' => '',
@@ -641,7 +641,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dskjkh60beb0',
-			'label' => __('Show top panel', 'tkmulti'),
+			'label' => __('Show top panel', 'tkm-functionality'),
 			'name' => 'header_top_panel_show',
 			'type' => 'true_false',
 			'instructions' => '',
@@ -660,7 +660,7 @@ acf_add_local_field_group(array(
 		),				
 		array(
 			'key' => 'field_5dskjfvep00',
-			'label' => __('Show phone in top panel', 'tkmulti'),
+			'label' => __('Show phone in top panel', 'tkm-functionality'),
 			'name' => 'header_top_panel_phone_show',
 			'type' => 'true_false',
 			'instructions' => '',
@@ -687,7 +687,7 @@ acf_add_local_field_group(array(
 		),	
 		array(
 			'key' => 'field_5dskjfggsp00',
-			'label' => __('Show nav in top panel', 'tkmulti'),
+			'label' => __('Show nav in top panel', 'tkm-functionality'),
 			'name' => 'header_top_panel_nav_show',
 			'type' => 'true_false',
 			'instructions' => '',
@@ -714,7 +714,7 @@ acf_add_local_field_group(array(
 		),													
 		array(
 			'key' => 'field_5tk5c362960b10a0',
-			'label' => __('Top panel - right text', 'tkmulti'),
+			'label' => __('Top panel - right text', 'tkm-functionality'),
 			'name' => 'header_top_panel_right',
 			'type' => 'text',
 			'instructions' => '',
@@ -741,7 +741,7 @@ acf_add_local_field_group(array(
 		),		
 		array(
 			'key' => 'field_5tk5cce8c275259b',
-			'label' => __('Top panel - left', 'tkmulti'),
+			'label' => __('Top panel - left', 'tkm-functionality'),
 			'name' => 'header_top_nav_left',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -768,7 +768,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5tk5cce8c4c5259c',
-					'label' => __('Icon', 'tkmulti'),
+					'label' => __('Icon', 'tkm-functionality'),
 					'name' => 'header_top_nav_left_icon',
 					'type' => 'font-awesome',
 					'instructions' => '',
@@ -798,7 +798,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5cce8c5d5259d',
-					'label' => __('Text', 'tkmulti'),
+					'label' => __('Text', 'tkm-functionality'),
 					'name' => 'header_top_nav_left_text',
 					'type' => 'text',
 					'instructions' => '',
@@ -817,7 +817,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5cce8c6c5259e',
-					'label' => __('Link', 'tkmulti'),
+					'label' => __('Link', 'tkm-functionality'),
 					'name' => 'header_top_nav_left_link',
 					'type' => 'text',
 					'instructions' => '',
@@ -838,7 +838,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5cce994ce0e24',
-			'label' => __('Top panel - left nav on mobile only', 'tkmulti'),
+			'label' => __('Top panel - left nav on mobile only', 'tkm-functionality'),
 			'name' => 'header_mobile_left',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -865,7 +865,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5tk5cce994ce0e25',
-					'label' => __('Icon', 'tkmulti'),
+					'label' => __('Icon', 'tkm-functionality'),
 					'name' => 'header_mobile_left_icon',
 					'type' => 'font-awesome',
 					'instructions' => '',
@@ -895,7 +895,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5cce994ce0e26',
-					'label' => __('Text', 'tkmulti'),
+					'label' => __('Text', 'tkm-functionality'),
 					'name' => 'header_mobile_left_text',
 					'type' => 'text',
 					'instructions' => '',
@@ -914,7 +914,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5cce994ce0e27',
-					'label' => __('Link', 'tkmulti'),
+					'label' => __('Link', 'tkm-functionality'),
 					'name' => 'header_mobile_left_link',
 					'type' => 'text',
 					'instructions' => '',
@@ -935,7 +935,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c728aec08fc8',
-			'label' => __('Default top slider image', 'tkmulti'),
+			'label' => __('Default top slider image', 'tkm-functionality'),
 			'name' => 'default_main_masthead_bg',
 			'type' => 'image',
 			'instructions' => '',
@@ -959,7 +959,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c46c630354f3',
-			'label' => __('Footer', 'tkmulti'),
+			'label' => __('Footer', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -975,7 +975,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c8e47b6638a4',
-			'label' => __('Footer social links', 'tkmulti'),
+			'label' => __('Footer social links', 'tkm-functionality'),
 			'name' => 'footer_links',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -994,7 +994,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5tk5c8e47b6638a5',
-					'label' => __('Icon', 'tkmulti'),
+					'label' => __('Icon', 'tkm-functionality'),
 					'name' => 'footer_links_icon',
 					'type' => 'font-awesome',
 					'instructions' => '',
@@ -1024,7 +1024,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c8e47b6638a6',
-					'label' => __('Link', 'tkmulti'),
+					'label' => __('Link', 'tkm-functionality'),
 					'name' => 'footer_links_link',
 					'type' => 'text',
 					'instructions' => '',
@@ -1043,7 +1043,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c8e480f638a7',
-					'label' => __('Text', 'tkmulti'),
+					'label' => __('Text', 'tkm-functionality'),
 					'name' => 'footer_links_text',
 					'type' => 'text',
 					'instructions' => '',
@@ -1064,7 +1064,7 @@ acf_add_local_field_group(array(
 		),		
 		array(
 			'key' => 'field_5tk5cc446115d836',
-			'label' => __('Footer right col text', 'tkmulti'),
+			'label' => __('Footer right col text', 'tkm-functionality'),
 			'name' => 'footer_content_text',
 			'type' => 'wysiwyg',
 			'instructions' => '',
@@ -1083,7 +1083,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5cc999uu6c6',
-			'label' => __('Footer center col text', 'tkmulti'),
+			'label' => __('Footer center col text', 'tkm-functionality'),
 			'name' => 'footer_content_text_center',
 			'type' => 'wysiwyg',
 			'instructions' => '',
@@ -1102,7 +1102,7 @@ acf_add_local_field_group(array(
 		),				
 		array(
 			'key' => 'field_5tk5ccc6050586c6',
-			'label' => __('Footer left col text', 'tkmulti'),
+			'label' => __('Footer left col text', 'tkm-functionality'),
 			'name' => 'footer_content_text_left',
 			'type' => 'wysiwyg',
 			'instructions' => '',
@@ -1121,7 +1121,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5ccd58f5d37e3',
-			'label' => __('Footer form title', 'tkmulti'),
+			'label' => __('Footer form title', 'tkm-functionality'),
 			'name' => 'footer_form_title',
 			'type' => 'text',
 			'instructions' => '',
@@ -1140,7 +1140,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5ccd5931d37e4',
-			'label' => __('Footer form subtitle', 'tkmulti'),
+			'label' => __('Footer form subtitle', 'tkm-functionality'),
 			'name' => 'footer_form_subtitle',
 			'type' => 'text',
 			'instructions' => '',
@@ -1159,7 +1159,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5ccd594cd37e5',
-			'label' => __('Footer form background', 'tkmulti'),
+			'label' => __('Footer form background', 'tkm-functionality'),
 			'name' => 'footer_form_bg',
 			'type' => 'image',
 			'instructions' => '',
@@ -1183,7 +1183,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c48eefb0',
-			'label' => __('Site popups and Forms', 'tkmulti'),
+			'label' => __('Site popups and Forms', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -1199,7 +1199,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5cdss268f7',
-			'label' => __('Page default form title', 'tkmulti'),
+			'label' => __('Page default form title', 'tkm-functionality'),
 			'name' => 'default_flex_form_title',
 			'type' => 'text',
 			'instructions' => '',
@@ -1218,7 +1218,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c97ddds3',
-			'label' => __('Page default form subtitle', 'tkmulti'),
+			'label' => __('Page default form subtitle', 'tkm-functionality'),
 			'name' => 'default_flex_form_subtitle',
 			'type' => 'text',
 			'instructions' => '',
@@ -1237,7 +1237,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c72dc33bf',
-			'label' => __('Footer default form bg', 'tkmulti'),
+			'label' => __('Footer default form bg', 'tkm-functionality'),
 			'name' => 'default_flex_form_bg',
 			'type' => 'image',
 			'instructions' => '',
@@ -1261,7 +1261,7 @@ acf_add_local_field_group(array(
 		),					
 		array(
 			'key' => 'field_5tk5c48c472b43b0',
-			'label' => __('Site elements', 'tkmulti'),
+			'label' => __('Site elements', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -1277,7 +1277,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c96a478d88f7',
-			'label' => __('Popup form title', 'tkmulti'),
+			'label' => __('Popup form title', 'tkm-functionality'),
 			'name' => 'popup_contact_title',
 			'type' => 'text',
 			'instructions' => '',
@@ -1296,7 +1296,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c5699c40484f',
-			'label' => __('Main category page link', 'tkmulti'),
+			'label' => __('Main category page link', 'tkm-functionality'),
 			'name' => 'default_main_cat',
 			'type' => 'text',
 			'instructions' => '',
@@ -1315,7 +1315,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c48c485b43b1',
-			'label' => __('Contact module phone', 'tkmulti'),
+			'label' => __('Contact module phone', 'tkm-functionality'),
 			'name' => 'default_phone_num',
 			'type' => 'text',
 			'instructions' => '',
@@ -1334,7 +1334,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c48c4a8b43b2',
-			'label' => __('Contact module button text', 'tkmulti'),
+			'label' => __('Contact module button text', 'tkm-functionality'),
 			'name' => 'default_phone_btn',
 			'type' => 'text',
 			'instructions' => '',
@@ -1353,7 +1353,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c48c4c0b43b3',
-			'label' => __('Contact module Whatsapp num', 'tkmulti'),
+			'label' => __('Contact module Whatsapp num', 'tkm-functionality'),
 			'name' => 'default_whatsapp_num',
 			'type' => 'text',
 			'instructions' => '',
@@ -1372,7 +1372,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c48c4d7b43b4',
-			'label' => __('Contact module Whatsapp text', 'tkmulti'),
+			'label' => __('Contact module Whatsapp text', 'tkm-functionality'),
 			'name' => 'default_whatsapp_btn',
 			'type' => 'text',
 			'instructions' => '',
@@ -1391,7 +1391,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c50b487b403d',
-			'label' => __('Default client slider', 'tkmulti'),
+			'label' => __('Default client slider', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -1407,7 +1407,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c50b499b403e',
-			'label' => __('Title', 'tkmulti'),
+			'label' => __('Title', 'tkm-functionality'),
 			'name' => 'site_clients_title',
 			'type' => 'text',
 			'instructions' => '',
@@ -1426,7 +1426,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c50b4a8b403f',
-			'label' => __('Ecxerpt', 'tkmulti'),
+			'label' => __('Ecxerpt', 'tkm-functionality'),
 			'name' => 'site_clients_intro',
 			'type' => 'textarea',
 			'instructions' => '',
@@ -1445,7 +1445,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c50b4c1b4040',
-			'label' => __('Client list', 'tkmulti'),
+			'label' => __('Client list', 'tkm-functionality'),
 			'name' => 'site_clients',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -1464,7 +1464,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5tk5c50b4cdb4041',
-					'label' => __('Image', 'tkmulti'),
+					'label' => __('Image', 'tkm-functionality'),
 					'name' => 'site_clients_img',
 					'type' => 'image',
 					'instructions' => '',
@@ -1488,7 +1488,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c50b4efb4042',
-					'label' => __('Client name', 'tkmulti'),
+					'label' => __('Client name', 'tkm-functionality'),
 					'name' => 'site_clients_name',
 					'type' => 'text',
 					'instructions' => '',
@@ -1509,7 +1509,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c519970ae3c1',
-			'label' => __('Default testimonial slider', 'tkmulti'),
+			'label' => __('Default testimonial slider', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -1525,7 +1525,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c51999dae3c2',
-			'label' => __('Title', 'tkmulti'),
+			'label' => __('Title', 'tkm-functionality'),
 			'name' => 'site_testimonials_title',
 			'type' => 'text',
 			'instructions' => '',
@@ -1544,7 +1544,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c5199b0ae3c3',
-			'label' => __('Testimonials', 'tkmulti'),
+			'label' => __('Testimonials', 'tkm-functionality'),
 			'name' => 'site_testimonials_list',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -1563,7 +1563,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5tk5c519a0eae3c4',
-					'label' => __('Name', 'tkmulti'),
+					'label' => __('Name', 'tkm-functionality'),
 					'name' => 'site_testimonial_name',
 					'type' => 'text',
 					'instructions' => '',
@@ -1582,7 +1582,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c519a3cae3c5',
-					'label' => __('Image', 'tkmulti'),
+					'label' => __('Image', 'tkm-functionality'),
 					'name' => 'site_testimonial_img',
 					'type' => 'image',
 					'instructions' => '',
@@ -1606,7 +1606,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c519a52ae3c6',
-					'label' => __('Testimonial', 'tkmulti'),
+					'label' => __('Testimonial', 'tkm-functionality'),
 					'name' => 'site_testimonial_content',
 					'type' => 'textarea',
 					'instructions' => '',
@@ -1627,7 +1627,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c7e9790228e5',
-			'label' => __('404 page', 'tkmulti'),
+			'label' => __('404 page', 'tkm-functionality'),
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -1643,7 +1643,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c7e979f228e6',
-			'label' => __('Error brand points title', 'tkmulti'),
+			'label' => __('Error brand points title', 'tkm-functionality'),
 			'name' => 'error_brand_points_title',
 			'type' => 'text',
 			'instructions' => '',
@@ -1662,7 +1662,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5c7e97bd228e7',
-			'label' => __('Error brand box', 'tkmulti'),
+			'label' => __('Error brand box', 'tkm-functionality'),
 			'name' => 'error_brand_points_box',
 			'type' => 'repeater',
 			'instructions' => '',
@@ -1681,7 +1681,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5tk5c7e97e4228e8',
-					'label' => __('Icon/Image', 'tkmulti'),
+					'label' => __('Icon/Image', 'tkm-functionality'),
 					'name' => 'error_brand_points_box_icon',
 					'type' => 'image',
 					'instructions' => '',
@@ -1705,7 +1705,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c7e981f228e9',
-					'label' => __('Title', 'tkmulti'),
+					'label' => __('Title', 'tkm-functionality'),
 					'name' => 'error_brand_points_box_title',
 					'type' => 'text',
 					'instructions' => '',
@@ -1724,7 +1724,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c7e982a228ea',
-					'label' => __('Subtitle', 'tkmulti'),
+					'label' => __('Subtitle', 'tkm-functionality'),
 					'name' => 'error_brand_points_box_subtitle',
 					'type' => 'textarea',
 					'instructions' => '',
@@ -1743,7 +1743,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c7e9839228eb',
-					'label' => __('Button', 'tkmulti'),
+					'label' => __('Button', 'tkm-functionality'),
 					'name' => 'error_brand_points_box_btn',
 					'type' => 'text',
 					'instructions' => '',
@@ -1762,7 +1762,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5tk5c7e9842228ec',
-					'label' => __('Link', 'tkmulti'),
+					'label' => __('Link', 'tkm-functionality'),
 					'name' => 'error_brand_points_box_link',
 					'type' => 'page_link',
 					'instructions' => '',
