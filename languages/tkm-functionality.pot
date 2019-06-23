@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TKM Starter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-16 13:45+0000\n"
+"POT-Creation-Date: 2019-06-22 21:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,2400 +15,2173 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.2.2; wp-5.2"
 
-#: no-results.php:4
-msgid "לא נמצא"
-msgstr ""
-
-#: no-results.php:10
-#, php-format
-msgid "מוכנים לפרסם את הפוסט הראשון שלכם? <a href=\"%1$s\">התחל כאן</a>."
-msgstr ""
-
-#: no-results.php:14
-msgid ""
-"מצטערים, לא נמצאה תוצאה עבור החיפוש שלך. אנא נסו שנית עם מילות חיפוש אחרות."
-msgstr ""
-
-#: no-results.php:23
-msgid "מצטערים אך העמוד שחיפשת לא נמצא. אנא נסו לבצע חיפוש בשדה החיפוש."
-msgstr ""
-
-#: content-magazine.php:10 content.php:9 content-magazine-grid.php:10
-#: partials/latest-articles-slider.php:50 partials/latest-articles-side.php:51
-#: partials/flexible-content-2.php:456 partials/flexible-content-2.php:594
-#: partials/flexible-content-2.php:721 partials/flexible-content-2.php:979
-#: partials/flexible-content-org.php:457 partials/flexible-content-org.php:573
-#: partials/flexible-content-org.php:721 partials/flexible-content-org.php:880
-#: partials/blocks/article_grid.php:35
-#: partials/flexible-layouts/flexible-page-slider.php:41
-#: partials/flexible-layouts/flexible-page-slider.php:194
-#: partials/flexible-layouts/flexible-page-slider-slick.php:41
-#: partials/flexible-layouts/flexible-page-slider-slick.php:111
-#: partials/flexible-layouts/flexible-page-grid.php:46
-#: partials/flexible-layouts/flexible-page-grid.php:134
-#, php-format
-msgid "קישור לעמוד %s"
-msgstr ""
-
-#. Name of the template
-msgid "תבנית מוצר/פרויקט"
-msgstr ""
-
-#. Name of the template
-msgid "תבנית פרויקט"
-msgstr ""
-
-#: page.php:91 front-page.php:90 partials/content/content-single.php:40
-#: partials/content/content.php:49 partials/content/content-page.php:27
-msgid "Pages:"
-msgstr ""
-
-#. Name of the template
-msgid "תבנית פרויקטים"
-msgstr ""
-
-#: partials/latest-articles-side.php:43
-msgid "You may be interested in:"
-msgstr ""
-
-#: inc/customizer.php:17 inc/customizer.php:27
-msgid "פוטר לוגו"
-msgstr ""
-
-#: inc/customizer.php:39
-msgid "מובייל לוגו"
-msgstr ""
-
-#: inc/template-tags.php:10
-#, php-format
-msgid ""
-"פורסם בתאריך <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
-"class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a>"
-msgstr ""
-
-#: inc/template-tags.php:26
-#, php-format
-msgid ""
-"פורסם בתאריך <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
-"class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span "
-"class=\"byline\"> על ידי <span class=\"author vcard\"><a class=\"url fn n\" "
-"href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr ""
-
-#: inc/template-tags.php:32
-#, php-format
-msgid "צפייה בכל הפוסטים של %s"
-msgstr ""
-
-#: inc/template-tags.php:106
-msgid "ניווט בעמודים"
-msgstr ""
-
-#: inc/template-tags.php:110
-msgctxt "קישור לעמוד הקודם"
-msgid "&larr;"
-msgstr ""
-
-#: inc/template-tags.php:111
-msgctxt "קישור לעמוד הבא"
-msgid "&rarr;"
-msgstr ""
-
-#: inc/template-tags.php:116
-msgid "<span class=\"meta-nav\">&larr;</span> הקודם"
-msgstr ""
-
-#: inc/template-tags.php:120
-msgid "הבא <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#. %s: Name of current post. Only visible to screen readers
-#: partials/content/content-single.php:27 partials/content/content.php:36
-#, php-format
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
-
-#: partials/content/content-excerpt.php:18 partials/content/content.php:18
-msgctxt "post"
-msgid "Featured"
-msgstr ""
-
-#. %s: Name of current post. Only visible to screen readers
-#: partials/content/content-page.php:41
-#, php-format
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
-
-#: partials/content/content-none.php:16
-msgid "Nothing Found"
-msgstr ""
-
-#. 1: link to WP admin new post page.
-#: partials/content/content-none.php:26
-#, php-format
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-
-#: partials/content/content-none.php:39
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
-msgstr ""
-
-#: partials/content/content-none.php:46
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
-
-#: partials/flexible-layouts/flexible-page-slider.php:132
-#: partials/flexible-layouts/flexible-page-slider.php:285
-msgid "Read more"
-msgstr ""
-
-#: partials/flexible-layouts/flexible-qa-accordion.php:58
-#: partials/flexible-layouts/flexible-qa-accordion.php:86
-#: partials/flexible-layouts/flexible-qa-slider.php:55
-#: inc/functions/acf-blocks.php:7848
-msgid "Answer"
-msgstr ""
-
-#: partials/flexible-layouts/flexible-qa-accordion.php:79
-#: partials/flexible-layouts/flexible-qa-slider.php:49
-#: inc/functions/acf-blocks.php:7829
-msgid "Question"
-msgstr ""
-
-#: partials/flexible-layouts/flexible-gallery-grid.php:120
-#: partials/flexible-layouts/flexible-page-grid.php:234
-msgid "End content"
-msgstr ""
-
-#: partials/flexible-layouts/flexible-gallery-grid.php:121
-#: partials/flexible-layouts/flexible-page-grid.php:235
-msgid "No more to load"
-msgstr ""
-
-#: partials/flexible-layouts/flexible-gallery-grid.php:124
-#: partials/flexible-layouts/flexible-gallery-grid.php:133
-#: partials/flexible-layouts/flexible-page-grid.php:238
-#: partials/flexible-layouts/flexible-gallery-grid-or.php:77
-#: inc/functions/acf-blocks.php:6011
-msgid "Show more"
-msgstr ""
-
-#: partials/flexible-layouts/flexible-gallery-grid.php:137
-#: partials/flexible-layouts/flexible-gallery-grid-or.php:81
-#: inc/functions/acf-blocks.php:6030
-msgid "Show less"
-msgstr ""
-
-#: partials/flexible-layouts/flexible-project.php:53
-msgid "View Project"
-msgstr ""
-
-#: partials/flexible-layouts/flexible-project.php:66
-msgid "All Projects"
-msgstr ""
-
-#: partials/header/nav-split.php:4 partials/header/nav.php:4
-#: partials/header/header-classic01.php:46
-msgid "תפריט ראשי"
-msgstr ""
-
-#: partials/header/nav-side.php:5 inc/functions/theme-head.php:45
-msgid "Primary menu"
-msgstr ""
-
-#: partials/header/nav-side.php:24 inc/functions/theme-head.php:47
-msgid "Secondary menu"
-msgstr ""
-
-#: inc/functions/acf-blocks-site.php:6
-msgid "Product/Project main info"
-msgstr ""
-
-#: inc/functions/acf-blocks-site.php:10 inc/functions/acf-blocks.php:8987
-msgid "Main Page Title"
-msgstr ""
-
-#: inc/functions/acf-blocks-site.php:13 inc/functions/acf-blocks.php:8990
-msgid "H1 - Replace page name title"
-msgstr ""
-
-#: inc/functions/acf-blocks-site.php:29
-msgid "Main top content"
-msgstr ""
-
-#: inc/functions/acf-blocks-site.php:48 inc/functions/acf-blocks.php:9870
-#: inc/functions/acf-blocks.php:10670
-msgid "Choose Images"
-msgstr ""
-
-#: inc/functions/acf-blocks.php:8
+#: inc/acf-blocks.php:8
 msgid "Flexible page content"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12
+#: inc/acf-blocks.php:12
 msgid "Flexible Content"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:28
+#: inc/acf-blocks.php:28
 msgid "Content Row"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:66
+#: inc/acf-blocks.php:47 inc/acf-blocks.php:9539
+msgid "Show section divider"
+msgstr ""
+
+#: inc/acf-blocks.php:66
 msgid "Row Background image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:90
+#: inc/acf-blocks.php:90
 msgid "Cancel auto wrap - Full Page Wrap"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:109
+#: inc/acf-blocks.php:109
 msgid "Delete padding between Columns"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:128
+#: inc/acf-blocks.php:128
 msgid "Vertically align columns in row"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:147
+#: inc/acf-blocks.php:147
 msgid "Top Padding"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:168
+#: inc/acf-blocks.php:168
 msgid "Bottom Padding"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:189
+#: inc/acf-blocks.php:189
 msgid "Right Padding"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:210
+#: inc/acf-blocks.php:210
 msgid "Left Padding"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:231
+#: inc/acf-blocks.php:231
+msgid "Top Wrap line"
+msgstr ""
+
+#: inc/acf-blocks.php:243 inc/acf-blocks.php:275
+msgid "short right"
+msgstr ""
+
+#: inc/acf-blocks.php:244 inc/acf-blocks.php:276
+msgid "short left"
+msgstr ""
+
+#: inc/acf-blocks.php:245 inc/acf-blocks.php:277
+msgid "middle right"
+msgstr ""
+
+#: inc/acf-blocks.php:246 inc/acf-blocks.php:278
+msgid "middle left"
+msgstr ""
+
+#: inc/acf-blocks.php:247
+msgid "Top full"
+msgstr ""
+
+#: inc/acf-blocks.php:248 inc/acf-blocks.php:280
+msgid "short right short left"
+msgstr ""
+
+#: inc/acf-blocks.php:249 inc/acf-blocks.php:281
+msgid "middle right short left"
+msgstr ""
+
+#: inc/acf-blocks.php:250 inc/acf-blocks.php:282
+msgid "short right middle left"
+msgstr ""
+
+#: inc/acf-blocks.php:263
+msgid "Bottom Wrap line"
+msgstr ""
+
+#: inc/acf-blocks.php:279
+msgid "Bootom full"
+msgstr ""
+
+#: inc/acf-blocks.php:295
+msgid "Right Wrap line"
+msgstr ""
+
+#: inc/acf-blocks.php:307
+msgid "Full right"
+msgstr ""
+
+#: inc/acf-blocks.php:320
+msgid "Left Wrap line"
+msgstr ""
+
+#: inc/acf-blocks.php:332
+msgid "Full left"
+msgstr ""
+
+#: inc/acf-blocks.php:345
+msgid "Top line padd"
+msgstr ""
+
+#: inc/acf-blocks.php:366
+msgid "Bottom line padd"
+msgstr ""
+
+#: inc/acf-blocks.php:387 inc/acf-blocks.php:1746
 msgid "Right Overlay Color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:246
+#: inc/acf-blocks.php:402 inc/acf-blocks.php:1761
 msgid "Left Overlay Color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:261
+#: inc/acf-blocks.php:417
 msgid "Right Overlay Opacity"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:282
+#: inc/acf-blocks.php:438
 msgid "Left Overlay Opacity"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:303
+#: inc/acf-blocks.php:459 inc/acf-blocks.php:1776
 msgid "Rotate Gradient bg"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:324 inc/functions/acf-blocks.php:9192
+#: inc/acf-blocks.php:480 inc/acf-blocks.php:9578
 msgid "Top divider section"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:344 inc/functions/acf-blocks.php:535
-#: inc/functions/acf-blocks.php:9212 inc/functions/acf-blocks.php:9403
+#: inc/acf-blocks.php:500 inc/acf-blocks.php:691 inc/acf-blocks.php:9598
+#: inc/acf-blocks.php:9789
 msgid "Waves"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:345 inc/functions/acf-blocks.php:536
-#: inc/functions/acf-blocks.php:9213 inc/functions/acf-blocks.php:9404
+#: inc/acf-blocks.php:501 inc/acf-blocks.php:692 inc/acf-blocks.php:9599
+#: inc/acf-blocks.php:9790
 msgid "Opacity waves"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:346 inc/functions/acf-blocks.php:537
-#: inc/functions/acf-blocks.php:9214 inc/functions/acf-blocks.php:9405
+#: inc/acf-blocks.php:502 inc/acf-blocks.php:693 inc/acf-blocks.php:9600
+#: inc/acf-blocks.php:9791
 msgid "Mountains"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:347 inc/functions/acf-blocks.php:538
-#: inc/functions/acf-blocks.php:9215 inc/functions/acf-blocks.php:9406
+#: inc/acf-blocks.php:503 inc/acf-blocks.php:694 inc/acf-blocks.php:9601
+#: inc/acf-blocks.php:9792
 msgid "Drops"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:348 inc/functions/acf-blocks.php:539
-#: inc/functions/acf-blocks.php:9216 inc/functions/acf-blocks.php:9407
+#: inc/acf-blocks.php:504 inc/acf-blocks.php:695 inc/acf-blocks.php:9602
+#: inc/acf-blocks.php:9793
 msgid "Opacity clouds"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:349 inc/functions/acf-blocks.php:540
-#: inc/functions/acf-blocks.php:9217 inc/functions/acf-blocks.php:9408
+#: inc/acf-blocks.php:505 inc/acf-blocks.php:696 inc/acf-blocks.php:9603
+#: inc/acf-blocks.php:9794
 msgid "Big clouds"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:350 inc/functions/acf-blocks.php:541
-#: inc/functions/acf-blocks.php:9218 inc/functions/acf-blocks.php:9409
+#: inc/acf-blocks.php:506 inc/acf-blocks.php:697 inc/acf-blocks.php:9604
+#: inc/acf-blocks.php:9795
 msgid "Pyramids"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:351 inc/functions/acf-blocks.php:542
-#: inc/functions/acf-blocks.php:9219 inc/functions/acf-blocks.php:9410
+#: inc/acf-blocks.php:507 inc/acf-blocks.php:698 inc/acf-blocks.php:9605
+#: inc/acf-blocks.php:9796
 msgid "Triangle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:352 inc/functions/acf-blocks.php:543
-#: inc/functions/acf-blocks.php:9220 inc/functions/acf-blocks.php:9411
+#: inc/acf-blocks.php:508 inc/acf-blocks.php:699 inc/acf-blocks.php:9606
+#: inc/acf-blocks.php:9797
 msgid "Circle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:353 inc/functions/acf-blocks.php:544
-#: inc/functions/acf-blocks.php:9221 inc/functions/acf-blocks.php:9412
+#: inc/acf-blocks.php:509 inc/acf-blocks.php:700 inc/acf-blocks.php:9607
+#: inc/acf-blocks.php:9798
 msgid "Right tilt"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:354 inc/functions/acf-blocks.php:545
-#: inc/functions/acf-blocks.php:9222 inc/functions/acf-blocks.php:9413
+#: inc/acf-blocks.php:510 inc/acf-blocks.php:701 inc/acf-blocks.php:9608
+#: inc/acf-blocks.php:9799
 msgid "Left tilt"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:355 inc/functions/acf-blocks.php:546
-#: inc/functions/acf-blocks.php:9223 inc/functions/acf-blocks.php:9414
+#: inc/acf-blocks.php:511 inc/acf-blocks.php:702 inc/acf-blocks.php:9609
+#: inc/acf-blocks.php:9800
 msgid "Right opacity tilt"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:356 inc/functions/acf-blocks.php:547
-#: inc/functions/acf-blocks.php:9224 inc/functions/acf-blocks.php:9415
+#: inc/acf-blocks.php:512 inc/acf-blocks.php:703 inc/acf-blocks.php:9610
+#: inc/acf-blocks.php:9801
 msgid "Left opacity tilt"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:357 inc/functions/acf-blocks.php:548
-#: inc/functions/acf-blocks.php:9225 inc/functions/acf-blocks.php:9416
+#: inc/acf-blocks.php:513 inc/acf-blocks.php:704 inc/acf-blocks.php:9611
+#: inc/acf-blocks.php:9802
 msgid "Triangle opacity"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:358 inc/functions/acf-blocks.php:549
-#: inc/functions/acf-blocks.php:9226 inc/functions/acf-blocks.php:9417
+#: inc/acf-blocks.php:514 inc/acf-blocks.php:705 inc/acf-blocks.php:9612
+#: inc/acf-blocks.php:9803
 msgid "Right Arc"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:359 inc/functions/acf-blocks.php:550
-#: inc/functions/acf-blocks.php:9227 inc/functions/acf-blocks.php:9418
+#: inc/acf-blocks.php:515 inc/acf-blocks.php:706 inc/acf-blocks.php:9613
+#: inc/acf-blocks.php:9804
 msgid "Left Arc"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:360 inc/functions/acf-blocks.php:551
-#: inc/functions/acf-blocks.php:9228 inc/functions/acf-blocks.php:9419
+#: inc/acf-blocks.php:516 inc/acf-blocks.php:707 inc/acf-blocks.php:9614
+#: inc/acf-blocks.php:9805
 msgid "Opacity Circle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:361 inc/functions/acf-blocks.php:552
-#: inc/functions/acf-blocks.php:9229 inc/functions/acf-blocks.php:9420
+#: inc/acf-blocks.php:517 inc/acf-blocks.php:708 inc/acf-blocks.php:9615
+#: inc/acf-blocks.php:9806
 msgid "Right Arc opacity"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:362 inc/functions/acf-blocks.php:553
-#: inc/functions/acf-blocks.php:9230 inc/functions/acf-blocks.php:9421
+#: inc/acf-blocks.php:518 inc/acf-blocks.php:709 inc/acf-blocks.php:9616
+#: inc/acf-blocks.php:9807
 msgid "Left Arc opacity"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:363 inc/functions/acf-blocks.php:554
-#: inc/functions/acf-blocks.php:9231 inc/functions/acf-blocks.php:9422
+#: inc/acf-blocks.php:519 inc/acf-blocks.php:710 inc/acf-blocks.php:9617
+#: inc/acf-blocks.php:9808
 msgid "Arrow"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:364 inc/functions/acf-blocks.php:555
-#: inc/functions/acf-blocks.php:9232 inc/functions/acf-blocks.php:9423
+#: inc/acf-blocks.php:520 inc/acf-blocks.php:711 inc/acf-blocks.php:9618
+#: inc/acf-blocks.php:9809
 msgid "Cross"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:365 inc/functions/acf-blocks.php:556
-#: inc/functions/acf-blocks.php:9233 inc/functions/acf-blocks.php:9424
+#: inc/acf-blocks.php:521 inc/acf-blocks.php:712 inc/acf-blocks.php:9619
+#: inc/acf-blocks.php:9810
 msgid "Water-color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:366 inc/functions/acf-blocks.php:557
-#: inc/functions/acf-blocks.php:9234 inc/functions/acf-blocks.php:9425
+#: inc/acf-blocks.php:522 inc/acf-blocks.php:713 inc/acf-blocks.php:9620
+#: inc/acf-blocks.php:9811
 msgid "Water-color spread"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:367 inc/functions/acf-blocks.php:558
-#: inc/functions/acf-blocks.php:9235 inc/functions/acf-blocks.php:9426
+#: inc/acf-blocks.php:523 inc/acf-blocks.php:714 inc/acf-blocks.php:9621
+#: inc/acf-blocks.php:9812
 msgid "Brush spread"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:380 inc/functions/acf-blocks.php:9248
+#: inc/acf-blocks.php:536 inc/acf-blocks.php:9634
 msgid "Top divider section - fill color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:413 inc/functions/acf-blocks.php:9281
+#: inc/acf-blocks.php:569 inc/acf-blocks.php:9667
 msgid "Top divider section - BG color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:446 inc/functions/acf-blocks.php:9314
+#: inc/acf-blocks.php:602 inc/acf-blocks.php:9700
 msgid "Top divider section - height"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:485 inc/functions/acf-blocks.php:9353
+#: inc/acf-blocks.php:641 inc/acf-blocks.php:9739
 msgid "Top divider section - position"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:505 inc/functions/acf-blocks.php:696
-#: inc/functions/acf-blocks.php:9373 inc/functions/acf-blocks.php:9564
+#: inc/acf-blocks.php:661 inc/acf-blocks.php:852 inc/acf-blocks.php:9759
+#: inc/acf-blocks.php:9950
 msgid "Behind content"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:506 inc/functions/acf-blocks.php:697
-#: inc/functions/acf-blocks.php:9374 inc/functions/acf-blocks.php:9565
+#: inc/acf-blocks.php:662 inc/acf-blocks.php:853 inc/acf-blocks.php:9760
+#: inc/acf-blocks.php:9951
 msgid "On top content"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:515 inc/functions/acf-blocks.php:9383
+#: inc/acf-blocks.php:671 inc/acf-blocks.php:9769
 msgid "Bottom divider section"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:571 inc/functions/acf-blocks.php:9439
+#: inc/acf-blocks.php:727 inc/acf-blocks.php:9825
 msgid "Bottom divider section - fill color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:604 inc/functions/acf-blocks.php:9472
+#: inc/acf-blocks.php:760 inc/acf-blocks.php:9858
 msgid "Bottom divider section - BG color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:637 inc/functions/acf-blocks.php:9505
+#: inc/acf-blocks.php:793 inc/acf-blocks.php:9891
 msgid "Bottom divider section - height"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:676 inc/functions/acf-blocks.php:9544
+#: inc/acf-blocks.php:832 inc/acf-blocks.php:9930
 msgid "Bottom divider section - position"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:706
+#: inc/acf-blocks.php:862
 msgid "Content Elements"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:721
+#: inc/acf-blocks.php:877
 msgid "Styled Title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:726 inc/functions/acf-blocks.php:1138
-#: inc/functions/acf-blocks.php:1462 inc/functions/acf-blocks.php:1901
-#: inc/functions/acf-blocks.php:2788 inc/functions/acf-blocks.php:3397
-#: inc/functions/acf-blocks.php:3929 inc/functions/acf-blocks.php:4375
-#: inc/functions/acf-blocks.php:4922 inc/functions/acf-blocks.php:5335
-#: inc/functions/acf-blocks.php:5710 inc/functions/acf-blocks.php:6072
-#: inc/functions/acf-blocks.php:6672 inc/functions/acf-blocks.php:7104
-#: inc/functions/acf-blocks.php:7398 inc/functions/acf-blocks.php:7644
-#: inc/functions/acf-blocks.php:7960 inc/functions/acf-blocks.php:8258
-#: inc/functions/acf-blocks.php:8433 inc/functions/acf-blocks.php:8719
+#: inc/acf-blocks.php:882 inc/acf-blocks.php:1294 inc/acf-blocks.php:1618
+#: inc/acf-blocks.php:2098 inc/acf-blocks.php:2985 inc/acf-blocks.php:3594
+#: inc/acf-blocks.php:4126 inc/acf-blocks.php:4572 inc/acf-blocks.php:5119
+#: inc/acf-blocks.php:5532 inc/acf-blocks.php:5907 inc/acf-blocks.php:6269
+#: inc/acf-blocks.php:6869 inc/acf-blocks.php:7301 inc/acf-blocks.php:7595
+#: inc/acf-blocks.php:7841 inc/acf-blocks.php:8157 inc/acf-blocks.php:8455
+#: inc/acf-blocks.php:8630 inc/acf-blocks.php:8916 inc/acf-blocks.php:9105
 msgid "Block Width"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:738 inc/functions/acf-blocks.php:1150
-#: inc/functions/acf-blocks.php:1474 inc/functions/acf-blocks.php:1913
-#: inc/functions/acf-blocks.php:2800 inc/functions/acf-blocks.php:3409
-#: inc/functions/acf-blocks.php:3941 inc/functions/acf-blocks.php:4387
-#: inc/functions/acf-blocks.php:4934 inc/functions/acf-blocks.php:5347
-#: inc/functions/acf-blocks.php:5722 inc/functions/acf-blocks.php:6084
-#: inc/functions/acf-blocks.php:6684 inc/functions/acf-blocks.php:7116
-#: inc/functions/acf-blocks.php:7410 inc/functions/acf-blocks.php:7656
-#: inc/functions/acf-blocks.php:7972 inc/functions/acf-blocks.php:8270
-#: inc/functions/acf-blocks.php:8445 inc/functions/acf-blocks.php:8731
+#: inc/acf-blocks.php:894 inc/acf-blocks.php:1306 inc/acf-blocks.php:1630
+#: inc/acf-blocks.php:2110 inc/acf-blocks.php:2997 inc/acf-blocks.php:3606
+#: inc/acf-blocks.php:4138 inc/acf-blocks.php:4584 inc/acf-blocks.php:5131
+#: inc/acf-blocks.php:5544 inc/acf-blocks.php:5919 inc/acf-blocks.php:6281
+#: inc/acf-blocks.php:6881 inc/acf-blocks.php:7313 inc/acf-blocks.php:7607
+#: inc/acf-blocks.php:7853 inc/acf-blocks.php:8169 inc/acf-blocks.php:8467
+#: inc/acf-blocks.php:8642 inc/acf-blocks.php:8928 inc/acf-blocks.php:9117
 msgid "full width"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:760 inc/functions/acf-blocks.php:1172
-#: inc/functions/acf-blocks.php:1496 inc/functions/acf-blocks.php:1935
-#: inc/functions/acf-blocks.php:2822 inc/functions/acf-blocks.php:3431
-#: inc/functions/acf-blocks.php:3963 inc/functions/acf-blocks.php:4409
-#: inc/functions/acf-blocks.php:4956 inc/functions/acf-blocks.php:5369
-#: inc/functions/acf-blocks.php:5744 inc/functions/acf-blocks.php:6106
-#: inc/functions/acf-blocks.php:6706 inc/functions/acf-blocks.php:7138
-#: inc/functions/acf-blocks.php:7432 inc/functions/acf-blocks.php:7678
-#: inc/functions/acf-blocks.php:7994 inc/functions/acf-blocks.php:8292
-#: inc/functions/acf-blocks.php:8467 inc/functions/acf-blocks.php:8753
+#: inc/acf-blocks.php:916 inc/acf-blocks.php:1328 inc/acf-blocks.php:1652
+#: inc/acf-blocks.php:2132 inc/acf-blocks.php:3019 inc/acf-blocks.php:3628
+#: inc/acf-blocks.php:4160 inc/acf-blocks.php:4606 inc/acf-blocks.php:5153
+#: inc/acf-blocks.php:5566 inc/acf-blocks.php:5941 inc/acf-blocks.php:6303
+#: inc/acf-blocks.php:6903 inc/acf-blocks.php:7335 inc/acf-blocks.php:7629
+#: inc/acf-blocks.php:7875 inc/acf-blocks.php:8191 inc/acf-blocks.php:8489
+#: inc/acf-blocks.php:8664 inc/acf-blocks.php:8950 inc/acf-blocks.php:9139
 msgid "Order On mobile"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:781 inc/functions/acf-blocks.php:1193
-#: inc/functions/acf-blocks.php:1517 inc/functions/acf-blocks.php:1956
-#: inc/functions/acf-blocks.php:2843 inc/functions/acf-blocks.php:3452
-#: inc/functions/acf-blocks.php:3984 inc/functions/acf-blocks.php:4430
-#: inc/functions/acf-blocks.php:4977 inc/functions/acf-blocks.php:5390
-#: inc/functions/acf-blocks.php:5765 inc/functions/acf-blocks.php:6127
-#: inc/functions/acf-blocks.php:6727 inc/functions/acf-blocks.php:7159
-#: inc/functions/acf-blocks.php:7453 inc/functions/acf-blocks.php:7699
-#: inc/functions/acf-blocks.php:8015 inc/functions/acf-blocks.php:8313
-#: inc/functions/acf-blocks.php:8488 inc/functions/acf-blocks.php:8774
+#: inc/acf-blocks.php:937 inc/acf-blocks.php:1349 inc/acf-blocks.php:1673
+#: inc/acf-blocks.php:2153 inc/acf-blocks.php:3040 inc/acf-blocks.php:3649
+#: inc/acf-blocks.php:4181 inc/acf-blocks.php:4627 inc/acf-blocks.php:5174
+#: inc/acf-blocks.php:5587 inc/acf-blocks.php:5962 inc/acf-blocks.php:6324
+#: inc/acf-blocks.php:6924 inc/acf-blocks.php:7356 inc/acf-blocks.php:7650
+#: inc/acf-blocks.php:7896 inc/acf-blocks.php:8212 inc/acf-blocks.php:8510
+#: inc/acf-blocks.php:8685 inc/acf-blocks.php:8971 inc/acf-blocks.php:9160
 msgid "Mobile layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:793 inc/functions/acf-blocks.php:1205
-#: inc/functions/acf-blocks.php:1529 inc/functions/acf-blocks.php:1968
-#: inc/functions/acf-blocks.php:2855 inc/functions/acf-blocks.php:3464
-#: inc/functions/acf-blocks.php:3996 inc/functions/acf-blocks.php:4442
-#: inc/functions/acf-blocks.php:4989 inc/functions/acf-blocks.php:5402
-#: inc/functions/acf-blocks.php:5777 inc/functions/acf-blocks.php:6139
-#: inc/functions/acf-blocks.php:6739 inc/functions/acf-blocks.php:7171
-#: inc/functions/acf-blocks.php:7465 inc/functions/acf-blocks.php:7711
-#: inc/functions/acf-blocks.php:8027 inc/functions/acf-blocks.php:8325
-#: inc/functions/acf-blocks.php:8500 inc/functions/acf-blocks.php:8786
+#: inc/acf-blocks.php:949 inc/acf-blocks.php:1361 inc/acf-blocks.php:1685
+#: inc/acf-blocks.php:2165 inc/acf-blocks.php:3052 inc/acf-blocks.php:3661
+#: inc/acf-blocks.php:4193 inc/acf-blocks.php:4639 inc/acf-blocks.php:5186
+#: inc/acf-blocks.php:5599 inc/acf-blocks.php:5974 inc/acf-blocks.php:6336
+#: inc/acf-blocks.php:6936 inc/acf-blocks.php:7368 inc/acf-blocks.php:7662
+#: inc/acf-blocks.php:7908 inc/acf-blocks.php:8224 inc/acf-blocks.php:8522
+#: inc/acf-blocks.php:8697 inc/acf-blocks.php:8983 inc/acf-blocks.php:9172
 msgid "100%"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:794 inc/functions/acf-blocks.php:1206
-#: inc/functions/acf-blocks.php:1530 inc/functions/acf-blocks.php:1969
-#: inc/functions/acf-blocks.php:2856 inc/functions/acf-blocks.php:3465
-#: inc/functions/acf-blocks.php:3997 inc/functions/acf-blocks.php:4443
-#: inc/functions/acf-blocks.php:4990 inc/functions/acf-blocks.php:5403
-#: inc/functions/acf-blocks.php:5778 inc/functions/acf-blocks.php:6140
-#: inc/functions/acf-blocks.php:6740 inc/functions/acf-blocks.php:7172
-#: inc/functions/acf-blocks.php:7466 inc/functions/acf-blocks.php:7712
-#: inc/functions/acf-blocks.php:8028 inc/functions/acf-blocks.php:8326
-#: inc/functions/acf-blocks.php:8501 inc/functions/acf-blocks.php:8787
+#: inc/acf-blocks.php:950 inc/acf-blocks.php:1362 inc/acf-blocks.php:1686
+#: inc/acf-blocks.php:2166 inc/acf-blocks.php:3053 inc/acf-blocks.php:3662
+#: inc/acf-blocks.php:4194 inc/acf-blocks.php:4640 inc/acf-blocks.php:5187
+#: inc/acf-blocks.php:5600 inc/acf-blocks.php:5975 inc/acf-blocks.php:6337
+#: inc/acf-blocks.php:6937 inc/acf-blocks.php:7369 inc/acf-blocks.php:7663
+#: inc/acf-blocks.php:7909 inc/acf-blocks.php:8225 inc/acf-blocks.php:8523
+#: inc/acf-blocks.php:8698 inc/acf-blocks.php:8984 inc/acf-blocks.php:9173
 msgid "50%"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:805 inc/functions/acf-blocks.php:1217
-#: inc/functions/acf-blocks.php:1541 inc/functions/acf-blocks.php:1980
-#: inc/functions/acf-blocks.php:2867 inc/functions/acf-blocks.php:3476
-#: inc/functions/acf-blocks.php:4008 inc/functions/acf-blocks.php:4454
-#: inc/functions/acf-blocks.php:5001 inc/functions/acf-blocks.php:5414
-#: inc/functions/acf-blocks.php:5789 inc/functions/acf-blocks.php:6151
-#: inc/functions/acf-blocks.php:6751 inc/functions/acf-blocks.php:7183
-#: inc/functions/acf-blocks.php:7477 inc/functions/acf-blocks.php:7723
-#: inc/functions/acf-blocks.php:8039 inc/functions/acf-blocks.php:8337
-#: inc/functions/acf-blocks.php:8512 inc/functions/acf-blocks.php:8798
+#: inc/acf-blocks.php:961 inc/acf-blocks.php:1373 inc/acf-blocks.php:1697
+#: inc/acf-blocks.php:2177 inc/acf-blocks.php:3064 inc/acf-blocks.php:3673
+#: inc/acf-blocks.php:4205 inc/acf-blocks.php:4651 inc/acf-blocks.php:5198
+#: inc/acf-blocks.php:5611 inc/acf-blocks.php:5986 inc/acf-blocks.php:6348
+#: inc/acf-blocks.php:6948 inc/acf-blocks.php:7380 inc/acf-blocks.php:7674
+#: inc/acf-blocks.php:7920 inc/acf-blocks.php:8236 inc/acf-blocks.php:8534
+#: inc/acf-blocks.php:8709 inc/acf-blocks.php:8995 inc/acf-blocks.php:9184
 msgid "Hide On Mobile"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:824 inc/functions/acf-blocks.php:1236
-#: inc/functions/acf-blocks.php:1560 inc/functions/acf-blocks.php:1999
-#: inc/functions/acf-blocks.php:2886 inc/functions/acf-blocks.php:3495
-#: inc/functions/acf-blocks.php:4027 inc/functions/acf-blocks.php:4473
-#: inc/functions/acf-blocks.php:5020 inc/functions/acf-blocks.php:5433
-#: inc/functions/acf-blocks.php:5808 inc/functions/acf-blocks.php:6170
-#: inc/functions/acf-blocks.php:6770 inc/functions/acf-blocks.php:7202
-#: inc/functions/acf-blocks.php:7496 inc/functions/acf-blocks.php:7742
-#: inc/functions/acf-blocks.php:8058 inc/functions/acf-blocks.php:8356
-#: inc/functions/acf-blocks.php:8531 inc/functions/acf-blocks.php:8817
+#: inc/acf-blocks.php:980 inc/acf-blocks.php:1392 inc/acf-blocks.php:1716
+#: inc/acf-blocks.php:2196 inc/acf-blocks.php:3083 inc/acf-blocks.php:3692
+#: inc/acf-blocks.php:4224 inc/acf-blocks.php:4670 inc/acf-blocks.php:5217
+#: inc/acf-blocks.php:5630 inc/acf-blocks.php:6005 inc/acf-blocks.php:6367
+#: inc/acf-blocks.php:6967 inc/acf-blocks.php:7399 inc/acf-blocks.php:7693
+#: inc/acf-blocks.php:7939 inc/acf-blocks.php:8255 inc/acf-blocks.php:8553
+#: inc/acf-blocks.php:8728 inc/acf-blocks.php:9014 inc/acf-blocks.php:9203
 msgid "Animation"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:854
+#: inc/acf-blocks.php:1010
 msgid "Title style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:866
+#: inc/acf-blocks.php:1022
 msgid "clean"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:867
+#: inc/acf-blocks.php:1023
 msgid "clean-underline"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:868
+#: inc/acf-blocks.php:1024
 msgid "clean-sideline"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:869
+#: inc/acf-blocks.php:1025
 msgid "box"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:870
+#: inc/acf-blocks.php:1026
 msgid "split"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:881
+#: inc/acf-blocks.php:1037
 msgid "Title type heading"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:906 inc/functions/acf-blocks.php:2457
+#: inc/acf-blocks.php:1062 inc/acf-blocks.php:2654
 msgid "Font size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:926
+#: inc/acf-blocks.php:1082
 msgid "Title Alignment"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:967 inc/functions/acf-blocks.php:1401
-#: inc/functions/acf-blocks.php:1780 inc/functions/acf-blocks.php:2096
-#: inc/functions/acf-blocks.php:2121 inc/functions/acf-blocks.php:2197
-#: inc/functions/acf-blocks.php:2444 inc/functions/acf-blocks.php:3048
-#: inc/functions/acf-blocks.php:5108 inc/functions/acf-blocks.php:5513
-#: inc/functions/acf-blocks.php:7278 inc/functions/acf-blocks.php:9750
-#: inc/functions/acf-blocks.php:10550
+#: inc/acf-blocks.php:1123 inc/acf-blocks.php:1557 inc/acf-blocks.php:1992
+#: inc/acf-blocks.php:2293 inc/acf-blocks.php:2318 inc/acf-blocks.php:2394
+#: inc/acf-blocks.php:2641 inc/acf-blocks.php:3245 inc/acf-blocks.php:5305
+#: inc/acf-blocks.php:5710 inc/acf-blocks.php:7475 inc/acf-blocks.php:10136
+#: inc/acf-blocks.php:10936
 msgid "center"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:968 inc/functions/acf-blocks.php:1781
-#: inc/functions/acf-blocks.php:2097 inc/functions/acf-blocks.php:2122
-#: inc/functions/acf-blocks.php:2198 inc/functions/acf-blocks.php:3049
-#: inc/functions/acf-blocks.php:3115 inc/functions/acf-blocks.php:5515
-#: inc/functions/acf-blocks.php:7279
+#: inc/acf-blocks.php:1124 inc/acf-blocks.php:1993 inc/acf-blocks.php:2294
+#: inc/acf-blocks.php:2319 inc/acf-blocks.php:2395 inc/acf-blocks.php:3246
+#: inc/acf-blocks.php:3312 inc/acf-blocks.php:5712 inc/acf-blocks.php:7476
 msgid "right"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:969 inc/functions/acf-blocks.php:1782
-#: inc/functions/acf-blocks.php:2098 inc/functions/acf-blocks.php:2123
-#: inc/functions/acf-blocks.php:2199 inc/functions/acf-blocks.php:3050
-#: inc/functions/acf-blocks.php:3116 inc/functions/acf-blocks.php:5514
-#: inc/functions/acf-blocks.php:7280
+#: inc/acf-blocks.php:1125 inc/acf-blocks.php:1994 inc/acf-blocks.php:2295
+#: inc/acf-blocks.php:2320 inc/acf-blocks.php:2396 inc/acf-blocks.php:3247
+#: inc/acf-blocks.php:3313 inc/acf-blocks.php:5711 inc/acf-blocks.php:7477
 msgid "left"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:980 inc/functions/acf-blocks.php:1703
-#: inc/functions/acf-blocks.php:2069 inc/functions/acf-blocks.php:3740
-#: inc/functions/acf-blocks.php:4076 inc/functions/acf-blocks.php:5121
-#: inc/functions/acf-blocks.php:6569 inc/functions/acf-blocks.php:6981
-#: inc/functions/acf-blocks.php:7251
+#: inc/acf-blocks.php:1136 inc/acf-blocks.php:1915 inc/acf-blocks.php:2266
+#: inc/acf-blocks.php:3937 inc/acf-blocks.php:4273 inc/acf-blocks.php:5318
+#: inc/acf-blocks.php:6766 inc/acf-blocks.php:7178 inc/acf-blocks.php:7448
 msgid "Title color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:995
+#: inc/acf-blocks.php:1151
 msgid "Title Background color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1025
+#: inc/acf-blocks.php:1181
 msgid "Title color - second part"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1048
+#: inc/acf-blocks.php:1204
 msgid "Title Background color - second part"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1071
+#: inc/acf-blocks.php:1227
 msgid "The title (first part)"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1090
+#: inc/acf-blocks.php:1246
 msgid "The title (second part)"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1109 inc/functions/acf-blocks.php:5857
+#: inc/acf-blocks.php:1265 inc/acf-blocks.php:6054
 msgid "Intro"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1133
+#: inc/acf-blocks.php:1289
 msgid "Content Divider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1266
+#: inc/acf-blocks.php:1422
 msgid "Divider line thick"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1295
+#: inc/acf-blocks.php:1451
 msgid "Divider line width"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1324
+#: inc/acf-blocks.php:1480
 msgid "Divider line color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1347
+#: inc/acf-blocks.php:1503
 msgid "Vertical align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1367 inc/functions/acf-blocks.php:2411
-#: inc/functions/acf-blocks.php:9787 inc/functions/acf-blocks.php:10587
+#: inc/acf-blocks.php:1523 inc/acf-blocks.php:2608 inc/acf-blocks.php:10173
+#: inc/acf-blocks.php:10973
 msgid "top"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1368 inc/functions/acf-blocks.php:2412
-#: inc/functions/acf-blocks.php:9788 inc/functions/acf-blocks.php:10588
+#: inc/acf-blocks.php:1524 inc/acf-blocks.php:2609 inc/acf-blocks.php:10174
+#: inc/acf-blocks.php:10974
 msgid "middle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1369 inc/functions/acf-blocks.php:2413
-#: inc/functions/acf-blocks.php:9789 inc/functions/acf-blocks.php:10589
+#: inc/acf-blocks.php:1525 inc/acf-blocks.php:2610 inc/acf-blocks.php:10175
+#: inc/acf-blocks.php:10975
 msgid "bottom"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1380
+#: inc/acf-blocks.php:1536
 msgid "Horizontal align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1400 inc/functions/acf-blocks.php:5109
-#: inc/functions/acf-blocks.php:9749 inc/functions/acf-blocks.php:10549
+#: inc/acf-blocks.php:1556 inc/acf-blocks.php:5306 inc/acf-blocks.php:10135
+#: inc/acf-blocks.php:10935
 msgid "start"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1402 inc/functions/acf-blocks.php:2446
-#: inc/functions/acf-blocks.php:5110 inc/functions/acf-blocks.php:9751
-#: inc/functions/acf-blocks.php:10551
+#: inc/acf-blocks.php:1558 inc/acf-blocks.php:2643 inc/acf-blocks.php:5307
+#: inc/acf-blocks.php:10137 inc/acf-blocks.php:10937
 msgid "end"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1413
+#: inc/acf-blocks.php:1569
 msgid "Divider Height"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1433
+#: inc/acf-blocks.php:1589
 msgid "Show Divider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1457
+#: inc/acf-blocks.php:1613
 msgid "Full content editor"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1589 inc/functions/acf-blocks.php:11222
-msgid "Background color"
-msgstr ""
-
-#: inc/functions/acf-blocks.php:1604
+#: inc/acf-blocks.php:1797
 msgid "Background round corners"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1623 inc/functions/acf-blocks.php:2029
-#: inc/functions/acf-blocks.php:3173 inc/functions/acf-blocks.php:3699
-#: inc/functions/acf-blocks.php:4057 inc/functions/acf-blocks.php:5463
-#: inc/functions/acf-blocks.php:5838 inc/functions/acf-blocks.php:6550
-#: inc/functions/acf-blocks.php:7232 inc/functions/acf-blocks.php:7526
-#: inc/functions/acf-blocks.php:7772 inc/functions/acf-blocks.php:8088
-#: inc/functions/acf-blocks.php:8208 inc/functions/acf-blocks.php:8626
-#: inc/functions/acf-blocks.php:12484 inc/functions/acf-blocks.php:12602
-#: inc/functions/acf-blocks.php:12782
+#: inc/acf-blocks.php:1816
+msgid "Content align middle"
+msgstr ""
+
+#: inc/acf-blocks.php:1835 inc/acf-blocks.php:2226 inc/acf-blocks.php:3370
+#: inc/acf-blocks.php:3896 inc/acf-blocks.php:4254 inc/acf-blocks.php:5660
+#: inc/acf-blocks.php:6035 inc/acf-blocks.php:6747 inc/acf-blocks.php:7429
+#: inc/acf-blocks.php:7723 inc/acf-blocks.php:7969 inc/acf-blocks.php:8285
+#: inc/acf-blocks.php:8405 inc/acf-blocks.php:8823 inc/acf-options.php:1410
+#: inc/acf-options.php:1528 inc/acf-options.php:1708
 msgid "Title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1642 inc/functions/acf-blocks.php:2048
-#: inc/functions/acf-blocks.php:5075
+#: inc/acf-blocks.php:1854 inc/acf-blocks.php:2245 inc/acf-blocks.php:5272
 msgid "Title - font size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1663 inc/functions/acf-blocks.php:3192
-#: inc/functions/acf-blocks.php:7545 inc/functions/acf-blocks.php:7791
-#: inc/functions/acf-blocks.php:12801
+#: inc/acf-blocks.php:1875 inc/acf-blocks.php:3389 inc/acf-blocks.php:7742
+#: inc/acf-blocks.php:7988 inc/acf-options.php:1727
 msgid "Subtitle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1682
+#: inc/acf-blocks.php:1894
 msgid "Subtitle - font size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1718
+#: inc/acf-blocks.php:1930
 msgid "Subtitle color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1733
+#: inc/acf-blocks.php:1945
 msgid "Content text color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1748
+#: inc/acf-blocks.php:1960
 msgid "Content block width"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1768 inc/functions/acf-blocks.php:2084
-#: inc/functions/acf-blocks.php:2109 inc/functions/acf-blocks.php:5096
-#: inc/functions/acf-blocks.php:5876 inc/functions/acf-blocks.php:6948
+#: inc/acf-blocks.php:1980 inc/acf-blocks.php:2281 inc/acf-blocks.php:2306
+#: inc/acf-blocks.php:5293 inc/acf-blocks.php:6073 inc/acf-blocks.php:7145
 msgid "Title align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1793 inc/functions/acf-blocks.php:8645
+#: inc/acf-blocks.php:2005 inc/acf-blocks.php:8842
 msgid "Content"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1812
+#: inc/acf-blocks.php:2024
 msgid "Bottom Button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1831
+#: inc/acf-blocks.php:2043
 msgid "Bottom Button link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1832 inc/functions/acf-blocks.php:6531
-#: inc/functions/acf-blocks.php:11616 inc/functions/acf-blocks.php:11902
-#: inc/functions/acf-blocks.php:11991 inc/functions/acf-blocks.php:12101
-#: inc/functions/acf-blocks.php:12839
+#: inc/acf-blocks.php:2044 inc/acf-blocks.php:6728 inc/acf-options.php:445
+#: inc/acf-options.php:820 inc/acf-options.php:917 inc/acf-options.php:1027
+#: inc/acf-options.php:1765
 msgid "Link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1851
+#: inc/acf-blocks.php:2063
 msgid "Bottom Button Color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1863 inc/functions/acf-blocks.php:3375
-#: inc/functions/acf-blocks.php:5133 inc/functions/acf-blocks.php:7603
-#: inc/functions/acf-blocks.php:11693
+#: inc/acf-blocks.php:2075 inc/acf-blocks.php:3572 inc/acf-blocks.php:5330
+#: inc/acf-blocks.php:7800 inc/acf-options.php:522
 msgid "Dark"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1864 inc/functions/acf-blocks.php:3376
-#: inc/functions/acf-blocks.php:5134 inc/functions/acf-blocks.php:7604
-#: inc/functions/acf-blocks.php:11694
+#: inc/acf-blocks.php:2076 inc/acf-blocks.php:3573 inc/acf-blocks.php:5331
+#: inc/acf-blocks.php:7801 inc/acf-options.php:523
 msgid "Light"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1865
+#: inc/acf-blocks.php:2077
 msgid "Full bottom"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:1876
-msgid "Content background color"
-msgstr ""
-
-#: inc/functions/acf-blocks.php:1896
+#: inc/acf-blocks.php:2093
 msgid "Image Block"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2134
+#: inc/acf-blocks.php:2331
 msgid "Title location"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2146
+#: inc/acf-blocks.php:2343
 msgid "Title top"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2147
+#: inc/acf-blocks.php:2344
 msgid "Title bottom"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2158 inc/functions/acf-blocks.php:3299
-#: inc/functions/acf-blocks.php:4185 inc/functions/acf-blocks.php:5526
+#: inc/acf-blocks.php:2355 inc/acf-blocks.php:3496 inc/acf-blocks.php:4382
+#: inc/acf-blocks.php:5723
 msgid "Image size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2170 inc/functions/acf-blocks.php:3311
-#: inc/functions/acf-blocks.php:4198 inc/functions/acf-blocks.php:5538
+#: inc/acf-blocks.php:2367 inc/acf-blocks.php:3508 inc/acf-blocks.php:4395
+#: inc/acf-blocks.php:5735
 msgid "Cut 620x425"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2171 inc/functions/acf-blocks.php:3312
-#: inc/functions/acf-blocks.php:5539
+#: inc/acf-blocks.php:2368 inc/acf-blocks.php:3509 inc/acf-blocks.php:5736
 msgid "Cut 500px"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2172 inc/functions/acf-blocks.php:3313
-#: inc/functions/acf-blocks.php:5540
+#: inc/acf-blocks.php:2369 inc/acf-blocks.php:3510 inc/acf-blocks.php:5737
 msgid "Cut 300px"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2173
+#: inc/acf-blocks.php:2370
 msgid "Cut Portrait"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2174
+#: inc/acf-blocks.php:2371
 msgid "No cut = full size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2185
+#: inc/acf-blocks.php:2382
 msgid "Image align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2210
+#: inc/acf-blocks.php:2407
 msgid "Image Style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2222
+#: inc/acf-blocks.php:2419
 msgid "Add Drop shadow"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2223
+#: inc/acf-blocks.php:2420
 msgid "Add Content on image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2224
+#: inc/acf-blocks.php:2421
 msgid "Show Content on hover only"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2225
+#: inc/acf-blocks.php:2422
 msgid "Overlay on image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2226
+#: inc/acf-blocks.php:2423
 msgid "Inside border"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2227
+#: inc/acf-blocks.php:2424
 msgid "Round corners"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2228
+#: inc/acf-blocks.php:2425
 msgid "Add logo on image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2229
+#: inc/acf-blocks.php:2426
 msgid "No stretch - Original proportions"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2241
+#: inc/acf-blocks.php:2438
 msgid "Image fit in block"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2265
+#: inc/acf-blocks.php:2462
 msgid "Logo on image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2297
+#: inc/acf-blocks.php:2494
 msgid "Logo position on image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2336
+#: inc/acf-blocks.php:2533
 msgid "Container height"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2364
+#: inc/acf-blocks.php:2561
 msgid "Text content"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2391
+#: inc/acf-blocks.php:2588
 msgid "Text Ver align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2424
+#: inc/acf-blocks.php:2621
 msgid "Text Hor align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2445
+#: inc/acf-blocks.php:2642
 msgid "strat"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2486
+#: inc/acf-blocks.php:2683
 msgid "Font color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2509
+#: inc/acf-blocks.php:2706
 msgid "Links"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2533
+#: inc/acf-blocks.php:2730
 msgid "First button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2565
+#: inc/acf-blocks.php:2762
 msgid "First button link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2597
+#: inc/acf-blocks.php:2794
 msgid "Second button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2629
+#: inc/acf-blocks.php:2826
 msgid "Second button link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2661
+#: inc/acf-blocks.php:2858
 msgid "Link for all the image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2688 inc/functions/acf-blocks.php:5656
+#: inc/acf-blocks.php:2885 inc/acf-blocks.php:5853
 msgid "Open link in fancy box"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2715
+#: inc/acf-blocks.php:2912
 msgid "Choose the image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2739
+#: inc/acf-blocks.php:2936
 msgid "Top margin"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2758
+#: inc/acf-blocks.php:2955
 msgid "Bottom margin"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2783
+#: inc/acf-blocks.php:2980
 msgid "Image with content"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2916 inc/functions/acf-blocks.php:6414
+#: inc/acf-blocks.php:3113 inc/acf-blocks.php:6611
 msgid "Type"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2928
+#: inc/acf-blocks.php:3125
 msgid "Image ontop"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2929
+#: inc/acf-blocks.php:3126
 msgid "Title ontop"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2930
+#: inc/acf-blocks.php:3127
 msgid "Side by side"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2941 inc/functions/acf-blocks.php:7333
-#: inc/functions/acf-blocks.php:8107
+#: inc/acf-blocks.php:3138 inc/acf-blocks.php:7530 inc/acf-blocks.php:8304
 msgid "Style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2953
+#: inc/acf-blocks.php:3150
 msgid "Style1"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2954
+#: inc/acf-blocks.php:3151
 msgid "Style2"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2965
+#: inc/acf-blocks.php:3162
 msgid "Image layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2985
+#: inc/acf-blocks.php:3182
 msgid "Cover Layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2986
+#: inc/acf-blocks.php:3183
 msgid "Cut by size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:2997
+#: inc/acf-blocks.php:3194
 msgid "Middle logo image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3036
+#: inc/acf-blocks.php:3233
 msgid "Content align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3061
+#: inc/acf-blocks.php:3258
 msgid "Column layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3095
+#: inc/acf-blocks.php:3292
 msgid "Image side"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3127
+#: inc/acf-blocks.php:3324
 msgid "Inner color bg"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3150
+#: inc/acf-blocks.php:3347
 msgid "Content color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3211 inc/functions/acf-blocks.php:4112
+#: inc/acf-blocks.php:3408 inc/acf-blocks.php:4309
 msgid "Title type"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3236 inc/functions/acf-blocks.php:4091
-#: inc/functions/acf-blocks.php:6584 inc/functions/acf-blocks.php:7034
-#: inc/functions/acf-blocks.php:7291
+#: inc/acf-blocks.php:3433 inc/acf-blocks.php:4288 inc/acf-blocks.php:6781
+#: inc/acf-blocks.php:7231 inc/acf-blocks.php:7488
 msgid "Title size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3256
+#: inc/acf-blocks.php:3453
 msgid "Full content"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3275 inc/functions/acf-blocks.php:3675
-#: inc/functions/acf-blocks.php:4341 inc/functions/acf-blocks.php:4748
-#: inc/functions/acf-blocks.php:4785 inc/functions/acf-blocks.php:6426
-#: inc/functions/acf-blocks.php:6438 inc/functions/acf-blocks.php:8664
-#: inc/functions/acf-blocks.php:10217 inc/functions/acf-blocks.php:10229
-#: inc/functions/acf-blocks.php:11017 inc/functions/acf-blocks.php:11029
-#: inc/functions/acf-blocks.php:12541 inc/functions/acf-blocks.php:12659
+#: inc/acf-blocks.php:3472 inc/acf-blocks.php:3872 inc/acf-blocks.php:4538
+#: inc/acf-blocks.php:4945 inc/acf-blocks.php:4982 inc/acf-blocks.php:6623
+#: inc/acf-blocks.php:6635 inc/acf-blocks.php:8861 inc/acf-blocks.php:10603
+#: inc/acf-blocks.php:10615 inc/acf-blocks.php:11403 inc/acf-blocks.php:11415
+#: inc/acf-options.php:1467 inc/acf-options.php:1585
 msgid "Image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3314
+#: inc/acf-blocks.php:3511
 msgid "Full size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3325
+#: inc/acf-blocks.php:3522
 msgid "Read more text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3344
+#: inc/acf-blocks.php:3541
 msgid "Button link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3363 inc/functions/acf-blocks.php:6038
-#: inc/functions/acf-blocks.php:7011
+#: inc/acf-blocks.php:3560 inc/acf-blocks.php:6235 inc/acf-blocks.php:7208
 msgid "Button color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3392
+#: inc/acf-blocks.php:3589
 msgid "Manual image link grid"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3525
+#: inc/acf-blocks.php:3722
 msgid "Layout type"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3537
+#: inc/acf-blocks.php:3734
 msgid "Flex layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3538
+#: inc/acf-blocks.php:3735
 msgid "Grid layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3539
+#: inc/acf-blocks.php:3736
 msgid "Box layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3540
+#: inc/acf-blocks.php:3737
 msgid "Video layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3551
+#: inc/acf-blocks.php:3748
 msgid "Boxes in row"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3587
+#: inc/acf-blocks.php:3784
 msgid "B&W effect"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3606
+#: inc/acf-blocks.php:3803
 msgid "Text position on image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3640
+#: inc/acf-blocks.php:3837
 msgid "Center bottom"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3641
+#: inc/acf-blocks.php:3838
 msgid "Center top"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3642
+#: inc/acf-blocks.php:3839
 msgid "Center middle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3643
+#: inc/acf-blocks.php:3840
 msgid "Start bottom"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3644
+#: inc/acf-blocks.php:3841
 msgid "Start top"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3645
+#: inc/acf-blocks.php:3842
 msgid "Start middle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3656 inc/functions/acf-blocks.php:5975
+#: inc/acf-blocks.php:3853 inc/acf-blocks.php:6172
 msgid "Choose images"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3777
+#: inc/acf-blocks.php:3974
 msgid "Excerpt"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3818 inc/functions/acf-blocks.php:4534
-#: inc/functions/acf-blocks.php:4547
+#: inc/acf-blocks.php:4015 inc/acf-blocks.php:4731 inc/acf-blocks.php:4744
 msgid "Page link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3862
+#: inc/acf-blocks.php:4059
 msgid "Video Youtube link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3889
+#: inc/acf-blocks.php:4086
 msgid "Video Youtube title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:3924
+#: inc/acf-blocks.php:4121
 msgid "Project Box"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4137 inc/functions/acf-blocks.php:5050
+#: inc/acf-blocks.php:4334 inc/acf-blocks.php:5247
 msgid "Title position"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4149
+#: inc/acf-blocks.php:4346
 msgid "Above the Image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4150
+#: inc/acf-blocks.php:4347
 msgid "Below the Image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4161
+#: inc/acf-blocks.php:4358
 msgid "Title side"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4199
+#: inc/acf-blocks.php:4396
 msgid "Cut 800x420"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4210
+#: inc/acf-blocks.php:4407
 msgid "Pre title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4229
+#: inc/acf-blocks.php:4426
 msgid "Pre title color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4244
+#: inc/acf-blocks.php:4441
 msgid "Pre title size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4265
+#: inc/acf-blocks.php:4462
 msgid "First button - text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4284
+#: inc/acf-blocks.php:4481
 msgid "Second button - text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4303
+#: inc/acf-blocks.php:4500
 msgid "First button - link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4322
+#: inc/acf-blocks.php:4519
 msgid "Second button - link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4370 inc/functions/acf-blocks.php:12820
+#: inc/acf-blocks.php:4567 inc/acf-options.php:1746
 msgid "Button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4503
+#: inc/acf-blocks.php:4700
 msgid "Text on button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4522
+#: inc/acf-blocks.php:4719
 msgid "Link type"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4535 inc/functions/acf-blocks.php:4574
+#: inc/acf-blocks.php:4732 inc/acf-blocks.php:4771
 msgid "Free link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4536
+#: inc/acf-blocks.php:4733
 msgid "Form in popup"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4601 inc/functions/acf-blocks.php:7888
+#: inc/acf-blocks.php:4798 inc/acf-blocks.php:8085
 msgid "Form link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4631
+#: inc/acf-blocks.php:4828
 msgid "Button style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4643
+#: inc/acf-blocks.php:4840
 msgid "Normal Button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4644
+#: inc/acf-blocks.php:4841
 msgid "Round Button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4645
+#: inc/acf-blocks.php:4842
 msgid "Big Button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4656
+#: inc/acf-blocks.php:4853
 msgid "Text Color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4671
+#: inc/acf-blocks.php:4868
 msgid "BackGround color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4686
+#: inc/acf-blocks.php:4883
 msgid "Button hor align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4711
+#: inc/acf-blocks.php:4908
 msgid "Button ver align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4736
+#: inc/acf-blocks.php:4933
 msgid "Button icon type"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4749 inc/functions/acf-blocks.php:6427
+#: inc/acf-blocks.php:4946 inc/acf-blocks.php:6624
 msgid "Icon font"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4750
+#: inc/acf-blocks.php:4947
 msgid "Icon free html"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4761
+#: inc/acf-blocks.php:4958
 msgid "Button icon side"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4773
+#: inc/acf-blocks.php:4970
 msgid "Icon left"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4774
+#: inc/acf-blocks.php:4971
 msgid "Icon right"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4817 inc/functions/acf-blocks.php:6470
-#: inc/functions/acf-blocks.php:11591 inc/functions/acf-blocks.php:11853
-#: inc/functions/acf-blocks.php:11942 inc/functions/acf-blocks.php:12071
+#: inc/acf-blocks.php:5014 inc/acf-blocks.php:6667 inc/acf-options.php:420
+#: inc/acf-options.php:771 inc/acf-options.php:868 inc/acf-options.php:997
 msgid "Icon"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4855 inc/functions/acf-blocks.php:6508
+#: inc/acf-blocks.php:5052 inc/acf-blocks.php:6705
 msgid "Icon color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4885
+#: inc/acf-blocks.php:5082
 msgid "Free HTML"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:4917
+#: inc/acf-blocks.php:5114
 msgid "Page/Article Grid"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5062
+#: inc/acf-blocks.php:5259
 msgid "Top"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5063
+#: inc/acf-blocks.php:5260
 msgid "Bottom"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5064
+#: inc/acf-blocks.php:5261
 msgid "Inside"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5145
+#: inc/acf-blocks.php:5342
 msgid "Grid style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5157 inc/functions/acf-blocks.php:9607
-#: inc/functions/acf-blocks.php:10414
+#: inc/acf-blocks.php:5354 inc/acf-blocks.php:9993 inc/acf-blocks.php:10800
 msgid "style1"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5158 inc/functions/acf-blocks.php:9608
-#: inc/functions/acf-blocks.php:10415
+#: inc/acf-blocks.php:5355 inc/acf-blocks.php:9994 inc/acf-blocks.php:10801
 msgid "style2"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5159 inc/functions/acf-blocks.php:9609
-#: inc/functions/acf-blocks.php:10416
+#: inc/acf-blocks.php:5356 inc/acf-blocks.php:9995 inc/acf-blocks.php:10802
 msgid "style3"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5170
+#: inc/acf-blocks.php:5367
 msgid "Pages per row"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5173 inc/functions/acf-blocks.php:6803
+#: inc/acf-blocks.php:5370 inc/acf-blocks.php:7000
 msgid "between 2-5"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5191 inc/functions/acf-blocks.php:6847
+#: inc/acf-blocks.php:5388 inc/acf-blocks.php:7044
 msgid "Featured image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5203 inc/functions/acf-blocks.php:6874
+#: inc/acf-blocks.php:5400 inc/acf-blocks.php:7071
 msgid "Page main feature image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5204 inc/functions/acf-blocks.php:6875
+#: inc/acf-blocks.php:5401 inc/acf-blocks.php:7072
 msgid "Second featured image on hover"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5215
+#: inc/acf-blocks.php:5412
 msgid "Grid pagination"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5227
+#: inc/acf-blocks.php:5424
 msgid "No pagination"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5228
+#: inc/acf-blocks.php:5425
 msgid "Paginate by pages"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5229
+#: inc/acf-blocks.php:5426
 msgid "Paginate by scroll more"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5240
+#: inc/acf-blocks.php:5437
 msgid "Pages per display"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5276
+#: inc/acf-blocks.php:5473
 msgid "Show excerpt"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5295 inc/functions/acf-blocks.php:7055
+#: inc/acf-blocks.php:5492 inc/acf-blocks.php:7252 inc/acf-blocks.php:9065
 msgid "Choose pages"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5330
+#: inc/acf-blocks.php:5527
 msgid "Image Slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5482
+#: inc/acf-blocks.php:5679
 msgid "Sub Title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5501 inc/functions/acf-blocks.php:7266
+#: inc/acf-blocks.php:5698 inc/acf-blocks.php:7463
 msgid "Title Align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5541
+#: inc/acf-blocks.php:5738
 msgid "full size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5552
+#: inc/acf-blocks.php:5749
 msgid "Images on display - desktop"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5555
+#: inc/acf-blocks.php:5752
 msgid "Between 1-6"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5573
+#: inc/acf-blocks.php:5770
 msgid "Images on display - mobile"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5576 inc/functions/acf-blocks.php:8589
+#: inc/acf-blocks.php:5773 inc/acf-blocks.php:8786
 msgid "Between 1-3"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5595
+#: inc/acf-blocks.php:5792
 msgid "Show thumbnails"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5615
+#: inc/acf-blocks.php:5812
 msgid "No thumbs"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5616
+#: inc/acf-blocks.php:5813
 msgid "Slider thumbs"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5627
+#: inc/acf-blocks.php:5824
 msgid "Image thums to display"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5630
+#: inc/acf-blocks.php:5827
 msgid "Between 2-6"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5675
+#: inc/acf-blocks.php:5872
 msgid "Images"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5705
+#: inc/acf-blocks.php:5902
 msgid "Gallery grid"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5901
+#: inc/acf-blocks.php:6098
 msgid "Gallery type"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5913
+#: inc/acf-blocks.php:6110
 msgid "Box grid"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5914
+#: inc/acf-blocks.php:6111
 msgid "Masonary"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5925
+#: inc/acf-blocks.php:6122
 msgid "Images per row"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:5954
+#: inc/acf-blocks.php:6151
 msgid "Open images on display"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6000
+#: inc/acf-blocks.php:6197
 msgid "Show more button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6019
+#: inc/acf-blocks.php:6208
+msgid "Show more"
+msgstr ""
+
+#: inc/acf-blocks.php:6216
 msgid "Show less button"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6067
+#: inc/acf-blocks.php:6227
+msgid "Show less"
+msgstr ""
+
+#: inc/acf-blocks.php:6264
 msgid "Bulletin List"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6200
+#: inc/acf-blocks.php:6397
 msgid "Main Title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6219
+#: inc/acf-blocks.php:6416
 msgid "Main SubTitle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6238
+#: inc/acf-blocks.php:6435
 msgid "Layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6262
+#: inc/acf-blocks.php:6459
 msgid "Image/Icon Position"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6301
+#: inc/acf-blocks.php:6498
 msgid "Content Align"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6341
+#: inc/acf-blocks.php:6538
 msgid "Max items in row"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6370
+#: inc/acf-blocks.php:6567
 msgid "Icon Size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6382
+#: inc/acf-blocks.php:6579
 msgid "Samll"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6383
+#: inc/acf-blocks.php:6580
 msgid "Medium"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6384
+#: inc/acf-blocks.php:6581
 msgid "Big"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6395
+#: inc/acf-blocks.php:6592
 msgid "List"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6605
+#: inc/acf-blocks.php:6802
 msgid "Sub Text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6624
+#: inc/acf-blocks.php:6821
 msgid "SubText color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6639
+#: inc/acf-blocks.php:6836
 msgid "SubText Size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6667
+#: inc/acf-blocks.php:6864
 msgid "Page/Article Slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6800 inc/functions/acf-blocks.php:7312
+#: inc/acf-blocks.php:6997 inc/acf-blocks.php:7509
 msgid "Number of links to display"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6821 inc/functions/acf-blocks.php:8561
+#: inc/acf-blocks.php:7018 inc/acf-blocks.php:8758
 msgid "Slider style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6886
+#: inc/acf-blocks.php:7083
 msgid "Choose source"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6898
+#: inc/acf-blocks.php:7095
 msgid "Manualy from list"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6899
+#: inc/acf-blocks.php:7096
 msgid "Auto latest pages"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6900
+#: inc/acf-blocks.php:7097
 msgid "Auto latest posts"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6901
+#: inc/acf-blocks.php:7098
 msgid "Auto child pages"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6912
+#: inc/acf-blocks.php:7109
 msgid "Number of links to call on"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6968
+#: inc/acf-blocks.php:7165
 msgid "Center"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6969
+#: inc/acf-blocks.php:7166
 msgid "Start"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:6970
+#: inc/acf-blocks.php:7167
 msgid "End"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7099
+#: inc/acf-blocks.php:7296
 msgid "Product Slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7315
+#: inc/acf-blocks.php:7512
 msgid "Between 2-5"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7345
+#: inc/acf-blocks.php:7542
 msgid "Hide Price"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7346
+#: inc/acf-blocks.php:7543
 msgid "Hide Buttons"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7347
+#: inc/acf-blocks.php:7544
 msgid "Hide Intro"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7359
+#: inc/acf-blocks.php:7556
 msgid "Choose Products"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7393
+#: inc/acf-blocks.php:7590
 msgid "Full contact form"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7564
+#: inc/acf-blocks.php:7761
 msgid "Choose Form"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7591
+#: inc/acf-blocks.php:7788
 msgid "Form color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7615
+#: inc/acf-blocks.php:7812
 msgid "Hide form title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7639
+#: inc/acf-blocks.php:7836
 msgid "Q&A slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7810
+#: inc/acf-blocks.php:8007
 msgid "Q&A"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7869
+#: inc/acf-blocks.php:8026
+msgid "Question"
+msgstr ""
+
+#: inc/acf-blocks.php:8045
+msgid "Answer"
+msgstr ""
+
+#: inc/acf-blocks.php:8066
 msgid "Button popup"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7910
+#: inc/acf-blocks.php:8107
 msgid "Button read more"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7929
+#: inc/acf-blocks.php:8126
 msgid "Link button read more"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:7955
+#: inc/acf-blocks.php:8152
 msgid "Q&A accordion"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8119
+#: inc/acf-blocks.php:8316
 msgid "Accordion"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8120
+#: inc/acf-blocks.php:8317
 msgid "Tabs"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8131
+#: inc/acf-blocks.php:8328
 msgid "Icon type"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8143
+#: inc/acf-blocks.php:8340
 msgid "QA text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8144
+#: inc/acf-blocks.php:8341
 msgid "Check mark"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8145
+#: inc/acf-blocks.php:8342
 msgid "Plus/Minus"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8146
+#: inc/acf-blocks.php:8343
 msgid "Question mark"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8157
+#: inc/acf-blocks.php:8354
 msgid "Columns"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8177
+#: inc/acf-blocks.php:8374
 msgid "One column"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8178
+#: inc/acf-blocks.php:8375
 msgid "Two columns"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8189
+#: inc/acf-blocks.php:8386
 msgid "Q&A Rows"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8227 inc/functions/acf-blocks.php:11883
-#: inc/functions/acf-blocks.php:11972 inc/functions/acf-blocks.php:12120
+#: inc/acf-blocks.php:8424 inc/acf-options.php:801 inc/acf-options.php:898
+#: inc/acf-options.php:1046
 msgid "Text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8253
+#: inc/acf-blocks.php:8450
 msgid "Google map"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8386
+#: inc/acf-blocks.php:8583
 msgid "Title in map"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8405
+#: inc/acf-blocks.php:8602
 msgid "Address"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8428
+#: inc/acf-blocks.php:8625
 msgid "Testimonial slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8586
+#: inc/acf-blocks.php:8783
 msgid "Number of boxes to display"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8607 inc/functions/acf-blocks.php:12621
+#: inc/acf-blocks.php:8804 inc/acf-options.php:1547
 msgid "Testimonials"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8688 inc/functions/acf-blocks.php:12640
+#: inc/acf-blocks.php:8885 inc/acf-options.php:1566
 msgid "Name"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8714
+#: inc/acf-blocks.php:8911
+msgid "Cat Box Grid"
+msgstr ""
+
+#: inc/acf-blocks.php:9044
+msgid "Boxes per row"
+msgstr ""
+
+#: inc/acf-blocks.php:9047
+msgid "between 1-3"
+msgstr ""
+
+#: inc/acf-blocks.php:9100
 msgid "Parallax Image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8847
+#: inc/acf-blocks.php:9233
 msgid "Background image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8871
+#: inc/acf-blocks.php:9257
 msgid "Background effect"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8895
+#: inc/acf-blocks.php:9281
 msgid "Block height"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8916
+#: inc/acf-blocks.php:9302
 msgid "Content on image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8940
+#: inc/acf-blocks.php:9326
 msgid "Add Row"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:8983
+#: inc/acf-blocks.php:9369
 msgid "MastHead"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9006
+#: inc/acf-blocks.php:9373
+msgid "Main Page Title"
+msgstr ""
+
+#: inc/acf-blocks.php:9376
+msgid "H1 - Replace page name title"
+msgstr ""
+
+#: inc/acf-blocks.php:9392
 msgid "Hide Main Page Title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9009
+#: inc/acf-blocks.php:9395
 msgid "If main page title is hidden you should add an H1 title in page"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9025
+#: inc/acf-blocks.php:9411
 msgid "Second Featured Image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9028
+#: inc/acf-blocks.php:9414
 msgid "Will be used as hover image effect"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9049
+#: inc/acf-blocks.php:9435
 msgid "MastHead on Mobile"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9061
+#: inc/acf-blocks.php:9447
 msgid "Same as Desktop"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9062
+#: inc/acf-blocks.php:9448
 msgid "Different on Mobile"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9073
+#: inc/acf-blocks.php:9459
 msgid "Intro Text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9076
+#: inc/acf-blocks.php:9462
 msgid "Position will be set by slider masthead style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9092
+#: inc/acf-blocks.php:9478
 msgid "Short Excerpt"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9095
+#: inc/acf-blocks.php:9481
 msgid "will be shown on related pages linked here"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9111
+#: inc/acf-blocks.php:9497
 msgid "MastHead Top Slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9127 inc/functions/acf-blocks.php:10360
+#: inc/acf-blocks.php:9513 inc/acf-blocks.php:10746
 msgid "MastHead Style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9139 inc/functions/acf-blocks.php:10372
+#: inc/acf-blocks.php:9525 inc/acf-blocks.php:10758
 msgid "Image Slider or Youtube video"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9140 inc/functions/acf-blocks.php:10373
+#: inc/acf-blocks.php:9526 inc/acf-blocks.php:10759
 msgid "Clean Image Short Head"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9141 inc/functions/acf-blocks.php:10374
+#: inc/acf-blocks.php:9527 inc/acf-blocks.php:10760
 msgid "No Image BG"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9142 inc/functions/acf-blocks.php:10375
+#: inc/acf-blocks.php:9528 inc/acf-blocks.php:10761
 msgid "Full Manual slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9172
+#: inc/acf-blocks.php:9558
 msgid "MastHead background color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9579 inc/functions/acf-blocks.php:10386
+#: inc/acf-blocks.php:9965 inc/acf-blocks.php:10772
 msgid "Slider Effect"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9620 inc/functions/acf-blocks.php:10427
+#: inc/acf-blocks.php:10006 inc/acf-blocks.php:10813
 msgid "Main title color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9646 inc/functions/acf-blocks.php:10453
+#: inc/acf-blocks.php:10032 inc/acf-blocks.php:10839
 msgid "Intro text color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9676 inc/functions/acf-blocks.php:10483
+#: inc/acf-blocks.php:10062 inc/acf-blocks.php:10869
 msgid "Title & Intro location"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9703 inc/functions/acf-blocks.php:10510
+#: inc/acf-blocks.php:10089 inc/acf-blocks.php:10896
 msgid "On top of the Image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9704 inc/functions/acf-blocks.php:10511
+#: inc/acf-blocks.php:10090 inc/acf-blocks.php:10897
 msgid "Under the image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9715 inc/functions/acf-blocks.php:10522
+#: inc/acf-blocks.php:10101 inc/acf-blocks.php:10908
 msgid "Title & Intro Horizontal position"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9762 inc/functions/acf-blocks.php:10562
+#: inc/acf-blocks.php:10148 inc/acf-blocks.php:10948
 msgid "Titile & Intro Vertical position"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9800 inc/functions/acf-blocks.php:10600
+#: inc/acf-blocks.php:10186 inc/acf-blocks.php:10986
 msgid "MastHead Visual Height"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9835 inc/functions/acf-blocks.php:10635
+#: inc/acf-blocks.php:10221 inc/acf-blocks.php:11021
 msgid "MastHead Type"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9858 inc/functions/acf-blocks.php:10658
+#: inc/acf-blocks.php:10244 inc/acf-blocks.php:11044
 msgid "Image / Image slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9859 inc/functions/acf-blocks.php:10659
+#: inc/acf-blocks.php:10245 inc/acf-blocks.php:11045
 msgid "Youtube Video"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9903 inc/functions/acf-blocks.php:10703
+#: inc/acf-blocks.php:10256 inc/acf-blocks.php:11056
+msgid "Choose Images"
+msgstr ""
+
+#: inc/acf-blocks.php:10289 inc/acf-blocks.php:11089
 msgid "Youtube full URL"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9927 inc/functions/acf-blocks.php:10727
+#: inc/acf-blocks.php:10313 inc/acf-blocks.php:11113
 msgid "First Button - text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9962 inc/functions/acf-blocks.php:10762
+#: inc/acf-blocks.php:10348 inc/acf-blocks.php:11148
 msgid "First Button - link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:9997 inc/functions/acf-blocks.php:10797
+#: inc/acf-blocks.php:10383 inc/acf-blocks.php:11183
 msgid "Second Button - text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10032 inc/functions/acf-blocks.php:10832
+#: inc/acf-blocks.php:10418 inc/acf-blocks.php:11218
 msgid "Second Button - link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10067 inc/functions/acf-blocks.php:10867
+#: inc/acf-blocks.php:10453 inc/acf-blocks.php:11253
 msgid "Button Style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10095 inc/functions/acf-blocks.php:10895
+#: inc/acf-blocks.php:10481 inc/acf-blocks.php:11281
 msgid "Style 1"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10096 inc/functions/acf-blocks.php:10896
+#: inc/acf-blocks.php:10482 inc/acf-blocks.php:11282
 msgid "Style 2"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10097 inc/functions/acf-blocks.php:10897
+#: inc/acf-blocks.php:10483 inc/acf-blocks.php:11283
 msgid "Style 3"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10108 inc/functions/acf-blocks.php:10908
+#: inc/acf-blocks.php:10494 inc/acf-blocks.php:11294
 msgid "Button text color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10144 inc/functions/acf-blocks.php:10944
+#: inc/acf-blocks.php:10530 inc/acf-blocks.php:11330
 msgid "Button background color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10180 inc/functions/acf-blocks.php:10980
+#: inc/acf-blocks.php:10566 inc/acf-blocks.php:11366
 msgid "Manual Full Slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10205 inc/functions/acf-blocks.php:11005
+#: inc/acf-blocks.php:10591 inc/acf-blocks.php:11391
 msgid "Background Type"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10218 inc/functions/acf-blocks.php:11018
+#: inc/acf-blocks.php:10604 inc/acf-blocks.php:11404
 msgid "Video"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10261 inc/functions/acf-blocks.php:11061
+#: inc/acf-blocks.php:10647 inc/acf-blocks.php:11447
 msgid "Video URL"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10285 inc/functions/acf-blocks.php:11085
+#: inc/acf-blocks.php:10671 inc/acf-blocks.php:11471
 msgid "Content on slide"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10304 inc/functions/acf-blocks.php:11104
+#: inc/acf-blocks.php:10690 inc/acf-blocks.php:11490
 msgid "Contenet position on slide"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10316 inc/functions/acf-blocks.php:11116
+#: inc/acf-blocks.php:10702 inc/acf-blocks.php:11502
 msgid "Center Middle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10317
+#: inc/acf-blocks.php:10703
 msgid "Center Top"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10318
+#: inc/acf-blocks.php:10704
 msgid "Center Bottom"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10319 inc/functions/acf-blocks.php:11119
+#: inc/acf-blocks.php:10705 inc/acf-blocks.php:11505
 msgid "Top Start"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10320 inc/functions/acf-blocks.php:11120
+#: inc/acf-blocks.php:10706 inc/acf-blocks.php:11506
 msgid "Middle Start"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10321 inc/functions/acf-blocks.php:11121
+#: inc/acf-blocks.php:10707 inc/acf-blocks.php:11507
 msgid "Bottom Start"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10322 inc/functions/acf-blocks.php:11122
+#: inc/acf-blocks.php:10708 inc/acf-blocks.php:11508
 msgid "Top End"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10323 inc/functions/acf-blocks.php:11123
+#: inc/acf-blocks.php:10709 inc/acf-blocks.php:11509
 msgid "Middle End"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10324 inc/functions/acf-blocks.php:11124
+#: inc/acf-blocks.php:10710 inc/acf-blocks.php:11510
 msgid "Bottom End"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:10337
+#: inc/acf-blocks.php:10723
 msgid "Mobile MastHead Top Slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11117
+#: inc/acf-blocks.php:11503
 msgid "Top Middle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11118
+#: inc/acf-blocks.php:11504
 msgid "Bottom Middle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11178
+#: inc/acf-options.php:7
 msgid "General settings"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11182
+#: inc/acf-options.php:11
 msgid "Style & Layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11198
+#: inc/acf-options.php:27
 msgid "Site layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11210
+#: inc/acf-options.php:39
 msgid "Full width"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11211
+#: inc/acf-options.php:40
 msgid "Box site"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11237
+#: inc/acf-options.php:51
+msgid "Background color"
+msgstr ""
+
+#: inc/acf-options.php:66
 msgid "Inner background color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11252
+#: inc/acf-options.php:81
 msgid "General info"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11268
+#: inc/acf-options.php:97
 msgid "Main phone"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11287
+#: inc/acf-options.php:116
 msgid "Main contact - Phone text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11306
+#: inc/acf-options.php:135
 msgid "Phone for Whatsapp"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11325
+#: inc/acf-options.php:154
 msgid "Main contact - Whatsapp text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11344
+#: inc/acf-options.php:173
 msgid "Main email"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11363
+#: inc/acf-options.php:192
 msgid "Main contact - Email text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11382
+#: inc/acf-options.php:211
 msgid "Mobile phone"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11401
+#: inc/acf-options.php:230
 msgid "Main contact - Mobile text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11420
+#: inc/acf-options.php:249
 msgid "Messanger"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11439
+#: inc/acf-options.php:268
 msgid "Main contact - Messanger text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11458
+#: inc/acf-options.php:287
 msgid "Facebook"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11477
+#: inc/acf-options.php:306
 msgid "Main contact - Facebook text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11496
+#: inc/acf-options.php:325
 msgid "Main share - Twitter text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11515
+#: inc/acf-options.php:344
 msgid "Main share - Facebook text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11534
+#: inc/acf-options.php:363
 msgid "Main share - Whatsapp text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11553
+#: inc/acf-options.php:382
 msgid "Main share - email text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11572
+#: inc/acf-options.php:401
 msgid "Social links"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11637
+#: inc/acf-options.php:466
 msgid "Header"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11653
+#: inc/acf-options.php:482
 msgid "Header style"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11665
+#: inc/acf-options.php:494
 msgid "Logo on side of nav"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11666
+#: inc/acf-options.php:495
 msgid "Logo above nav"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11667
+#: inc/acf-options.php:496
 msgid "Logo center nav"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11668
+#: inc/acf-options.php:497
 msgid "Logo center NO nav"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11669
+#: inc/acf-options.php:498
 msgid "Logo side NO nav"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11670
+#: inc/acf-options.php:499
 msgid "Logo with Hamburger nav"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11681
+#: inc/acf-options.php:510
 msgid "Header background color"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11695
+#: inc/acf-options.php:524
 msgid "Transparent"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11706
+#: inc/acf-options.php:535
 msgid "Logo position (desktop)"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11740
+#: inc/acf-options.php:569
 msgid "Logo right"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11741
+#: inc/acf-options.php:570
 msgid "Logo center"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11742
+#: inc/acf-options.php:571
 msgid "Logo left"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11753
+#: inc/acf-options.php:582
 msgid "Menu item layout"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11780
+#: inc/acf-options.php:609
 msgid "Spread items evenly"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11781
+#: inc/acf-options.php:610
 msgid "Align item start"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11782
+#: inc/acf-options.php:611
 msgid "Align item end"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11783
+#: inc/acf-options.php:612
 msgid "Align item center"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11794
+#: inc/acf-options.php:623
 msgid "Default slider title size"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11815
+#: inc/acf-options.php:644
+msgid "Show top panel"
+msgstr ""
+
+#: inc/acf-options.php:663
+msgid "Show phone in top panel"
+msgstr ""
+
+#: inc/acf-options.php:690
+msgid "Show nav in top panel"
+msgstr ""
+
+#: inc/acf-options.php:717
 msgid "Top panel - right text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11834
+#: inc/acf-options.php:744
 msgid "Top panel - left"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:11923
+#: inc/acf-options.php:841
 msgid "Top panel - left nav on mobile only"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12012
+#: inc/acf-options.php:938
 msgid "Default top slider image"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12036
+#: inc/acf-options.php:962
 msgid "Footer"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12052
+#: inc/acf-options.php:978
 msgid "Footer social links"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12141
+#: inc/acf-options.php:1067
 msgid "Footer right col text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12160
+#: inc/acf-options.php:1086
 msgid "Footer center col text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12179
+#: inc/acf-options.php:1105
 msgid "Footer left col text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12198
+#: inc/acf-options.php:1124
 msgid "Footer form title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12217
+#: inc/acf-options.php:1143
 msgid "Footer form subtitle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12236
+#: inc/acf-options.php:1162
 msgid "Footer form background"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12260
+#: inc/acf-options.php:1186
 msgid "Site popups and Forms"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12276
+#: inc/acf-options.php:1202
 msgid "Page default form title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12295
+#: inc/acf-options.php:1221
 msgid "Page default form subtitle"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12314
+#: inc/acf-options.php:1240
 msgid "Footer default form bg"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12338
+#: inc/acf-options.php:1264
 msgid "Site elements"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12354
+#: inc/acf-options.php:1280
 msgid "Popup form title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12373
+#: inc/acf-options.php:1299
 msgid "Main category page link"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12392
+#: inc/acf-options.php:1318
 msgid "Contact module phone"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12411
+#: inc/acf-options.php:1337
 msgid "Contact module button text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12430
+#: inc/acf-options.php:1356
 msgid "Contact module Whatsapp num"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12449
+#: inc/acf-options.php:1375
 msgid "Contact module Whatsapp text"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12468
+#: inc/acf-options.php:1394
 msgid "Default client slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12503
+#: inc/acf-options.php:1429
 msgid "Ecxerpt"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12522
+#: inc/acf-options.php:1448
 msgid "Client list"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12565
+#: inc/acf-options.php:1491
 msgid "Client name"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12586
+#: inc/acf-options.php:1512
 msgid "Default testimonial slider"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12683
+#: inc/acf-options.php:1609
 msgid "Testimonial"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12704
+#: inc/acf-options.php:1630
 msgid "404 page"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12720
+#: inc/acf-options.php:1646
 msgid "Error brand points title"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12739
+#: inc/acf-options.php:1665
 msgid "Error brand box"
 msgstr ""
 
-#: inc/functions/acf-blocks.php:12758
+#: inc/acf-options.php:1684
 msgid "Icon/Image"
 msgstr ""
 
-#: inc/functions/theme-blocks.php:16
-msgid "Team Member"
+#. Name of the plugin
+msgid "TKM Functionality"
 msgstr ""
 
-#: inc/functions/theme-blocks.php:25
-msgid "Service Icon Col"
-msgstr ""
-
-#: inc/functions/theme-blocks.php:34
-msgid "Youtube Vid"
-msgstr ""
-
-#: inc/functions/theme-head.php:46
-msgid "Primary mobile menu"
-msgstr ""
-
-#: inc/functions/theme-head.php:48
-msgid "Footer nav"
-msgstr ""
-
-#: inc/functions/theme-head.php:49
-msgid "Footer nav left"
-msgstr ""
-
-#: inc/functions/theme-head.php:50
-msgid "Top panel nav"
-msgstr ""
-
-#: inc/functions/theme-functions.php:379
-msgid "Post navigation"
-msgstr ""
-
-#: inc/functions/theme-functions.php:383
-msgctxt "עמוד הקודם"
-msgid "&larr;"
-msgstr ""
-
-#: inc/functions/theme-functions.php:384
-msgctxt "עמוד הבא"
-msgid "&rarr;"
-msgstr ""
-
-#: inc/functions/theme-functions.php:389
-msgid "<span class=\"meta-nav\">&larr;</span> עמודים קודמים"
-msgstr ""
-
-#: inc/functions/theme-functions.php:393
-msgid "עמודים חדשים <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#. %s: Name of current post
-#: inc/functions/theme-functions.php:515
-#, php-format
-msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#. Name of the theme
-msgid "TKM Starter V2"
-msgstr ""
-
-#. Description of the theme
-msgid "tkmulti a WordPress theme from Scratch"
-msgstr ""
-
-#. URI of the theme
+#. Description of the plugin
 msgid ""
-"https://www.tkmedia.co.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D-"
-"%D7%A9%D7%9C%D7%A0%D7%95/%D7%91%D7%A0%D7%99%D7%99%D7%AA-"
-"%D7%90%D7%AA%D7%A8%D7%99-%D7%95%D7%95%D7%A8%D7%93%D7%A4%D7%A8%D7%A1-"
-"wordpress/"
+"This contains all your site's core functionality so that it is theme "
+"independent. <strong>It should always be activated</strong>."
 msgstr ""
 
-#. Author of the theme
-msgid "Tal Katz"
-msgstr ""
-
-#. Author URI of the theme
-msgid "https://www.tkmedia.co.il"
+#. Author of the plugin
+msgid "Tal Katz TKMedia.co.il"
 msgstr ""
