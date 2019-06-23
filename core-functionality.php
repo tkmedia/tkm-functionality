@@ -26,6 +26,7 @@ require_once( TKM_DIR . '/inc/wordpress-cleanup.php' );
 require_once( TKM_DIR . '/inc/kill-trackbacks.php' );
 require_once( TKM_DIR . '/inc/acf-options.php' );
 require_once( TKM_DIR . '/inc/acf-blocks.php' );
+require_once( TKM_DIR . '/inc/acf-masthead.php' );
 
 // Hide the ACF admin menu item.
 add_filter('acf/settings/show_admin', 'tkm_acf_settings_show_admin');
