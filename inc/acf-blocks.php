@@ -6136,6 +6136,7 @@ acf_add_local_field_group(array(
 									),
 									'choices' => array(
 										'menu-100' => __('Cut 100px', 'tkm-functionality'),
+										'clients-slider' => __('Resize 150x75', 'tkm-functionality'),
 										'inside-post' => __('Cut 620x425', 'tkm-functionality'),
 										'product-500c' => __('Cut 500px', 'tkm-functionality'),
 										'block-300' => __('Cut 300px', 'tkm-functionality'),
