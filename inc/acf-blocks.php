@@ -1000,7 +1000,7 @@ acf_add_local_field_group(array(
 									'ui_off_text' => '',
 								),
 								array(
-									'key' => 'field_5tk5cded6yh5e5',
+									'key' => 'field_5tk5cdesde5',
 									'label' => __('Block align', 'tkm-functionality'),
 									'name' => 'flex_style_title_align',
 									'type' => 'radio',
