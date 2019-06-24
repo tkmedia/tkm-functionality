@@ -981,7 +981,7 @@ acf_add_local_field_group(array(
 									'placeholder' => '',
 								),
 								array(
-									'key' => 'field_5tk5cded6yh5e5',
+									'key' => 'field_5tk5cscfffe5',
 									'label' => __('Break to new line', 'tkm-functionality'),
 									'name' => 'flex_style_title_break',
 									'type' => 'true_false',
@@ -1000,7 +1000,7 @@ acf_add_local_field_group(array(
 									'ui_off_text' => '',
 								),
 								array(
-									'key' => 'field_5tk5cdesde5',
+									'key' => 'field_5tk5cdscf555',
 									'label' => __('Block align', 'tkm-functionality'),
 									'name' => 'flex_style_title_align',
 									'type' => 'radio',
@@ -1009,7 +1009,7 @@ acf_add_local_field_group(array(
 									'conditional_logic' => array(
 										array(
 											array(
-												'field' => 'field_5tk5cded6yh5e5',
+												'field' => 'field_5tk5cscfffe5',
 												'operator' => '==',
 												'value' => '1',
 											),
