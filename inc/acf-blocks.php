@@ -953,7 +953,7 @@ acf_add_local_field_group(array(
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
-										'width' => '40',
+										'width' => '25',
 										'class' => '',
 										'id' => '',
 									),
@@ -998,6 +998,39 @@ acf_add_local_field_group(array(
 									'ui' => 1,
 									'ui_on_text' => '',
 									'ui_off_text' => '',
+								),
+								array(
+									'key' => 'field_5tk5cded6yh5e5',
+									'label' => __('Block align', 'tkm-functionality'),
+									'name' => 'flex_style_title_align',
+									'type' => 'radio',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5cded6yh5e5',
+												'operator' => '==',
+												'value' => '1',
+											),
+										),
+									),
+									'wrapper' => array(
+										'width' => '15',
+										'class' => '',
+										'id' => '',
+									),
+									'choices' => array(
+										'align-right' => __('Right', 'tkm-functionality'),
+										'align-center' => __('Center', 'tkm-functionality'),
+										'align-left' => __('Left', 'tkm-functionality'),
+									),
+									'allow_null' => 0,
+									'other_choice' => 0,
+									'default_value' => '',
+									'layout' => 'horizontal',
+									'return_format' => 'value',
+									'save_other_choice' => 0,
 								),
 								array(
 									'key' => 'field_5tk5cc54e538wwe238',
