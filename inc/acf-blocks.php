@@ -1002,7 +1002,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk5cdscf555',
 									'label' => __('Block align', 'tkm-functionality'),
-									'name' => 'flex_style_title_align',
+									'name' => 'flex_style_title_block_align',
 									'type' => 'radio',
 									'instructions' => '',
 									'required' => 0,
