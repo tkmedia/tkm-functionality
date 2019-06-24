@@ -996,7 +996,7 @@ acf_add_local_field_group(array(
 						array(
 							'key' => 'field_5d1073bdsd4d',
 							'label' => __('Block Width', 'tkm-functionality'),
-							'name' => 'flex_one_col_block_width',
+							'name' => 'footer_full_contnet_block_width',
 							'type' => 'select',
 							'instructions' => '',
 							'required' => 0,
