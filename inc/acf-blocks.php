@@ -4231,6 +4231,7 @@ acf_add_local_field_group(array(
 										'img_rig_bot' => __('Start bottom', 'tkm-functionality'),
 										'img_rig_top' => __('Start top', 'tkm-functionality'),
 										'img_rig_cen' => __('Start middle', 'tkm-functionality'),
+										'img_text_bellow' => __('Text bellow img', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
