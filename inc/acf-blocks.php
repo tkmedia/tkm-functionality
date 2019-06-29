@@ -4190,6 +4190,52 @@ acf_add_local_field_group(array(
 									'ui_off_text' => '',
 								),
 								array(
+									'key' => 'field_5tk5cbrw21460',
+									'label' => __('Style', 'tkm-functionality'),
+									'name' => 'flex_manual_link_grid_style',
+									'type' => 'radio',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5rre3897ba2cd0b',
+												'operator' => '==',
+												'value' => 'box-layout',
+											),
+										),
+										array(
+											array(
+												'field' => 'field_5tk5rre3897ba2cd0b',
+												'operator' => '==',
+												'value' => 'flex-layout',
+											),
+										),
+										array(
+											array(
+												'field' => 'field_5tk5rre3897ba2cd0b',
+												'operator' => '==',
+												'value' => 'grid-layout',
+											),
+										),
+									),
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'choices' => array(
+										'style1' => __('Style1', 'tkm-functionality'),
+										'style2' => __('Style2', 'tkm-functionality'),
+									),
+									'allow_null' => 0,
+									'other_choice' => 0,
+									'default_value' => '',
+									'layout' => 'horizontal',
+									'return_format' => 'value',
+									'save_other_choice' => 0,
+								),
+								array(
 									'key' => 'field_5tk5cbrre38551460',
 									'label' => __('Text position on image', 'tkm-functionality'),
 									'name' => 'flex_manual_link_grid_text_position',
