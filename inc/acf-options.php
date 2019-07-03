@@ -658,7 +658,7 @@ acf_add_local_field_group(array(
 			'default_value' => '',
 			'placeholder' => '',
 			'prepend' => '',
-			'append' => '',
+			'append' => 'px',
 			'min' => '',
 			'max' => '',
 			'step' => '',
