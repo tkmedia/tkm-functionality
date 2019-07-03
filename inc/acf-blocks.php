@@ -6289,7 +6289,7 @@ acf_add_local_field_group(array(
 									'label' => __('Pages per row', 'tkm-functionality'),
 									'name' => 'flex_article_grid_count',
 									'type' => 'number',
-									'instructions' => __('between 2-5', 'tkm-functionality'),
+									'instructions' => __('between 1-5', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
@@ -6301,7 +6301,7 @@ acf_add_local_field_group(array(
 									'placeholder' => '',
 									'prepend' => '',
 									'append' => '',
-									'min' => 2,
+									'min' => 1,
 									'max' => 5,
 									'step' => 1,
 								),
