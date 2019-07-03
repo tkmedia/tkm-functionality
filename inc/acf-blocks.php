@@ -960,6 +960,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -970,6 +971,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -1426,6 +1428,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -1436,6 +1439,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -1804,6 +1808,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -1814,6 +1819,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -2338,6 +2344,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -2348,6 +2355,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -3279,6 +3287,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -3289,6 +3298,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -3942,6 +3952,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -3952,6 +3963,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -4230,6 +4242,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -4240,6 +4253,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -4863,6 +4877,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -4873,6 +4888,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -5363,6 +5379,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -5373,6 +5390,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -5964,6 +5982,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -5974,6 +5993,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -6493,6 +6513,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -6503,6 +6524,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -6922,6 +6944,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -6932,6 +6955,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -7241,6 +7265,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -7657,6 +7682,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -7667,6 +7693,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -8359,6 +8386,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -8369,6 +8397,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -8898,6 +8927,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -8908,6 +8938,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -9246,6 +9277,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -9256,6 +9288,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -9546,6 +9579,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -9556,6 +9590,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -9916,6 +9951,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -9926,6 +9962,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -10268,6 +10305,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -10278,6 +10316,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -10497,6 +10536,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -10507,6 +10547,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -10837,6 +10878,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -10847,6 +10889,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
@@ -11080,6 +11123,7 @@ acf_add_local_field_group(array(
 									'choices' => array(
 										'col-md-12' => __('full width', 'tkm-functionality'),
 										'col-sm-6 col-md-1' => '8.33%',
+										'col-sm-6 col-md-eight' => '12.5%',
 										'col-sm-6 col-md-2' => '16.67%',
 										'col-sm-6 col-md-3' => '25%',
 										'col-sm-6 col-md-4' => '33.33%',
@@ -11090,6 +11134,7 @@ acf_add_local_field_group(array(
 										'col-sm-6 col-md-9' => '75%',
 										'col-sm-6 col-md-10' => '83.33%',
 										'col-sm-6 col-md-11' => '91.67%',
+										'col-sm-6 col-md-eight' => '12.5%',
 									),
 									'default_value' => array(
 									),
