@@ -684,7 +684,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5cjshdj2fd',
-			'label' => __('Left Overlay Color', 'tkm-functionality'),
+			'label' => __('Top panel bg color', 'tkm-functionality'),
 			'name' => 'header_top_panel_bg_color',
 			'type' => 'color_picker',
 			'instructions' => '',
@@ -707,7 +707,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk0jwgt2b3fd',
-			'label' => __('Left Overlay Color', 'tkm-functionality'),
+			'label' => __('Top panel text color', 'tkm-functionality'),
 			'name' => 'header_top_panel_font_color',
 			'type' => 'color_picker',
 			'instructions' => '',
