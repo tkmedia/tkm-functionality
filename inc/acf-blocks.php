@@ -6249,6 +6249,13 @@ acf_add_local_field_group(array(
 												'value' => 'style1',
 											),
 										),
+										array(
+											array(
+												'field' => 'field_5tk5cc99488c1c',
+												'operator' => '==',
+												'value' => 'style2',
+											),
+										),
 									),
 									'wrapper' => array(
 										'width' => '20',
