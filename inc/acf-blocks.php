@@ -8744,6 +8744,44 @@ acf_add_local_field_group(array(
 									'step' => 1,
 								),
 								array(
+									'key' => 'field_5tk5c377eed62',
+									'label' => __('Icon under title', 'tkm-functionality'),
+									'name' => 'flex_artcile_slider_title_icon',
+									'type' => 'font-awesome',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5c8ebaae328ab',
+												'operator' => '==',
+												'value' => 'style4',
+											),
+										),				
+									),
+									'wrapper' => array(
+										'width' => '20',
+										'class' => '',
+										'id' => '',
+									),
+									'icon_sets' => array(
+										0 => 'fas',
+										1 => 'far',
+										2 => 'fal',
+										3 => 'fab',
+									),
+									'custom_icon_set' => '',
+									'default_label' => '',
+									'default_value' => '',
+									'save_format' => 'element',
+									'allow_null' => 1,
+									'show_preview' => 1,
+									'enqueue_fa' => 0,
+									'fa_live_preview' => '',
+									'choices' => array(
+									),
+								),
+								array(
 									'key' => 'field_5tk5c8a73c8499c7',
 									'label' => __('Choose pages', 'tkm-functionality'),
 									'name' => 'flex_article_slider',
