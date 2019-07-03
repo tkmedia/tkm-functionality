@@ -7999,7 +7999,6 @@ acf_add_local_field_group(array(
 									'return_format' => 'value',
 									'save_other_choice' => 0,
 								),
-
 								array(
 									'key' => 'field_5tk5cds34e659',
 									'label' => __('Icon Size (if font icon)', 'tkm-functionality'),
@@ -8020,6 +8019,33 @@ acf_add_local_field_group(array(
 									'min' => 10,
 									'max' => 200,
 									'step' => 1,
+								),
+								array(
+									'key' => 'field_5tk54c9dd1fb673',
+									'label' => __('Image icon cut type', 'tkm-functionality'),
+									'name' => 'flex_bulletin_list_icon_size',
+									'type' => 'radio',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '20',
+										'class' => '',
+										'id' => '',
+									),
+									'choices' => array(
+										'inside-post' => __('Cut 620x425', 'tkm-functionality'),
+										'500c' => __('Cut 500px', 'tkm-functionality'),
+										'block-300' => __('Cut 300px', 'tkm-functionality'),
+										'portrait' => __('Cut Portrait', 'tkm-functionality'),
+										'full' => __('No cut = full size', 'tkm-functionality'),
+									),
+									'allow_null' => 0,
+									'other_choice' => 0,
+									'default_value' => '',
+									'layout' => 'vertical',
+									'return_format' => 'value',
+									'save_other_choice' => 0,
 								),
 								array(
 									'key' => 'field_5tk5cdc2621bac5f',
