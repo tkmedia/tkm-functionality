@@ -7499,7 +7499,7 @@ acf_add_local_field_group(array(
 									'label' => __('Images per row', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_col',
 									'type' => 'number',
-									'instructions' => '3 - 8',
+									'instructions' => '1 - 8',
 									'required' => 0,
 									'conditional_logic' => array(
 										array(
@@ -7519,7 +7519,7 @@ acf_add_local_field_group(array(
 									'placeholder' => '',
 									'prepend' => '',
 									'append' => '',
-									'min' => 3,
+									'min' => 1,
 									'max' => 8,
 									'step' => 1,
 								),
@@ -7528,7 +7528,7 @@ acf_add_local_field_group(array(
 									'label' => __('Open images on display', 'tkm-functionality'),
 									'name' => 'flex_gallery_grid_open',
 									'type' => 'number',
-									'instructions' => '3 - 100',
+									'instructions' => '1 - 100',
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
@@ -7540,7 +7540,7 @@ acf_add_local_field_group(array(
 									'placeholder' => '',
 									'prepend' => '',
 									'append' => '',
-									'min' => 3,
+									'min' => 1,
 									'max' => 100,
 									'step' => 1,
 								),
