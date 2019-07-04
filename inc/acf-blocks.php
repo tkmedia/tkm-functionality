@@ -8061,7 +8061,7 @@ acf_add_local_field_group(array(
 									'save_other_choice' => 0,
 								),
 								array(
-									'key' => 'field_5tk5cds34e659',
+									'key' => 'field_5tk5cds34e3ddfr3',
 									'label' => __('Icon Size (if font icon)', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_icon_size',
 									'type' => 'number',
@@ -8084,7 +8084,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk54c9dd1fb673',
 									'label' => __('Image icon cut type', 'tkm-functionality'),
-									'name' => 'flex_bulletin_list_icon_size',
+									'name' => 'flex_bulletin_list_size',
 									'type' => 'radio',
 									'instructions' => '',
 									'required' => 0,
