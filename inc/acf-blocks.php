@@ -8084,7 +8084,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk54c9dd1fb673',
 									'label' => __('Image icon cut type', 'tkm-functionality'),
-									'name' => 'flex_bulletin_list_size',
+									'name' => 'flex_bulletin_list_img_size',
 									'type' => 'radio',
 									'instructions' => '',
 									'required' => 0,
