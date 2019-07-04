@@ -11077,8 +11077,8 @@ acf_add_local_field_group(array(
 									'placeholder' => '',
 									'prepend' => '',
 									'append' => '',
-									'min' => 2,
-									'max' => 5,
+									'min' => 1,
+									'max' => 3,
 									'step' => 1,
 								),
 								array(
