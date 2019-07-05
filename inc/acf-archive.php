@@ -63,7 +63,7 @@ acf_add_local_field_group(array(
 			'endpoint' => 0,
 		),
 		array(
-			'key' => 'field_566051d11ffe0',
+			'key' => 'field_566051dssd30',
 			'label' => __('Articles per row', 'tkm-functionality'),
 			'name' => 'archive_article_display',
 			'type' => 'number',
