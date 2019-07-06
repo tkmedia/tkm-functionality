@@ -11609,7 +11609,7 @@ acf_add_local_field_group(array(
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
-										'width' => '16',
+										'width' => '20',
 										'class' => '',
 										'id' => '',
 									),
@@ -11637,7 +11637,7 @@ acf_add_local_field_group(array(
 										),
 									),
 									'wrapper' => array(
-										'width' => '33',
+										'width' => '20',
 										'class' => '',
 										'id' => '',
 									),
@@ -11654,7 +11654,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1ddsfff04904',
-									'label' => 'כותרת',
+									'label' => __('Title', 'tkm-functionality'),
 									'name' => 'flex_share_title',
 									'type' => 'text',
 									'instructions' => '',
@@ -11669,7 +11669,7 @@ acf_add_local_field_group(array(
 										),
 									),
 									'wrapper' => array(
-										'width' => '33',
+										'width' => '30',
 										'class' => '',
 										'id' => '',
 									),
@@ -11681,7 +11681,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1ddsfff04h5',
-									'label' => 'כותרת',
+									'label' => __('Subtitle', 'tkm-functionality'),
 									'name' => 'flex_share_subtitle',
 									'type' => 'text',
 									'instructions' => '',
@@ -11696,7 +11696,7 @@ acf_add_local_field_group(array(
 										),
 									),
 									'wrapper' => array(
-										'width' => '33',
+										'width' => '30',
 										'class' => '',
 										'id' => '',
 									),
@@ -11715,7 +11715,7 @@ acf_add_local_field_group(array(
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
-										'width' => '33',
+										'width' => '20',
 										'class' => '',
 										'id' => '',
 									),
