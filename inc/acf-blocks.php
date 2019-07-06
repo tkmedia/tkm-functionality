@@ -11621,8 +11621,8 @@ acf_add_local_field_group(array(
 								),
 								
 								array(
-									'key' => 'field_5ca13ddfd906',
-									'label' => 'סוג ההתקשרות',
+									'key' => 'field_5ca14fsdd3906',
+									'label' => 'Title position',
 									'name' => 'flex_share_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -11653,7 +11653,7 @@ acf_add_local_field_group(array(
 									'save_other_choice' => 0,
 								),
 								array(
-									'key' => 'field_5ca1d34404904',
+									'key' => 'field_5ca1ddsfff04904',
 									'label' => 'כותרת',
 									'name' => 'flex_share_title',
 									'type' => 'text',
@@ -11680,7 +11680,7 @@ acf_add_local_field_group(array(
 									'maxlength' => '',
 								),
 								array(
-									'key' => 'field_5ca1d35104905',
+									'key' => 'field_5ca1dsds4905',
 									'label' => 'כותרת משנה',
 									'name' => 'flex_share_subtitle',
 									'type' => 'text',
