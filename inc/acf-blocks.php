@@ -11680,10 +11680,12 @@ acf_add_local_field_group(array(
 									'maxlength' => '',
 								),
 								array(
-									'key' => 'field_5ca1dsdas11905',
-									'label' => 'כותרת משנה',
+									'key' => 'field_5ca1ddsfff04h5',
+									'label' => 'כותרת',
 									'name' => 'flex_share_subtitle',
 									'type' => 'text',
+									'instructions' => '',
+									'required' => 0,
 									'conditional_logic' => array(
 										array(
 											array(
@@ -11693,8 +11695,6 @@ acf_add_local_field_group(array(
 											),
 										),
 									),
-									'required' => 0,
-									'conditional_logic' => 0,
 									'wrapper' => array(
 										'width' => '33',
 										'class' => '',
