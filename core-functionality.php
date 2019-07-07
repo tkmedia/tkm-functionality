@@ -5,6 +5,7 @@
  * Version:     1.2.1
  * Text Domain: tkm-functionality
  * Author:      Tal Katz TKMedia.co.il
+ * Domain Path: /languages/
 
  *
  * This program is free software; you can redistribute it and/or modify it under
@@ -31,7 +32,11 @@ require_once( TKM_DIR . '/inc/acf-blocks.php' );
 require_once( TKM_DIR . '/inc/acf-archive.php' );
 require_once( TKM_DIR . '/inc/acf-masthead.php' );
 
-load_plugin_textdomain('tkm-functionality', false, basename( dirname( __FILE__ ) ) . '/languages' );
+
+function tkmfunctionality_load_plugin_textdomain() {
+    load_plugin_textdomain( 'tkm-functionality', FALSE, TKM_DIR . '/languages/' );
+}
+add_action( 'plugins_loaded', 'tkmfunctionality_load_plugin_textdomain' );
 
 // Hide the ACF admin menu item.
 add_filter('acf/settings/show_admin', 'tkm_acf_settings_show_admin');
