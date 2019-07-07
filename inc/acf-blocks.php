@@ -12292,7 +12292,7 @@ acf_add_local_field_group(array(
 
 						
 					),
-					'button_label' => __('Add Row', 'tkm-functionality'),
+					'button_label' => __('Add new block', 'tkm-functionality'),
 					'min' => '',
 					'max' => '',
 				),
