@@ -32,10 +32,7 @@ require_once( TKM_DIR . '/inc/acf-blocks.php' );
 require_once( TKM_DIR . '/inc/acf-archive.php' );
 require_once( TKM_DIR . '/inc/acf-masthead.php' );
 
-function tkmfunctionality_load_plugin_textdomain() {
-    load_plugin_textdomain( 'tkm-functionality', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
-}
-add_action( 'plugins_loaded', 'tkmfunctionality_load_plugin_textdomain' );
+load_plugin_textdomain('tkm-functionality', false, basename( dirname( __FILE__ ) ) . '/languages' );
 
 // Hide the ACF admin menu item.
 add_filter('acf/settings/show_admin', 'tkm_acf_settings_show_admin');
