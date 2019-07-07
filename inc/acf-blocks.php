@@ -12000,6 +12000,61 @@ acf_add_local_field_group(array(
 									'ui_on_text' => '',
 									'ui_off_text' => '',
 								),
+								array(
+									'key' => 'field_5ca1f07hehe1',
+									'label' => 'Pinterest',
+									'name' => 'flex_s_pinterest_show',
+									'type' => 'true_false',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5ca1d37f04906',
+												'operator' => '==',
+												'value' => 'share_icons',
+											),
+										),
+									),
+									'wrapper' => array(
+										'width' => '16',
+										'class' => '',
+										'id' => '',
+									),
+									'message' => '',
+									'default_value' => 0,
+									'ui' => 0,
+									'ui_on_text' => '',
+									'ui_off_text' => '',
+								),
+								array(
+									'key' => 'field_5ca1sj791',
+									'label' => 'Messenger',
+									'name' => 'flex_s_messenger_show',
+									'type' => 'true_false',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5ca1d37f04906',
+												'operator' => '==',
+												'value' => 'share_icons',
+											),
+										),
+									),
+									'wrapper' => array(
+										'width' => '16',
+										'class' => '',
+										'id' => '',
+									),
+									'message' => '',
+									'default_value' => 0,
+									'ui' => 0,
+									'ui_on_text' => '',
+									'ui_off_text' => '',
+								),								
+																
 							),
 							'min' => '',
 							'max' => '',
