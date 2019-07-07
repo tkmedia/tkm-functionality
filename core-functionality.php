@@ -37,3 +37,9 @@ add_filter('acf/settings/show_admin', 'tkm_acf_settings_show_admin');
 function tkm_acf_settings_show_admin( $show_admin ) {
     return false;
 }
+
+function load_plugin_textdomain() {
+	load_plugin_textdomain( 'tkm-functionality', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'load_plugin_textdomain' );
+
