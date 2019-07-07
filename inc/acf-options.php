@@ -1803,6 +1803,28 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
+			'key' => 'field_5tk5csk98bb5',
+			'label' => __('Default form popup', 'tkm-functionality'),
+			'name' => 'default_form_popup',
+			'type' => 'post_object',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '25',
+				'class' => '',
+				'id' => '',
+			),
+			'post_type' => array(
+				0 => 'wpcf7_contact_form',
+			),
+			'taxonomy' => '',
+			'allow_null' => 0,
+			'multiple' => 0,
+			'return_format' => 'id',
+			'ui' => 1,
+		),		
+		array(
 			'key' => 'field_5tk5c72dc33bf',
 			'label' => __('Footer default form bg', 'tkm-functionality'),
 			'name' => 'default_flex_form_bg',
@@ -2281,7 +2303,7 @@ acf_add_local_field_group(array(
 			),
 		),
 	),
-	'menu_order' => 0,
+	'menu_order' => 36,
 	'position' => 'normal',
 	'style' => 'default',
 	'label_placement' => 'top',
@@ -2289,9 +2311,8 @@ acf_add_local_field_group(array(
 	'hide_on_screen' => '',
 	'active' => true,
 	'description' => '',
-	'modified' => 1557043585,
 ));
 
-endif;
+endif;	
 
 ?>
