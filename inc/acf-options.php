@@ -1036,7 +1036,7 @@ acf_add_local_field_group(array(
 				'layout_5cf623csdde12' => array(
 					'key' => 'layout_5cf623csdde12',
 					'name' => 'footer_full_contnet',
-					'label' => 'Full content',
+					'label' => __('Full content', 'tkm-functionality'),
 					'display' => 'block',
 					'sub_fields' => array(
 						array(
