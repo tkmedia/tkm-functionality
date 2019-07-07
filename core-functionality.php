@@ -5,7 +5,6 @@
  * Version:     1.2.1
  * Text Domain: tkm-functionality
  * Author:      Tal Katz TKMedia.co.il
- * Domain Path: /languages/
 
  *
  * This program is free software; you can redistribute it and/or modify it under
