@@ -1803,7 +1803,7 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
-			'key' => 'field_5tk5cfs0lbb5',
+			'key' => 'field_5tk5csk98bb5',
 			'label' => __('Default form popup', 'tkm-functionality'),
 			'name' => 'default_form_popup',
 			'type' => 'post_object',
@@ -1811,7 +1811,7 @@ acf_add_local_field_group(array(
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
-				'width' => '50',
+				'width' => '25',
 				'class' => '',
 				'id' => '',
 			),
