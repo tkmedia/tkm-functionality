@@ -4122,7 +4122,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5d10721cbf4ba',
-									'label' => 'Video open style',
+									'label' => __('Video open style', 'tkm-functionality'),
 									'name' => 'flex_video_open_style',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4146,7 +4146,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5d190f55af758',
-									'label' => 'Video image type',
+									'label' => __('Video image type', 'tkm-functionality'),
 									'name' => 'flex_video_image_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -4170,7 +4170,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5d192612b85ad',
-									'label' => 'Video image front',
+									'label' => __('Video image front', 'tkm-functionality'),
 									'name' => 'flex_video_image',
 									'type' => 'image',
 									'instructions' => '',
@@ -4202,7 +4202,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5d192675b85ae',
-									'label' => 'Youtube video link',
+									'label' => __('Youtube video link', 'tkm-functionality'),
 									'name' => 'flex_video_link',
 									'type' => 'oembed',
 									'instructions' => '',
@@ -6289,7 +6289,7 @@ acf_add_local_field_group(array(
 									'label' => __('Pages per row', 'tkm-functionality'),
 									'name' => 'flex_article_grid_count',
 									'type' => 'number',
-									'instructions' => __('between 1-5', 'tkm-functionality'),
+									'instructions' => __('Between 1-5', 'tkm-functionality'),
 									'required' => 0,
 									'conditional_logic' => array(
 										array(
@@ -11602,7 +11602,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1shhsd4907',
-									'label' => 'Show title',
+									'label' => __('Show title', 'tkm-functionality'),
 									'name' => 'flex_share_title_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11622,7 +11622,7 @@ acf_add_local_field_group(array(
 								
 								array(
 									'key' => 'field_5ca14fsdssw306',
-									'label' => 'Title position',
+									'label' => __('Title position', 'tkm-functionality'),
 									'name' => 'flex_share_title_position',
 									'type' => 'radio',
 									'instructions' => '',
@@ -11642,8 +11642,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'top_title' => 'Title on top',
-										'side_title' => 'Title on side',
+										'top_title' => __('Title on top', 'tkm-functionality'),
+										'side_title' => __('Title on side', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -11708,7 +11708,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1d37f04906',
-									'label' => 'סוג ההתקשרות',
+									'label' => __('Share Type', 'tkm-functionality'),
 									'name' => 'flex_share_type',
 									'type' => 'radio',
 									'instructions' => '',
@@ -11720,8 +11720,8 @@ acf_add_local_field_group(array(
 										'id' => '',
 									),
 									'choices' => array(
-										'contact_icons' => 'כפתורי תקשורת',
-										'share_icons' => 'כפתורי שיתוף',
+										'contact_icons' => __('Contact buttons', 'tkm-functionality'),
+										'share_icons' => __('Share buttons', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
@@ -11732,7 +11732,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1d3e404907',
-									'label' => 'הצג התקשרות וואטסאפ',
+									'label' => __('Show whatsapp', 'tkm-functionality'),
 									'name' => 'flex_share_whatsapp_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11759,7 +11759,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1d41b04908',
-									'label' => 'הצג התקשרות אימייל',
+									'label' => __('Show email', 'tkm-functionality'),
 									'name' => 'flex_share_email_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11786,7 +11786,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1d45004909',
-									'label' => 'הצג התקשרות סלולר',
+									'label' => __('Show mobile num', 'tkm-functionality'),
 									'name' => 'flex_share_cellphone_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11813,7 +11813,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1d4640490a',
-									'label' => 'הצג התקשרות מסנגר',
+									'label' => __('Show messanger', 'tkm-functionality'),
 									'name' => 'flex_share_messanger_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11840,7 +11840,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1d4ba0490b',
-									'label' => 'הצג התקשרות טלפון',
+									'label' => __('Show phone', 'tkm-functionality'),
 									'name' => 'flex_share_phone_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11867,7 +11867,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1d4d30490c',
-									'label' => 'הצג קישור פייסבוק',
+									'label' => __('Show facebook', 'tkm-functionality'),
 									'name' => 'flex_share_facebook_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11894,7 +11894,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1f1402de74',
-									'label' => 'טוויטר',
+									'label' => __('Twitter', 'tkm-functionality'),
 									'name' => 'flex_s_twitter_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11921,7 +11921,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1f0812de72',
-									'label' => 'פייסבוק',
+									'label' => __('Facebook', 'tkm-functionality'),
 									'name' => 'flex_s_facebook_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11948,7 +11948,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1f0192de70',
-									'label' => 'וואטסאפ',
+									'label' => __('Whatsapp', 'tkm-functionality'),
 									'name' => 'flex_s_whatsapp_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -11975,7 +11975,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1f04e2de71',
-									'label' => 'אימייל',
+									'label' => __('Email', 'tkm-functionality'),
 									'name' => 'flex_s_email_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -12002,7 +12002,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1f07hehe1',
-									'label' => 'Pinterest',
+									'label' => __('Pinterest', 'tkm-functionality'),
 									'name' => 'flex_s_pinterest_show',
 									'type' => 'true_false',
 									'instructions' => '',
@@ -12029,7 +12029,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5ca1sj791',
-									'label' => 'Messenger',
+									'label' => __('Messenger', 'tkm-functionality'),
 									'name' => 'flex_s_messenger_show',
 									'type' => 'true_false',
 									'instructions' => '',
