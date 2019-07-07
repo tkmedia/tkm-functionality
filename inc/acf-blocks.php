@@ -11621,9 +11621,9 @@ acf_add_local_field_group(array(
 								),
 								
 								array(
-									'key' => 'field_5ca14fsdd3906',
+									'key' => 'field_5ca14fsdssw306',
 									'label' => 'Title position',
-									'name' => 'flex_share_type',
+									'name' => 'flex_share_title_position',
 									'type' => 'radio',
 									'instructions' => '',
 									'required' => 0,
