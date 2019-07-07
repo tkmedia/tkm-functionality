@@ -1809,7 +1809,8 @@ acf_add_local_field_group(array(
 			'type' => 'post_object',
 			'instructions' => '',
 			'required' => 0,
-			'instructions' => '',
+			'conditional_logic' => 0,
+			'wrapper' => array(
 				'width' => '50',
 				'class' => '',
 				'id' => '',
@@ -1823,7 +1824,6 @@ acf_add_local_field_group(array(
 			'return_format' => 'id',
 			'ui' => 1,
 		),
-		
 		array(
 			'key' => 'field_5tk5c72dc33bf',
 			'label' => __('Footer default form bg', 'tkm-functionality'),
