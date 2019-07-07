@@ -3,7 +3,10 @@
  * Plugin Name: TKM Functionality
  * Description: This contains all your site's core functionality so that it is theme independent. <strong>It should always be activated</strong>.
  * Version:     1.2.1
+ * Text Domain: tkm-functionality
  * Author:      Tal Katz TKMedia.co.il
+ * Domain Path: /languages
+
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License version 2, as published by the
