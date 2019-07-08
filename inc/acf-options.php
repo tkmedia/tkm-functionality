@@ -531,9 +531,9 @@ acf_add_local_field_group(array(
 			'save_other_choice' => 0,
 		),
 		array(
-			'key' => 'field_5tk5c629d581dd7b',
+			'key' => 'field_5tk5c6dhngd7b',
 			'label' => __('Logo position (desktop)', 'tkm-functionality'),
-			'name' => 'header_logo_side',
+			'name' => 'header_logo_side_position',
 			'type' => 'radio',
 			'instructions' => '',
 			'required' => 0,
@@ -545,6 +545,31 @@ acf_add_local_field_group(array(
 						'value' => 'full_row_box normal_menu',
 					),
 				),
+			),
+			'wrapper' => array(
+				'width' => '25',
+				'class' => '',
+				'id' => '',
+			),
+			'choices' => array(
+				'logo_side_start' => __('Logo strat', 'tkm-functionality'),
+				'logo_side_end' => __('Logo end', 'tkm-functionality'),
+			),
+			'allow_null' => 0,
+			'other_choice' => 0,
+			'default_value' => '',
+			'layout' => 'vertical',
+			'return_format' => 'value',
+			'save_other_choice' => 0,
+		),		
+		array(
+			'key' => 'field_5tk5c629d581dd7b',
+			'label' => __('Logo position (desktop)', 'tkm-functionality'),
+			'name' => 'header_logo_side',
+			'type' => 'radio',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
 				array(
 					array(
 						'field' => 'field_5tk5c1be9b3ed7af',
