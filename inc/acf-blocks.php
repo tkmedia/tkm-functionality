@@ -4255,7 +4255,7 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_5tk5cbdb6ts6',
-									'label' => __('Choose images', 'tkm-functionality'),
+									'label' => __('Choose Videos', 'tkm-functionality'),
 									'name' => 'flex_video_slider',
 									'type' => 'repeater',
 									'instructions' => '',
