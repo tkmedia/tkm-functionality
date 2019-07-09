@@ -1314,6 +1314,13 @@ acf_add_local_field_group(array(
 												'value' => 'split',
 											),
 										),
+										array(
+											array(
+												'field' => 'field_5tk5c5ad2c371ace',
+												'operator' => '==',
+												'value' => 'clean',
+											),
+										),
 									),
 									'wrapper' => array(
 										'width' => '25',
