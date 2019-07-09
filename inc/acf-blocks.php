@@ -1244,8 +1244,8 @@ acf_add_local_field_group(array(
 									),
 									'choices' => array(
 										'center' => __('center', 'tkm-functionality'),
-										'right' => __('right', 'tkm-functionality'),
-										'left' => __('left', 'tkm-functionality'),
+										'start' => __('strat', 'tkm-functionality'),
+										'end' => __('end', 'tkm-functionality'),
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
