@@ -11058,7 +11058,7 @@ acf_add_local_field_group(array(
 											'default_value' => '',
 										),
 										array(
-											'key' => 'field_5tk5ccsscd7c0',
+											'key' => 'field_5tk5ccssjnjghd',
 											'label' => __('Tab content', 'tkm-functionality'),
 											'name' => 'flex_tabs_content',
 											'type' => 'wysiwyg',
@@ -11077,7 +11077,7 @@ acf_add_local_field_group(array(
 											'delay' => 0,
 										),
 										array(
-											'key' => 'field_5tk5css34fg5',
+											'key' => 'field_5tk5csdf34fg5',
 											'label' => __('Tab Content BTN', 'tkm-functionality'),
 											'name' => 'flex_tabs_content_btn',
 											'type' => 'text',
@@ -11096,7 +11096,7 @@ acf_add_local_field_group(array(
 											'maxlength' => '',
 										),
 										array(
-											'key' => 'field_5tkddkjdkfjq8',
+											'key' => 'field_5tkddkjdkfjssq8',
 											'label' => __('Tab Content BTN link', 'tkm-functionality'),
 											'name' => 'flex_tabs_content_btn_link',
 											'type' => 'text',
