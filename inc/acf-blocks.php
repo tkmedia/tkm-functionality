@@ -10928,7 +10928,7 @@ acf_add_local_field_group(array(
 									'collapsed' => '',
 									'min' => 0,
 									'max' => 0,
-									'layout' => 'table',
+									'layout' => 'block',
 									'button_label' => '',
 									'sub_fields' => array(
 										array(
