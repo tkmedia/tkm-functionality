@@ -8390,6 +8390,35 @@ acf_add_local_field_group(array(
 									'step' => 1,
 								),
 								array(
+									'key' => 'field_5tk5cdc350shh59',
+									'label' => __('Max items in row - mobile', 'tkm-functionality'),
+									'name' => 'bulletin_list_img_mobile_num',
+									'type' => 'number',
+									'instructions' => '1-3',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5cdc259bbac5e',
+												'operator' => '==',
+												'value' => 'row-flex',
+											),
+										),
+									),
+									'wrapper' => array(
+										'width' => '20',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => 1,
+									'placeholder' => 1,
+									'prepend' => '',
+									'append' => '',
+									'min' => 1,
+									'max' => 3,
+									'step' => 1,
+								),
+								array(
 									'key' => 'field_5tk5cdc2hhdt5e',
 									'label' => __('Icon Size (if image icon)', 'tkm-functionality'),
 									'name' => 'flex_bulletin_list_size',
