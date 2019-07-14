@@ -9106,6 +9106,39 @@ acf_add_local_field_group(array(
 									'save_other_choice' => 0,
 								),
 								array(
+									'key' => 'field_5tk5ccsdkn72sc',
+									'label' => __('Title position', 'tkm-functionality'),
+									'name' => 'flex_article_slider_title_position',
+									'type' => 'radio',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5c8ebaae328ab',
+												'operator' => '==',
+												'value' => 'style2',
+											),
+										),				
+									),
+									'wrapper' => array(
+										'width' => '20',
+										'class' => '',
+										'id' => '',
+									),
+									'choices' => array(
+										'top' => __('Top', 'tkm-functionality'),
+										'bottom' => __('Bottom', 'tkm-functionality'),
+										'inside' => __('Inside', 'tkm-functionality'),
+									),
+									'allow_null' => 0,
+									'other_choice' => 0,
+									'default_value' => '',
+									'layout' => 'vertical',
+									'return_format' => 'value',
+									'save_other_choice' => 0,
+								),								
+								array(
 									'key' => 'field_5tk5cc9424e27c1a',
 									'label' => __('Title color', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_title_color',
