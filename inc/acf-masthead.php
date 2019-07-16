@@ -978,9 +978,9 @@ acf_add_local_field_group(array(
 			'save_other_choice' => 0,
 		),				
 		array(
-			'key' => 'field_5tk5c99d0f4451a',
+			'key' => 'field_5tk5c99d0f44523',
 			'label' => __('Button Style', 'tkm-functionality'),
-			'name' => 'page_masthead_btn_style',
+			'name' => 'page_masthead_button_style',
 			'type' => 'radio',
 			'instructions' => '',
 			'required' => 0,
@@ -2182,9 +2182,9 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
-			'key' => 'field_5tkmobile5h6tg7b1a',
+			'key' => 'field_5tkmobile5h6ts31a',
 			'label' => __('Button Style', 'tkm-functionality'),
-			'name' => 'mobile_page_masthead_btn_style',
+			'name' => 'mobile_page_masthead_button_style',
 			'type' => 'radio',
 			'instructions' => '',
 			'required' => 0,
