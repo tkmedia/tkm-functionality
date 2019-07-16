@@ -4172,7 +4172,6 @@ acf_add_local_field_group(array(
 									'return_format' => 'value',
 									'save_other_choice' => 0,
 								),
-								
 								array(
 									'key' => 'field_5tk5c8cdffgacd',
 									'label' => __('Title', 'tkm-functionality'),
