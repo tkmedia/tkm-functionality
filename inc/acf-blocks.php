@@ -8311,7 +8311,8 @@ acf_add_local_field_group(array(
 									),
 									'choices' => array(
 										'img_flex' => 'On side',
-										'img_block' => 'On top',
+										'img_block' => 'On top of title',
+										'img_block top_title' => 'Below title',
 									),
 									'allow_null' => 0,
 									'other_choice' => 0,
