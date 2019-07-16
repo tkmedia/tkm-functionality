@@ -206,11 +206,6 @@ acf_add_local_field_group(array(
 			),
 			'default_value' => '#ffffff',
 		),
-		
-
-
-
-		
 		array(
 			'key' => 'field_5dma0378f70beb1',
 			'label' => __('Top divider section', 'tkm-functionality'),
@@ -983,7 +978,7 @@ acf_add_local_field_group(array(
 			'save_other_choice' => 0,
 		),				
 		array(
-			'key' => 'field_5tk5c99d8ae97b1a',
+			'key' => 'field_5tk5c99d0f4451a',
 			'label' => __('Button Style', 'tkm-functionality'),
 			'name' => 'page_masthead_btn_style',
 			'type' => 'radio',
