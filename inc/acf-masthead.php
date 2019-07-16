@@ -686,6 +686,36 @@ acf_add_local_field_group(array(
 			'default_value' => '',
 		),
 		array(
+			'key' => 'field_5tk5c97sd393',
+			'label' => __('Intro background color', 'tkm-functionality'),
+			'name' => 'page_masthead_intro_bg_color',
+			'type' => 'color_picker',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5tk5c8f5f82d86b9',
+						'operator' => '==',
+						'value' => 'no_image_top',
+					),
+				),
+				array(
+					array(
+						'field' => 'field_5tk5c977a6af7f5e',
+						'operator' => '==',
+						'value' => 'slider_content_bottom',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '25',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+		),		
+		array(
 			'key' => 'field_5tk5c977a6af7f5e',
 			'label' => __('Title & Intro location', 'tkm-functionality'),
 			'name' => 'page_masthead_title_location',
@@ -1771,6 +1801,36 @@ acf_add_local_field_group(array(
 			),
 			'default_value' => '',
 		),
+		array(
+			'key' => 'field_5tk5c97sd3sse93',
+			'label' => __('Intro background color', 'tkm-functionality'),
+			'name' => 'mobile_page_masthead_intro_bg_color',
+			'type' => 'color_picker',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5tkmobile5c8f5f82d86b9',
+						'operator' => '==',
+						'value' => 'no_image_top',
+					),
+				),
+				array(
+					array(
+						'field' => 'field_5tkmobile5c977a6af7f5e',
+						'operator' => '==',
+						'value' => 'slider_content_bottom',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '25',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+		),				
 		array(
 			'key' => 'field_5tkmobile5c977a6af7f5e',
 			'label' => __('Title & Intro location', 'tkm-functionality'),
