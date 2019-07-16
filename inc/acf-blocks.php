@@ -8343,6 +8343,14 @@ acf_add_local_field_group(array(
 												'value' => 'img_flex',
 											),
 										),
+										array(
+											array(
+												'field' => 'field_5tk5cdc307dc24fe',
+												'operator' => '==',
+												'value' => 'img_block top_title',
+											),
+										),
+										
 									),
 									'wrapper' => array(
 										'width' => '20',
