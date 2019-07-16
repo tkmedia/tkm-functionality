@@ -2270,7 +2270,7 @@ acf_add_local_field_group(array(
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
-										'width' => '33',
+										'width' => '25',
 										'class' => '',
 										'id' => '',
 									),
@@ -2281,6 +2281,31 @@ acf_add_local_field_group(array(
 									'maxlength' => '',
 								),
 								array(
+									'key' => 'field_5tk5s3gg60131c1',
+									'label' => __('Link type', 'tkm-functionality'),
+									'name' => 'flex_one_col_link_type',
+									'type' => 'radio',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '25',
+										'class' => '',
+										'id' => '',
+									),
+									'choices' => array(
+										'free_link' => __('Free link', 'tkm-functionality'),
+										'page_link' => __('Page link', 'tkm-functionality'),
+										'form_link' => __('Form in popup', 'tkm-functionality'),
+									),
+									'allow_null' => 0,
+									'other_choice' => 0,
+									'default_value' => '',
+									'layout' => 'vertical',
+									'return_format' => 'value',
+									'save_other_choice' => 0,
+								),
+								array(
 									'key' => 'field_5tk5c3500b09f263',
 									'label' => __('Bottom Button link', 'tkm-functionality'),
 									'label' => __('Link', 'tkm-functionality'),
@@ -2288,9 +2313,17 @@ acf_add_local_field_group(array(
 									'type' => 'text',
 									'instructions' => '',
 									'required' => 0,
-									'conditional_logic' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5s3gg60131c1',
+												'operator' => '==',
+												'value' => 'free_link',
+											),
+										),
+									),
 									'wrapper' => array(
-										'width' => '33',
+										'width' => '25',
 										'class' => '',
 										'id' => '',
 									),
@@ -2299,6 +2332,63 @@ acf_add_local_field_group(array(
 									'prepend' => '',
 									'append' => '',
 									'maxlength' => '',
+								),
+								array(
+									'key' => 'field_5tk5ded221c2',
+									'label' => __('Page link', 'tkm-functionality'),
+									'name' => 'flex_one_col_page_link',
+									'type' => 'page_link',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5s3gg60131c1',
+												'operator' => '==',
+												'value' => 'page_link',
+											),
+										),
+									),
+									'wrapper' => array(
+										'width' => '25',
+										'class' => '',
+										'id' => '',
+									),
+									'post_type' => '',
+									'taxonomy' => '',
+									'allow_null' => 0,
+									'allow_archives' => 1,
+									'multiple' => 0,
+								),
+								array(
+									'key' => 'field_5tk5cfs3r44db5',
+									'label' => __('Form link', 'tkm-functionality'),
+									'name' => 'flex_one_col_form_link',
+									'type' => 'post_object',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5s3gg60131c1',
+												'operator' => '==',
+												'value' => 'form_link',
+											),
+										),
+									),
+									'wrapper' => array(
+										'width' => '25',
+										'class' => '',
+										'id' => '',
+									),
+									'post_type' => array(
+										0 => 'wpcf7_contact_form',
+									),
+									'taxonomy' => '',
+									'allow_null' => 0,
+									'multiple' => 0,
+									'return_format' => 'id',
+									'ui' => 1,
 								),
 								array(
 									'key' => 'field_5tk5c345rrfg60',
