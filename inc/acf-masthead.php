@@ -2182,9 +2182,9 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
-			'key' => 'field_5tkmobile5c99d8ae97b1a',
+			'key' => 'field_5tkmobile5h6tg7b1a',
 			'label' => __('Button Style', 'tkm-functionality'),
-			'name' => 'page_masthead_btn_style',
+			'name' => 'mobile_page_masthead_btn_style',
 			'type' => 'radio',
 			'instructions' => '',
 			'required' => 0,
