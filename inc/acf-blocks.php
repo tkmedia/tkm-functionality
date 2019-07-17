@@ -9424,6 +9424,13 @@ acf_add_local_field_group(array(
 												'operator' => '==',
 												'value' => 'style2',
 											),
+										),
+										array(
+											array(
+												'field' => 'field_5tk5c8ebaae328ab',
+												'operator' => '==',
+												'value' => 'style3',
+											),
 										),				
 									),
 									'wrapper' => array(
@@ -9457,6 +9464,13 @@ acf_add_local_field_group(array(
 												'operator' => '==',
 												'value' => 'style2',
 											),
+										),
+										array(
+											array(
+												'field' => 'field_5tk5c8ebaae328ab',
+												'operator' => '==',
+												'value' => 'style3',
+											),
 										),				
 									),
 									'wrapper' => array(
@@ -9475,7 +9489,34 @@ acf_add_local_field_group(array(
 									'layout' => 'vertical',
 									'return_format' => 'value',
 									'save_other_choice' => 0,
-								),								
+								),	
+								array(
+									'key' => 'field_5tk5cde6sdsd3e5',
+									'label' => __('Show excerpt', 'tkm-functionality'),
+									'name' => 'flex_artcile_slider_show_excerpt',
+									'type' => 'true_false',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5c8ebaae328ab',
+												'operator' => '==',
+												'value' => 'style3',
+											),
+										),				
+									),
+									'wrapper' => array(
+										'width' => '15',
+										'class' => '',
+										'id' => '',
+									),
+									'message' => '',
+									'default_value' => 0,
+									'ui' => 1,
+									'ui_on_text' => '',
+									'ui_off_text' => '',
+								),	
 								array(
 									'key' => 'field_5tk5cc9424e27c1a',
 									'label' => __('Title color', 'tkm-functionality'),
