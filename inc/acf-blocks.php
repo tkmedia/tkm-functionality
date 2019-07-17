@@ -13654,9 +13654,9 @@ acf_add_local_field_group(array(
 									'save_other_choice' => 0,
 								),
 								array(
-									'key' => 'field_5d2ebae51d451',
+									'key' => 'field_5tkd2ebae51d451',
 									'label' => 'Table',
-									'name' => 'flex_table',
+									'name' => 'flex_table_block',
 									'type' => 'table',
 									'instructions' => '',
 									'required' => 0,
