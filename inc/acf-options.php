@@ -1555,7 +1555,7 @@ acf_add_local_field_group(array(
 			'conditional_logic' => array(
 				array(
 					array(
-						'field' => 'field_5tk5cd3ddac60',
+						'field' => 'field_5dsksn6ggg33',
 						'operator' => '==',
 						'value' => '1',
 					),
@@ -1585,7 +1585,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5as0sj75',
-			'label' => __('Link Btn text', 'tkm-functionality'),
+			'label' => __('Link btn text', 'tkm-functionality'),
 			'name' => 'footer_fixed_link_btn',
 			'type' => 'text',
 			'instructions' => '',
@@ -1593,7 +1593,7 @@ acf_add_local_field_group(array(
 			'conditional_logic' => array(
 				array(
 					array(
-						'field' => 'field_5tk5cd3ddac60',
+						'field' => 'field_5dsksn6ggg33',
 						'operator' => '==',
 						'value' => '1',
 					),
@@ -1620,7 +1620,7 @@ acf_add_local_field_group(array(
 			'conditional_logic' => array(
 				array(
 					array(
-						'field' => 'field_5tk5cd3ddac60',
+						'field' => 'field_5dsksn6ggg33',
 						'operator' => '==',
 						'value' => '1',
 					),
@@ -1704,7 +1704,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5as0kj465',
-			'label' => __('Free_btn_Link to', 'tkm-functionality'),
+			'label' => __('Free btn link to', 'tkm-functionality'),
 			'name' => 'footer_fixed_free_link_page',
 			'type' => 'text',
 			'instructions' => '',
