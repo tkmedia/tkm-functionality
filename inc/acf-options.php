@@ -1639,7 +1639,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5dsksal09ddg33',
-			'label' => __('Free Link button Icon', 'tkm-functionality'),
+			'label' => __('Free link button Icon', 'tkm-functionality'),
 			'name' => 'footer_fixed_free_link_icon',
 			'type' => 'font-awesome',
 			'instructions' => '',
@@ -1677,7 +1677,7 @@ acf_add_local_field_group(array(
 		),
 		array(
 			'key' => 'field_5tk5as0dedd333',
-			'label' => __('Link free Btn text', 'tkm-functionality'),
+			'label' => __('Free link button text', 'tkm-functionality'),
 			'name' => 'footer_fixed_free_link_btn',
 			'type' => 'text',
 			'instructions' => '',
@@ -1703,8 +1703,8 @@ acf_add_local_field_group(array(
 			'maxlength' => '',
 		),
 		array(
-			'key' => 'field_5tk5as0kj465',
-			'label' => __('Free btn link to', 'tkm-functionality'),
+			'key' => 'field_5tk5as0kjdds65',
+			'label' => __('Free link button to', 'tkm-functionality'),
 			'name' => 'footer_fixed_free_link_page',
 			'type' => 'text',
 			'instructions' => '',
