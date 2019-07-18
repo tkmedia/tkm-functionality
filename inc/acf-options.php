@@ -1427,7 +1427,7 @@ acf_add_local_field_group(array(
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
-				'width' => '25',
+				'width' => '20',
 				'class' => '',
 				'id' => '',
 			),
@@ -1454,7 +1454,7 @@ acf_add_local_field_group(array(
 				),
 			),
 			'wrapper' => array(
-				'width' => '25',
+				'width' => '20',
 				'class' => '',
 				'id' => '',
 			),
@@ -1481,7 +1481,7 @@ acf_add_local_field_group(array(
 				),
 			),
 			'wrapper' => array(
-				'width' => '25',
+				'width' => '20',
 				'class' => '',
 				'id' => '',
 			),
@@ -1490,7 +1490,34 @@ acf_add_local_field_group(array(
 			'ui' => 1,
 			'ui_on_text' => '',
 			'ui_off_text' => '',
-		),													
+		),
+		array(
+			'key' => 'field_5dsksn6wd3dd3',
+			'label' => __('Show Free link button', 'tkm-functionality'),
+			'name' => 'footer_free_link_show',
+			'type' => 'true_false',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dskjjhrhy64',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '20',
+				'class' => '',
+				'id' => '',
+			),
+			'message' => '',
+			'default_value' => 0,
+			'ui' => 1,
+			'ui_on_text' => '',
+			'ui_off_text' => '',
+		),																												
 		array(
 			'key' => 'field_5dskjj2sd33',
 			'label' => __('Show form popup button', 'tkm-functionality'),
@@ -1508,7 +1535,7 @@ acf_add_local_field_group(array(
 				),
 			),
 			'wrapper' => array(
-				'width' => '25',
+				'width' => '20',
 				'class' => '',
 				'id' => '',
 			),
@@ -1518,95 +1545,6 @@ acf_add_local_field_group(array(
 			'ui_on_text' => '',
 			'ui_off_text' => '',
 		),													
-		array(
-			'key' => 'field_5tk5c2dd552a7',
-			'label' => __('Choose Form', 'tkm-functionality'),
-			'name' => 'footer_form_id',
-			'type' => 'relationship',
-			'instructions' => '',
-			'required' => 0,
-			'conditional_logic' => array(
-				array(
-					array(
-						'field' => 'field_5dskjj2sd33',
-						'operator' => '==',
-						'value' => '1',
-					),
-				),
-			),
-			'wrapper' => array(
-				'width' => '33',
-				'class' => '',
-				'id' => '',
-			),
-			'post_type' => array(
-				0 => 'wpcf7_contact_form',
-			),
-			'taxonomy' => '',
-			'filters' => array(
-				0 => 'search',
-				1 => 'post_type',
-				2 => 'taxonomy',
-			),
-			'elements' => '',
-			'min' => '',
-			'max' => '',
-			'return_format' => 'object',
-		),
-		array(
-			'key' => 'field_5tk5as2132a5',
-			'label' => __('Title', 'tkm-functionality'),
-			'name' => 'footer_form_title',
-			'type' => 'text',
-			'instructions' => '',
-			'required' => 0,
-			'conditional_logic' => array(
-				array(
-					array(
-						'field' => 'field_5dskjj2sd33',
-						'operator' => '==',
-						'value' => '1',
-					),
-				),
-			),
-			'wrapper' => array(
-				'width' => '33',
-				'class' => '',
-				'id' => '',
-			),
-			'default_value' => '',
-			'placeholder' => '',
-			'prepend' => '',
-			'append' => '',
-			'maxlength' => '',
-		),
-		array(
-			'key' => 'field_5tk5cbs2qqa6',
-			'label' => __('Subtitle', 'tkm-functionality'),
-			'name' => 'footer_form_subtitle',
-			'type' => 'text',
-			'instructions' => '',
-			'required' => 0,
-			'conditional_logic' => array(
-				array(
-					array(
-						'field' => 'field_5dskjj2sd33',
-						'operator' => '==',
-						'value' => '1',
-					),
-				),
-			),
-			'wrapper' => array(
-				'width' => '33',
-				'class' => '',
-				'id' => '',
-			),
-			'default_value' => '',
-			'placeholder' => '',
-			'prepend' => '',
-			'append' => '',
-			'maxlength' => '',
-		),
 		array(
 			'key' => 'field_5dsksal09g33',
 			'label' => __('Link button Icon', 'tkm-functionality'),
@@ -1699,11 +1637,252 @@ acf_add_local_field_group(array(
 			'append' => '',
 			'maxlength' => '',
 		),
-		
-		
-		
-		
-		
+		array(
+			'key' => 'field_5dsksal09ddg33',
+			'label' => __('Free Link button Icon', 'tkm-functionality'),
+			'name' => 'footer_fixed_free_link_icon',
+			'type' => 'font-awesome',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dsksn6wd3dd3',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '33',
+				'class' => '',
+				'id' => '',
+			),
+			'icon_sets' => array(
+				0 => 'fas',
+				1 => 'far',
+				2 => 'fal',
+				3 => 'fab',
+			),
+			'custom_icon_set' => '',
+			'default_label' => '',
+			'default_value' => '',
+			'save_format' => 'element',
+			'allow_null' => 1,
+			'show_preview' => 1,
+			'enqueue_fa' => 0,
+			'fa_live_preview' => '',
+			'choices' => array(
+			),
+		),
+		array(
+			'key' => 'field_5tk5as0dedd333',
+			'label' => __('Link free Btn text', 'tkm-functionality'),
+			'name' => 'footer_fixed_free_link_btn',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dsksn6wd3dd3',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '33',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+		),
+		array(
+			'key' => 'field_5tk5as0kj465',
+			'label' => __('Free_btn_Link to', 'tkm-functionality'),
+			'name' => 'footer_fixed_free_link_page',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dsksn6wd3dd3',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '33',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+		),
+		array(
+			'key' => 'field_5tk5c2dd552a7',
+			'label' => __('Choose Form', 'tkm-functionality'),
+			'name' => 'footer_form_id',
+			'type' => 'relationship',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dskjj2sd33',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '33',
+				'class' => '',
+				'id' => '',
+			),
+			'post_type' => array(
+				0 => 'wpcf7_contact_form',
+			),
+			'taxonomy' => '',
+			'filters' => array(
+				0 => 'search',
+				1 => 'post_type',
+				2 => 'taxonomy',
+			),
+			'elements' => '',
+			'min' => '',
+			'max' => '',
+			'return_format' => 'object',
+		),
+		array(
+			'key' => 'field_5tk5as2132a5',
+			'label' => __('Title', 'tkm-functionality'),
+			'name' => 'footer_form_title',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dskjj2sd33',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '33',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+		),
+		array(
+			'key' => 'field_5tk5cbs2qqa6',
+			'label' => __('Subtitle', 'tkm-functionality'),
+			'name' => 'footer_form_subtitle',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dskjj2sd33',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '33',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+		),		
+		array(
+			'key' => 'field_5dsksasdeww333',
+			'label' => __('Popup form Icon', 'tkm-functionality'),
+			'name' => 'footer_fixed_form_icon',
+			'type' => 'font-awesome',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dskjj2sd33',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '50',
+				'class' => '',
+				'id' => '',
+			),
+			'icon_sets' => array(
+				0 => 'fas',
+				1 => 'far',
+				2 => 'fal',
+				3 => 'fab',
+			),
+			'custom_icon_set' => '',
+			'default_label' => '',
+			'default_value' => '',
+			'save_format' => 'element',
+			'allow_null' => 1,
+			'show_preview' => 1,
+			'enqueue_fa' => 0,
+			'fa_live_preview' => '',
+			'choices' => array(
+			),
+		),
+		array(
+			'key' => 'field_5tk5sde3dqq75',
+			'label' => __('Popup form text', 'tkm-functionality'),
+			'name' => 'footer_fixed_form_btn',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dskjj2sd33',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '50',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+		),
 		array(
 			'key' => 'field_5tk5c8e47b6638a4',
 			'label' => __('Footer social links', 'tkm-functionality'),
