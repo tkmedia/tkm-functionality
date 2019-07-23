@@ -9606,6 +9606,33 @@ acf_add_local_field_group(array(
 									'step' => 1,
 								),
 								array(
+									'key' => 'field_5tk5cde6sgh65',
+									'label' => __('Hide date', 'tkm-functionality'),
+									'name' => 'flex_artcile_slider_hide_date',
+									'type' => 'true_false',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5c8ebaae328ab',
+												'operator' => '==',
+												'value' => 'style5',
+											),
+										),				
+									),
+									'wrapper' => array(
+										'width' => '15',
+										'class' => '',
+										'id' => '',
+									),
+									'message' => '',
+									'default_value' => 0,
+									'ui' => 1,
+									'ui_on_text' => '',
+									'ui_off_text' => '',
+								),									
+								array(
 									'key' => 'field_5tk5c377eed62',
 									'label' => __('Icon under title', 'tkm-functionality'),
 									'name' => 'flex_artcile_slider_title_icon',
