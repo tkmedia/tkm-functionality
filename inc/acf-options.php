@@ -710,6 +710,23 @@ acf_add_local_field_group(array(
 			'step' => '',
 		),
 		array(
+			'key' => 'field_5ds36b457cf3ed',
+			'label' => __('Top panel', 'tkm-functionality'),
+			'name' => 'header_top_panel_option',
+			'type' => 'group',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'layout' => 'block',
+			'sub_fields' => array(
+			),
+		),		
+		array(
 			'key' => 'field_5dskjkh60beb0',
 			'label' => __('Show top panel', 'tkm-functionality'),
 			'name' => 'header_top_panel_show',
