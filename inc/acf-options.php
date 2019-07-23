@@ -727,9 +727,9 @@ acf_add_local_field_group(array(
 			),
 		),
 		array(
-			'key' => 'field_5tk5c627wrgdbb',
-			'label' => __('Menu item layout', 'tkm-functionality'),
-			'name' => 'menu_item_layout',
+			'key' => 'field_5tk5c62dd22bb',
+			'label' => __('Top panel position', 'tkm-functionality'),
+			'name' => 'top_panel_position',
 			'type' => 'radio',
 			'instructions' => '',
 			'required' => 0,
