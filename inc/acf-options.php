@@ -718,14 +718,46 @@ acf_add_local_field_group(array(
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
-				'width' => '',
+				'width' => '50',
 				'class' => '',
 				'id' => '',
 			),
 			'layout' => 'block',
 			'sub_fields' => array(
 			),
-		),		
+		),
+		array(
+			'key' => 'field_5tk5c627wrgdbb',
+			'label' => __('Menu item layout', 'tkm-functionality'),
+			'name' => 'menu_item_layout',
+			'type' => 'radio',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5dskjkh60beb0',
+						'operator' => '==',
+						'value' => '1',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '50',
+				'class' => '',
+				'id' => '',
+			),
+			'choices' => array(
+				'top_panel_top' => __('Position above header', 'tkm-functionality'),
+				'top_panel_side' => __('Position beside header', 'tkm-functionality'),
+			),
+			'allow_null' => 0,
+			'other_choice' => 0,
+			'default_value' => '',
+			'layout' => 'vertical',
+			'return_format' => 'value',
+			'save_other_choice' => 0,
+		),				
 		array(
 			'key' => 'field_5dskjkh60beb0',
 			'label' => __('Show top panel', 'tkm-functionality'),
