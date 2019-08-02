@@ -6651,10 +6651,11 @@ acf_add_local_field_group(array(
 										'child' => __('Auto child pages', 'tkm-functionality'),
 									),
 									'default_value' => array(
+										0 => 'sty1',
 									),
 									'allow_null' => 1,
 									'multiple' => 0,
-									'ui' => 0,
+									'ui' => 1,
 									'return_format' => 'value',
 									'ajax' => 0,
 									'placeholder' => '',
