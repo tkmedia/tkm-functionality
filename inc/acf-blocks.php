@@ -6653,7 +6653,7 @@ acf_add_local_field_group(array(
 									'default_value' => array(
 										0 => 'manual',
 									),
-									'allow_null' => 1,
+									'allow_null' => 0,
 									'multiple' => 0,
 									'ui' => 1,
 									'return_format' => 'value',
