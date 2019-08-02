@@ -5252,15 +5252,7 @@ acf_add_local_field_group(array(
 									'type' => 'relationship',
 									'instructions' => '',
 									'required' => 0,
-									'conditional_logic' => array(
-										array(
-											array(
-												'field' => 'field_5tk5c8fs78hq7',
-												'operator' => '==',
-												'value' => 'manual',
-											),
-										),
-									),
+									'conditional_logic' => 0,
 									'wrapper' => array(
 										'width' => '',
 										'class' => '',
