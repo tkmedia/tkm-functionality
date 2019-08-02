@@ -6632,6 +6632,34 @@ acf_add_local_field_group(array(
 									'save_other_choice' => 0,
 								),
 								array(
+									'key' => 'field_5tk5c8fs78hq7',
+									'label' => __('Choose source', 'tkm-functionality'),
+									'name' => 'flex_article_grid_source',
+									'type' => 'select',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '25',
+										'class' => '',
+										'id' => '',
+									),
+									'choices' => array(
+										'manual' => __('Manualy from list', 'tkm-functionality'),
+										'page' => __('Auto latest pages', 'tkm-functionality'),
+										'post' => __('Auto latest posts', 'tkm-functionality'),
+										'child' => __('Auto child pages', 'tkm-functionality'),
+									),
+									'default_value' => array(
+									),
+									'allow_null' => 1,
+									'multiple' => 0,
+									'ui' => 0,
+									'return_format' => 'value',
+									'ajax' => 0,
+									'placeholder' => '',
+								),								
+								array(
 									'key' => 'field_5tk5cc99488c1c',
 									'label' => __('Grid style', 'tkm-functionality'),
 									'name' => 'flex_article_grid_style',
@@ -6992,7 +7020,15 @@ acf_add_local_field_group(array(
 									'type' => 'relationship',
 									'instructions' => '',
 									'required' => 0,
-									'conditional_logic' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5c8fs78hq7',
+												'operator' => '==',
+												'value' => 'manual',
+											),
+										),
+									),
 									'wrapper' => array(
 										'width' => '',
 										'class' => '',
