@@ -6651,7 +6651,7 @@ acf_add_local_field_group(array(
 										'child' => __('Auto child pages', 'tkm-functionality'),
 									),
 									'default_value' => array(
-										0 => 'sty1',
+										0 => 'manual',
 									),
 									'allow_null' => 1,
 									'multiple' => 0,
