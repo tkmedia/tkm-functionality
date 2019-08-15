@@ -4941,7 +4941,7 @@ acf_add_local_field_group(array(
 										),
 									),
 									'wrapper' => array(
-										'width' => '20',
+										'width' => '15',
 										'class' => '',
 										'id' => '',
 									),
@@ -4962,13 +4962,13 @@ acf_add_local_field_group(array(
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
-										'width' => '25',
+										'width' => '15',
 										'class' => '',
 										'id' => '',
 									),
 									'message' => '',
 									'default_value' => 0,
-									'ui' => 0,
+									'ui' => 1,
 									'ui_on_text' => '',
 									'ui_off_text' => '',
 								),
@@ -5003,7 +5003,7 @@ acf_add_local_field_group(array(
 										),
 									),
 									'wrapper' => array(
-										'width' => '25',
+										'width' => '20',
 										'class' => '',
 										'id' => '',
 									),
@@ -5017,6 +5017,40 @@ acf_add_local_field_group(array(
 									'layout' => 'horizontal',
 									'return_format' => 'value',
 									'save_other_choice' => 0,
+								),
+								array(
+									'key' => 'field_5tk5cb5dewde5f',
+									'label' => __('Show as Slider', 'tkm-functionality'),
+									'name' => 'flex_manual_link_grid_slider',
+									'type' => 'true_false',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => array(
+										array(
+											array(
+												'field' => 'field_5tk5rre3897ba2cd0b',
+												'operator' => '==',
+												'value' => 'box-layout',
+											),
+										),
+										array(
+											array(
+												'field' => 'field_5tk5rre3897ba2cd0b',
+												'operator' => '==',
+												'value' => 'vid-layout',
+											),
+										),
+									),
+									'wrapper' => array(
+										'width' => '15',
+										'class' => '',
+										'id' => '',
+									),
+									'message' => '',
+									'default_value' => 0,
+									'ui' => 1,
+									'ui_on_text' => '',
+									'ui_off_text' => '',
 								),
 								array(
 									'key' => 'field_5tk5cbrre38551460',
