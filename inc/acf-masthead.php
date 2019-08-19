@@ -930,6 +930,46 @@ acf_add_local_field_group(array(
 			'save_other_choice' => 0,
 		),
 		array(
+			'key' => 'field_5dma03dbjbjfisdf',
+			'label' => __('Hide slider overlay', 'tkm-functionality'),
+			'name' => 'page_top_slider_overlay',
+			'type' => 'true_false',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => array(
+				array(
+					array(
+						'field' => 'field_5tk5c8f5f82d86b9','operator' => '==','value' => 'full_slider',
+					),
+				),
+				array(
+					array(
+						'field' => 'field_5tk5c8f5f82d86b9','operator' => '==','value' => 'clean_top',
+					),
+				),
+				array(
+					array(
+						'field' => 'field_5tk5c8f5f82d86b9','operator' => '==','value' => 'manual_slider',
+					),
+				),
+				array(
+					array(
+						'field' => 'field_5tk5c977a6af7f5e','operator' => '==','value' => 'slider_content_inn',
+					),
+				),
+			),
+			'wrapper' => array(
+				'width' => '20',
+				'class' => '',
+				'id' => '',
+			),
+			'message' => '',
+			'default_value' => 1,
+			'ui' => 1,
+			'ui_on_text' => '',
+			'ui_off_text' => '',
+		),				
+		array(
 			'key' => 'field_5tk5c8e51916b898',
 			'label' => __('Choose Images', 'tkm-functionality'),
 			'name' => 'page_main_top_slider',
