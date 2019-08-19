@@ -917,7 +917,7 @@ acf_add_local_field_group(array(
 		),													
 		array(
 			'key' => 'field_5tk5c362960b10a0',
-			'label' => __('Top panel - right text', 'tkm-functionality'),
+			'label' => __('Top panel - line text', 'tkm-functionality'),
 			'name' => 'header_top_panel_right',
 			'type' => 'text',
 			'instructions' => '',
