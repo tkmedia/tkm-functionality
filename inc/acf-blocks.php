@@ -9745,7 +9745,7 @@ acf_add_local_field_group(array(
 												),
 											),
 											'wrapper' => array(
-												'width' => '40',
+												'width' => '25',
 												'class' => '',
 												'id' => '',
 											),
@@ -9759,6 +9759,33 @@ acf_add_local_field_group(array(
 											'max_height' => '',
 											'max_size' => '',
 											'mime_types' => '',
+										),
+										array(
+											'key' => 'field_5tk5csafd4485f',
+											'label' => __('B&W effect', 'tkm-functionality'),
+											'name' => 'bulletin_list_icon_img_bw',
+											'type' => 'true_false',
+											'instructions' => '',
+											'required' => 0,
+											'conditional_logic' => array(
+												array(
+													array(
+														'field' => 'field_5tk5cdc2652bac60',
+														'operator' => '==',
+														'value' => 'bulletin_img',
+													),
+												),
+											),
+											'wrapper' => array(
+												'width' => '15',
+												'class' => '',
+												'id' => '',
+											),
+											'message' => '',
+											'default_value' => 0,
+											'ui' => 1,
+											'ui_on_text' => '',
+											'ui_off_text' => '',
 										),
 										array(
 											'key' => 'field_5tk5cdc26d3bac62',
