@@ -12928,7 +12928,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk5cdf443acd',
 									'label' => __('Title', 'tkm-functionality'),
-									'name' => 'testimonial_slider_title',
+									'name' => 'testimonial_slider_main_title',
 									'type' => 'text',
 									'instructions' => '',
 									'required' => 0,
@@ -12947,7 +12947,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk5ccedfe4438',
 									'label' => __('Title - font size', 'tkm-functionality'),
-									'name' => 'testimonial_slider_title_size',
+									'name' => 'testimonial_slider_main_title_size',
 									'type' => 'number',
 									'instructions' => '',
 									'required' => 0,
@@ -12968,7 +12968,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk5cfrti994ec',
 									'label' => __('Title color', 'tkm-functionality'),
-									'name' => 'testimonial_slider_title_color',
+									'name' => 'testimonial_slider_main_title_color',
 									'type' => 'color_picker',
 									'instructions' => '',
 									'required' => 0,
@@ -12983,7 +12983,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk5dfrw56783460',
 									'label' => __('Title align', 'tkm-functionality'),
-									'name' => 'testimonial_slider_title_align',
+									'name' => 'testimonial_slider_main_title_align',
 									'type' => 'radio',
 									'instructions' => '',
 									'required' => 0,
@@ -13008,7 +13008,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk5c3fe4333325e',
 									'label' => __('Subtitle', 'tkm-functionality'),
-									'name' => 'testimonial_slider_subtitle',
+									'name' => 'testimonial_slider_main_subtitle',
 									'type' => 'textarea',
 									'instructions' => '',
 									'required' => 0,
@@ -13027,7 +13027,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk5cde44322d39',
 									'label' => __('Subtitle - font size', 'tkm-functionality'),
-									'name' => 'testimonial_slider_subtitle_size',
+									'name' => 'testimonial_slider_main_subtitle_size',
 									'type' => 'number',
 									'instructions' => '',
 									'required' => 0,
@@ -13048,7 +13048,7 @@ acf_add_local_field_group(array(
 								array(
 									'key' => 'field_5tk5c95hui882ed',
 									'label' => __('Subtitle color', 'tkm-functionality'),
-									'name' => 'testimonial_slider_subtitle_color',
+									'name' => 'testimonial_slider_main_subtitle_color',
 									'type' => 'color_picker',
 									'instructions' => '',
 									'required' => 0,
