@@ -8550,7 +8550,7 @@ acf_add_local_field_group(array(
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
-										'width' => '25',
+										'width' => '20',
 										'class' => '',
 										'id' => '',
 									),
@@ -8567,6 +8567,31 @@ acf_add_local_field_group(array(
 									'save_other_choice' => 0,
 								),
 								array(
+									'key' => 'field_5tk556dsfej66ff',
+									'label' => __('Image effect', 'tkm-functionality'),
+									'name' => 'flex_client_slider_image_effect',
+									'type' => 'radio',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '20',
+										'class' => '',
+										'id' => '',
+									),
+									'choices' => array(
+										'no-effect' => __('No effect', 'tkm-functionality'),
+										'bw-effect' => __('B&W', 'tkm-functionality'),
+										'bw-effect-hover' => __('Hover B&W', 'tkm-functionality'),
+									),
+									'allow_null' => 0,
+									'other_choice' => 0,
+									'default_value' => '',
+									'layout' => 'vertical',
+									'return_format' => 'value',
+									'save_other_choice' => 0,
+								),								
+								array(
 									'key' => 'field_5tk5cdfv457ff',
 									'label' => __('Image size', 'tkm-functionality'),
 									'name' => 'flex_client_slider_size',
@@ -8575,7 +8600,7 @@ acf_add_local_field_group(array(
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
-										'width' => '25',
+										'width' => '20',
 										'class' => '',
 										'id' => '',
 									),
@@ -8603,7 +8628,7 @@ acf_add_local_field_group(array(
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
-										'width' => '25',
+										'width' => '20',
 										'class' => '',
 										'id' => '',
 									),
@@ -8624,7 +8649,7 @@ acf_add_local_field_group(array(
 									'required' => 0,
 									'conditional_logic' => 0,
 									'wrapper' => array(
-										'width' => '25',
+										'width' => '20',
 										'class' => '',
 										'id' => '',
 									),
